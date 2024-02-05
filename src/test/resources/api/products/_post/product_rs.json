@@ -1,0 +1,12 @@
+{
+  "id": 101,
+  "title": "Product",
+  "description": "Product",
+  "price": 500,
+  "rating": 10.0,
+  "stock": 99,
+  "brand": "Product",
+  "category": "Product",
+  "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
+  "images": "skip"
+}
