@@ -41,7 +41,7 @@ public class SeleniumWebTest implements IAbstractTest {
     @Test
     void validateWebFormTitle() {
         String title = driver.getTitle();
-        assertEquals("Web form", title);
+        assertEquals("Web form", title, "Wrong title!");
     }
 
     @Test
@@ -52,19 +52,19 @@ public class SeleniumWebTest implements IAbstractTest {
         textBox.sendKeys("Text box");
 
         String enteredText = textBox.getAttribute("value");
-        softAssert.assertEquals("Text box", enteredText);
+        softAssert.assertEquals("Text box", enteredText,  "Failed send keys to text box form!");
 
         WebElement passwordBox = driver.findElement(By.xpath("//input[@type='password' and @name='my-password']"));
         passwordBox.sendKeys("password");
 
         String enteredPassword = passwordBox.getAttribute("value");
-        softAssert.assertEquals("password", enteredPassword);
+        softAssert.assertEquals("password", enteredPassword, "Failed send keys to password form!");
 
         WebElement textareaBox = driver.findElement(By.xpath("//textarea[@name='my-textarea']"));
         textareaBox.sendKeys("Text area");
 
         String enteredTextarea = textareaBox.getAttribute("value");
-        softAssert.assertEquals("Text area", enteredTextarea);
+        softAssert.assertEquals("Text area", enteredTextarea, "Failed send keys to text area form!");
 
         clickSubmitButton();
         assertReceived();
@@ -77,7 +77,7 @@ public class SeleniumWebTest implements IAbstractTest {
         String filePath = "D:\\IDEA Projects\\automation-tests-practice\\src\\test\\resources\\files\\file.txt";
         fileInput.sendKeys(filePath);
 
-        assertTrue(fileInput.getAttribute("value").endsWith("file.txt"));
+        assertTrue(fileInput.getAttribute("value").endsWith("file.txt"), "File uploaded unsuccessfully!");
 
         clickSubmitButton();
         assertReceived();
@@ -98,6 +98,6 @@ public class SeleniumWebTest implements IAbstractTest {
     private void assertReceived() {
         WebElement message = driver.findElement(By.xpath("//p[@class='lead' and @id='message' and text()='Received!']"));
         String value = message.getText();
-        assertEquals("Received!", value);
+        assertEquals(value, "Received!", "Webform is not received!");
     }
 }
