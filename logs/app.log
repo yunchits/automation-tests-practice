@@ -1,0 +1,4079 @@
+20:10:21.213 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+20:10:23.386 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/1
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 17:10:23 GMT
+x-ratelimit-reset: 1707153029
+content-type: application/json; charset=utf-8
+content-length: 537
+etag: W/"219-Qb5jNZGxbDZom9db3B0+RJe2d+4"
+vary: Accept-Encoding
+server: railway
+
+{
+    "id": 1,
+    "title": "iPhone 9",
+    "description": "An apple mobile which is nothing like apple",
+    "price": 549,
+    "discountPercentage": 12.96,
+    "rating": 4.69,
+    "stock": 94,
+    "brand": "Apple",
+    "category": "smartphones",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
+    "images": [
+        "https://cdn.dummyjson.com/product-images/1/1.jpg",
+        "https://cdn.dummyjson.com/product-images/1/2.jpg",
+        "https://cdn.dummyjson.com/product-images/1/3.jpg",
+        "https://cdn.dummyjson.com/product-images/1/4.jpg",
+        "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"
+    ]
+}
+
+20:11:18.250 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+20:11:20.594 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/1
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 17:11:20 GMT
+x-ratelimit-reset: 1707153089
+content-type: application/json; charset=utf-8
+content-length: 537
+etag: W/"219-Qb5jNZGxbDZom9db3B0+RJe2d+4"
+vary: Accept-Encoding
+server: railway
+
+{
+    "id": 1,
+    "title": "iPhone 9",
+    "description": "An apple mobile which is nothing like apple",
+    "price": 549,
+    "discountPercentage": 12.96,
+    "rating": 4.69,
+    "stock": 94,
+    "brand": "Apple",
+    "category": "smartphones",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
+    "images": [
+        "https://cdn.dummyjson.com/product-images/1/1.jpg",
+        "https://cdn.dummyjson.com/product-images/1/2.jpg",
+        "https://cdn.dummyjson.com/product-images/1/3.jpg",
+        "https://cdn.dummyjson.com/product-images/1/4.jpg",
+        "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"
+    ]
+}
+
+20:11:28.710 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+20:11:30.927 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/1
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 17:11:30 GMT
+x-ratelimit-reset: 1707153099
+content-type: application/json; charset=utf-8
+content-length: 537
+etag: W/"219-Qb5jNZGxbDZom9db3B0+RJe2d+4"
+vary: Accept-Encoding
+server: railway
+
+{
+    "id": 1,
+    "title": "iPhone 9",
+    "description": "An apple mobile which is nothing like apple",
+    "price": 549,
+    "discountPercentage": 12.96,
+    "rating": 4.69,
+    "stock": 94,
+    "brand": "Apple",
+    "category": "smartphones",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
+    "images": [
+        "https://cdn.dummyjson.com/product-images/1/1.jpg",
+        "https://cdn.dummyjson.com/product-images/1/2.jpg",
+        "https://cdn.dummyjson.com/product-images/1/3.jpg",
+        "https://cdn.dummyjson.com/product-images/1/4.jpg",
+        "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"
+    ]
+}
+
+20:13:26.381 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+20:13:28.602 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/1
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 17:13:28 GMT
+x-ratelimit-reset: 1707153209
+content-type: application/json; charset=utf-8
+content-length: 537
+etag: W/"219-Qb5jNZGxbDZom9db3B0+RJe2d+4"
+vary: Accept-Encoding
+server: railway
+
+{
+    "id": 1,
+    "title": "iPhone 9",
+    "description": "An apple mobile which is nothing like apple",
+    "price": 549,
+    "discountPercentage": 12.96,
+    "rating": 4.69,
+    "stock": 94,
+    "brand": "Apple",
+    "category": "smartphones",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
+    "images": [
+        "https://cdn.dummyjson.com/product-images/1/1.jpg",
+        "https://cdn.dummyjson.com/product-images/1/2.jpg",
+        "https://cdn.dummyjson.com/product-images/1/3.jpg",
+        "https://cdn.dummyjson.com/product-images/1/4.jpg",
+        "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"
+    ]
+}
+
+20:14:34.216 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+20:14:36.561 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/1
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 17:14:36 GMT
+x-ratelimit-reset: 1707153279
+content-type: application/json; charset=utf-8
+content-length: 537
+etag: W/"219-Qb5jNZGxbDZom9db3B0+RJe2d+4"
+vary: Accept-Encoding
+server: railway
+
+{
+    "id": 1,
+    "title": "iPhone 9",
+    "description": "An apple mobile which is nothing like apple",
+    "price": 549,
+    "discountPercentage": 12.96,
+    "rating": 4.69,
+    "stock": 94,
+    "brand": "Apple",
+    "category": "smartphones",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
+    "images": [
+        "https://cdn.dummyjson.com/product-images/1/1.jpg",
+        "https://cdn.dummyjson.com/product-images/1/2.jpg",
+        "https://cdn.dummyjson.com/product-images/1/3.jpg",
+        "https://cdn.dummyjson.com/product-images/1/4.jpg",
+        "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"
+    ]
+}
+
+20:17:20.436 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+20:17:22.598 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/1
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 17:17:22 GMT
+x-ratelimit-reset: 1707153449
+content-type: application/json; charset=utf-8
+content-length: 537
+etag: W/"219-Qb5jNZGxbDZom9db3B0+RJe2d+4"
+vary: Accept-Encoding
+server: railway
+
+{
+    "id": 1,
+    "title": "iPhone 9",
+    "description": "An apple mobile which is nothing like apple",
+    "price": 549,
+    "discountPercentage": 12.96,
+    "rating": 4.69,
+    "stock": 94,
+    "brand": "Apple",
+    "category": "smartphones",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
+    "images": [
+        "https://cdn.dummyjson.com/product-images/1/1.jpg",
+        "https://cdn.dummyjson.com/product-images/1/2.jpg",
+        "https://cdn.dummyjson.com/product-images/1/3.jpg",
+        "https://cdn.dummyjson.com/product-images/1/4.jpg",
+        "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"
+    ]
+}
+
+20:18:33.611 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+20:18:35.973 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/1
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 17:18:35 GMT
+x-ratelimit-reset: 1707153519
+content-type: application/json; charset=utf-8
+content-length: 537
+etag: W/"219-Qb5jNZGxbDZom9db3B0+RJe2d+4"
+vary: Accept-Encoding
+server: railway
+
+{
+    "id": 1,
+    "title": "iPhone 9",
+    "description": "An apple mobile which is nothing like apple",
+    "price": 549,
+    "discountPercentage": 12.96,
+    "rating": 4.69,
+    "stock": 94,
+    "brand": "Apple",
+    "category": "smartphones",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
+    "images": [
+        "https://cdn.dummyjson.com/product-images/1/1.jpg",
+        "https://cdn.dummyjson.com/product-images/1/2.jpg",
+        "https://cdn.dummyjson.com/product-images/1/3.jpg",
+        "https://cdn.dummyjson.com/product-images/1/4.jpg",
+        "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"
+    ]
+}
+
+20:26:17.144 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+20:26:19.410 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/1
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 17:26:19 GMT
+x-ratelimit-reset: 1707153989
+content-type: application/json; charset=utf-8
+content-length: 537
+etag: W/"219-Qb5jNZGxbDZom9db3B0+RJe2d+4"
+vary: Accept-Encoding
+server: railway
+
+{
+    "id": 1,
+    "title": "iPhone 9",
+    "description": "An apple mobile which is nothing like apple",
+    "price": 549,
+    "discountPercentage": 12.96,
+    "rating": 4.69,
+    "stock": 94,
+    "brand": "Apple",
+    "category": "smartphones",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
+    "images": [
+        "https://cdn.dummyjson.com/product-images/1/1.jpg",
+        "https://cdn.dummyjson.com/product-images/1/2.jpg",
+        "https://cdn.dummyjson.com/product-images/1/3.jpg",
+        "https://cdn.dummyjson.com/product-images/1/4.jpg",
+        "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"
+    ]
+}
+
+20:37:32.875 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+20:37:35.172 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/%2F%2Fproducts/search?q=Laptop
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 404 Not Found
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 17:37:34 GMT
+x-ratelimit-reset: 1707154659
+content-type: text/html; charset=utf-8
+content-length: 10
+etag: W/"a-kkaB+w3bczxNX1whs3ha9keRr+s"
+vary: Accept-Encoding
+server: railway
+
+<html>
+  <body>not found!</body>
+</html>
+
+20:38:09.045 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+20:38:11.775 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/search?q=Laptop
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 17:38:11 GMT
+x-ratelimit-reset: 1707154699
+content-type: application/json; charset=utf-8
+etag: W/"6ee-WO3hWwt3hA0us0xXJJSumMbvU08"
+vary: Accept-Encoding
+content-encoding: gzip
+server: railway
+transfer-encoding: chunked
+
+{
+    "products": [
+        {
+            "id": 7,
+            "title": "Samsung Galaxy Book",
+            "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+            "price": 1499,
+            "discountPercentage": 4.15,
+            "rating": 4.25,
+            "stock": 50,
+            "brand": "Samsung",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/7/1.jpg",
+                "https://cdn.dummyjson.com/product-images/7/2.jpg",
+                "https://cdn.dummyjson.com/product-images/7/3.jpg",
+                "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Microsoft Surface Laptop 4",
+            "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+            "price": 1499,
+            "discountPercentage": 10.23,
+            "rating": 4.43,
+            "stock": 68,
+            "brand": "Microsoft Surface",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/8/1.jpg",
+                "https://cdn.dummyjson.com/product-images/8/2.jpg",
+                "https://cdn.dummyjson.com/product-images/8/3.jpg",
+                "https://cdn.dummyjson.com/product-images/8/4.jpg",
+                "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "HP Pavilion 15-DK1056WM",
+            "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+            "price": 1099,
+            "discountPercentage": 6.18,
+            "rating": 4.43,
+            "stock": 89,
+            "brand": "HP Pavilion",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/10/1.jpg",
+                "https://cdn.dummyjson.com/product-images/10/2.jpg",
+                "https://cdn.dummyjson.com/product-images/10/3.jpg",
+                "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
+            ]
+        }
+    ],
+    "total": 3,
+    "skip": 0,
+    "limit": 3
+}
+
+20:40:55.843 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+20:40:58.078 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/search?q=Laptop
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 17:40:57 GMT
+x-ratelimit-reset: 1707154859
+content-type: application/json; charset=utf-8
+etag: W/"6ee-WO3hWwt3hA0us0xXJJSumMbvU08"
+vary: Accept-Encoding
+content-encoding: gzip
+server: railway
+transfer-encoding: chunked
+
+{
+    "products": [
+        {
+            "id": 7,
+            "title": "Samsung Galaxy Book",
+            "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+            "price": 1499,
+            "discountPercentage": 4.15,
+            "rating": 4.25,
+            "stock": 50,
+            "brand": "Samsung",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/7/1.jpg",
+                "https://cdn.dummyjson.com/product-images/7/2.jpg",
+                "https://cdn.dummyjson.com/product-images/7/3.jpg",
+                "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Microsoft Surface Laptop 4",
+            "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+            "price": 1499,
+            "discountPercentage": 10.23,
+            "rating": 4.43,
+            "stock": 68,
+            "brand": "Microsoft Surface",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/8/1.jpg",
+                "https://cdn.dummyjson.com/product-images/8/2.jpg",
+                "https://cdn.dummyjson.com/product-images/8/3.jpg",
+                "https://cdn.dummyjson.com/product-images/8/4.jpg",
+                "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "HP Pavilion 15-DK1056WM",
+            "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+            "price": 1099,
+            "discountPercentage": 6.18,
+            "rating": 4.43,
+            "stock": 89,
+            "brand": "HP Pavilion",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/10/1.jpg",
+                "https://cdn.dummyjson.com/product-images/10/2.jpg",
+                "https://cdn.dummyjson.com/product-images/10/3.jpg",
+                "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
+            ]
+        }
+    ],
+    "total": 3,
+    "skip": 0,
+    "limit": 3
+}
+
+20:52:40.406 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+20:52:42.702 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/search?q=Laptop
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 17:52:42 GMT
+x-ratelimit-reset: 1707155569
+content-type: application/json; charset=utf-8
+etag: W/"6ee-WO3hWwt3hA0us0xXJJSumMbvU08"
+vary: Accept-Encoding
+content-encoding: gzip
+server: railway
+transfer-encoding: chunked
+
+{
+    "products": [
+        {
+            "id": 7,
+            "title": "Samsung Galaxy Book",
+            "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+            "price": 1499,
+            "discountPercentage": 4.15,
+            "rating": 4.25,
+            "stock": 50,
+            "brand": "Samsung",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/7/1.jpg",
+                "https://cdn.dummyjson.com/product-images/7/2.jpg",
+                "https://cdn.dummyjson.com/product-images/7/3.jpg",
+                "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Microsoft Surface Laptop 4",
+            "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+            "price": 1499,
+            "discountPercentage": 10.23,
+            "rating": 4.43,
+            "stock": 68,
+            "brand": "Microsoft Surface",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/8/1.jpg",
+                "https://cdn.dummyjson.com/product-images/8/2.jpg",
+                "https://cdn.dummyjson.com/product-images/8/3.jpg",
+                "https://cdn.dummyjson.com/product-images/8/4.jpg",
+                "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "HP Pavilion 15-DK1056WM",
+            "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+            "price": 1099,
+            "discountPercentage": 6.18,
+            "rating": 4.43,
+            "stock": 89,
+            "brand": "HP Pavilion",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/10/1.jpg",
+                "https://cdn.dummyjson.com/product-images/10/2.jpg",
+                "https://cdn.dummyjson.com/product-images/10/3.jpg",
+                "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
+            ]
+        }
+    ],
+    "total": 3,
+    "skip": 0,
+    "limit": 3
+}
+
+20:55:04.656 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+20:55:06.895 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/search?q=Laptop
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 17:55:06 GMT
+x-ratelimit-reset: 1707155709
+content-type: application/json; charset=utf-8
+etag: W/"6ee-WO3hWwt3hA0us0xXJJSumMbvU08"
+vary: Accept-Encoding
+content-encoding: gzip
+server: railway
+transfer-encoding: chunked
+
+{
+    "products": [
+        {
+            "id": 7,
+            "title": "Samsung Galaxy Book",
+            "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+            "price": 1499,
+            "discountPercentage": 4.15,
+            "rating": 4.25,
+            "stock": 50,
+            "brand": "Samsung",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/7/1.jpg",
+                "https://cdn.dummyjson.com/product-images/7/2.jpg",
+                "https://cdn.dummyjson.com/product-images/7/3.jpg",
+                "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Microsoft Surface Laptop 4",
+            "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+            "price": 1499,
+            "discountPercentage": 10.23,
+            "rating": 4.43,
+            "stock": 68,
+            "brand": "Microsoft Surface",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/8/1.jpg",
+                "https://cdn.dummyjson.com/product-images/8/2.jpg",
+                "https://cdn.dummyjson.com/product-images/8/3.jpg",
+                "https://cdn.dummyjson.com/product-images/8/4.jpg",
+                "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "HP Pavilion 15-DK1056WM",
+            "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+            "price": 1099,
+            "discountPercentage": 6.18,
+            "rating": 4.43,
+            "stock": 89,
+            "brand": "HP Pavilion",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/10/1.jpg",
+                "https://cdn.dummyjson.com/product-images/10/2.jpg",
+                "https://cdn.dummyjson.com/product-images/10/3.jpg",
+                "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
+            ]
+        }
+    ],
+    "total": 3,
+    "skip": 0,
+    "limit": 3
+}
+
+20:57:00.261 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+20:57:02.483 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/search?q=dummy
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 17:57:02 GMT
+x-ratelimit-reset: 1707155829
+content-type: application/json; charset=utf-8
+content-length: 44
+etag: W/"2c-yOi/7Bbg3zAE7r3Ra2tViR+0cAQ"
+vary: Accept-Encoding
+server: railway
+
+{
+    "products": [
+        
+    ],
+    "total": 0,
+    "skip": 0,
+    "limit": 0
+}
+
+20:58:27.520 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+20:58:29.755 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/search?q=Laptop
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 17:58:29 GMT
+x-ratelimit-reset: 1707155919
+content-type: application/json; charset=utf-8
+etag: W/"6ee-WO3hWwt3hA0us0xXJJSumMbvU08"
+vary: Accept-Encoding
+content-encoding: gzip
+server: railway
+transfer-encoding: chunked
+
+{
+    "products": [
+        {
+            "id": 7,
+            "title": "Samsung Galaxy Book",
+            "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+            "price": 1499,
+            "discountPercentage": 4.15,
+            "rating": 4.25,
+            "stock": 50,
+            "brand": "Samsung",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/7/1.jpg",
+                "https://cdn.dummyjson.com/product-images/7/2.jpg",
+                "https://cdn.dummyjson.com/product-images/7/3.jpg",
+                "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Microsoft Surface Laptop 4",
+            "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+            "price": 1499,
+            "discountPercentage": 10.23,
+            "rating": 4.43,
+            "stock": 68,
+            "brand": "Microsoft Surface",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/8/1.jpg",
+                "https://cdn.dummyjson.com/product-images/8/2.jpg",
+                "https://cdn.dummyjson.com/product-images/8/3.jpg",
+                "https://cdn.dummyjson.com/product-images/8/4.jpg",
+                "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "HP Pavilion 15-DK1056WM",
+            "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+            "price": 1099,
+            "discountPercentage": 6.18,
+            "rating": 4.43,
+            "stock": 89,
+            "brand": "HP Pavilion",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/10/1.jpg",
+                "https://cdn.dummyjson.com/product-images/10/2.jpg",
+                "https://cdn.dummyjson.com/product-images/10/3.jpg",
+                "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
+            ]
+        }
+    ],
+    "total": 3,
+    "skip": 0,
+    "limit": 3
+}
+
+20:59:15.794 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+20:59:18.024 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/search?q=Laptop
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 17:59:17 GMT
+x-ratelimit-reset: 1707155959
+content-type: application/json; charset=utf-8
+etag: W/"6ee-WO3hWwt3hA0us0xXJJSumMbvU08"
+vary: Accept-Encoding
+content-encoding: gzip
+server: railway
+transfer-encoding: chunked
+
+{
+    "products": [
+        {
+            "id": 7,
+            "title": "Samsung Galaxy Book",
+            "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+            "price": 1499,
+            "discountPercentage": 4.15,
+            "rating": 4.25,
+            "stock": 50,
+            "brand": "Samsung",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/7/1.jpg",
+                "https://cdn.dummyjson.com/product-images/7/2.jpg",
+                "https://cdn.dummyjson.com/product-images/7/3.jpg",
+                "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Microsoft Surface Laptop 4",
+            "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+            "price": 1499,
+            "discountPercentage": 10.23,
+            "rating": 4.43,
+            "stock": 68,
+            "brand": "Microsoft Surface",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/8/1.jpg",
+                "https://cdn.dummyjson.com/product-images/8/2.jpg",
+                "https://cdn.dummyjson.com/product-images/8/3.jpg",
+                "https://cdn.dummyjson.com/product-images/8/4.jpg",
+                "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "HP Pavilion 15-DK1056WM",
+            "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+            "price": 1099,
+            "discountPercentage": 6.18,
+            "rating": 4.43,
+            "stock": 89,
+            "brand": "HP Pavilion",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/10/1.jpg",
+                "https://cdn.dummyjson.com/product-images/10/2.jpg",
+                "https://cdn.dummyjson.com/product-images/10/3.jpg",
+                "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
+            ]
+        }
+    ],
+    "total": 3,
+    "skip": 0,
+    "limit": 3
+}
+
+20:59:29.537 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+20:59:31.753 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/search?q=Laptop
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 17:59:31 GMT
+x-ratelimit-reset: 1707155979
+content-type: application/json; charset=utf-8
+etag: W/"6ee-WO3hWwt3hA0us0xXJJSumMbvU08"
+vary: Accept-Encoding
+content-encoding: gzip
+server: railway
+transfer-encoding: chunked
+
+{
+    "products": [
+        {
+            "id": 7,
+            "title": "Samsung Galaxy Book",
+            "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+            "price": 1499,
+            "discountPercentage": 4.15,
+            "rating": 4.25,
+            "stock": 50,
+            "brand": "Samsung",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/7/1.jpg",
+                "https://cdn.dummyjson.com/product-images/7/2.jpg",
+                "https://cdn.dummyjson.com/product-images/7/3.jpg",
+                "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Microsoft Surface Laptop 4",
+            "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+            "price": 1499,
+            "discountPercentage": 10.23,
+            "rating": 4.43,
+            "stock": 68,
+            "brand": "Microsoft Surface",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/8/1.jpg",
+                "https://cdn.dummyjson.com/product-images/8/2.jpg",
+                "https://cdn.dummyjson.com/product-images/8/3.jpg",
+                "https://cdn.dummyjson.com/product-images/8/4.jpg",
+                "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "HP Pavilion 15-DK1056WM",
+            "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+            "price": 1099,
+            "discountPercentage": 6.18,
+            "rating": 4.43,
+            "stock": 89,
+            "brand": "HP Pavilion",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/10/1.jpg",
+                "https://cdn.dummyjson.com/product-images/10/2.jpg",
+                "https://cdn.dummyjson.com/product-images/10/3.jpg",
+                "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
+            ]
+        }
+    ],
+    "total": 3,
+    "skip": 0,
+    "limit": 3
+}
+
+21:00:51.768 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+21:00:54.012 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/search?q=Laptop
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 18:00:53 GMT
+x-ratelimit-reset: 1707156059
+content-type: application/json; charset=utf-8
+etag: W/"6ee-WO3hWwt3hA0us0xXJJSumMbvU08"
+vary: Accept-Encoding
+content-encoding: gzip
+server: railway
+transfer-encoding: chunked
+
+{
+    "products": [
+        {
+            "id": 7,
+            "title": "Samsung Galaxy Book",
+            "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+            "price": 1499,
+            "discountPercentage": 4.15,
+            "rating": 4.25,
+            "stock": 50,
+            "brand": "Samsung",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/7/1.jpg",
+                "https://cdn.dummyjson.com/product-images/7/2.jpg",
+                "https://cdn.dummyjson.com/product-images/7/3.jpg",
+                "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Microsoft Surface Laptop 4",
+            "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+            "price": 1499,
+            "discountPercentage": 10.23,
+            "rating": 4.43,
+            "stock": 68,
+            "brand": "Microsoft Surface",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/8/1.jpg",
+                "https://cdn.dummyjson.com/product-images/8/2.jpg",
+                "https://cdn.dummyjson.com/product-images/8/3.jpg",
+                "https://cdn.dummyjson.com/product-images/8/4.jpg",
+                "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "HP Pavilion 15-DK1056WM",
+            "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+            "price": 1099,
+            "discountPercentage": 6.18,
+            "rating": 4.43,
+            "stock": 89,
+            "brand": "HP Pavilion",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/10/1.jpg",
+                "https://cdn.dummyjson.com/product-images/10/2.jpg",
+                "https://cdn.dummyjson.com/product-images/10/3.jpg",
+                "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
+            ]
+        }
+    ],
+    "total": 3,
+    "skip": 0,
+    "limit": 3
+}
+
+21:00:59.363 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+21:01:01.611 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/search?q=Laptop
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 18:01:01 GMT
+x-ratelimit-reset: 1707156069
+content-type: application/json; charset=utf-8
+etag: W/"6ee-WO3hWwt3hA0us0xXJJSumMbvU08"
+vary: Accept-Encoding
+content-encoding: gzip
+server: railway
+transfer-encoding: chunked
+
+{
+    "products": [
+        {
+            "id": 7,
+            "title": "Samsung Galaxy Book",
+            "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+            "price": 1499,
+            "discountPercentage": 4.15,
+            "rating": 4.25,
+            "stock": 50,
+            "brand": "Samsung",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/7/1.jpg",
+                "https://cdn.dummyjson.com/product-images/7/2.jpg",
+                "https://cdn.dummyjson.com/product-images/7/3.jpg",
+                "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Microsoft Surface Laptop 4",
+            "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+            "price": 1499,
+            "discountPercentage": 10.23,
+            "rating": 4.43,
+            "stock": 68,
+            "brand": "Microsoft Surface",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/8/1.jpg",
+                "https://cdn.dummyjson.com/product-images/8/2.jpg",
+                "https://cdn.dummyjson.com/product-images/8/3.jpg",
+                "https://cdn.dummyjson.com/product-images/8/4.jpg",
+                "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "HP Pavilion 15-DK1056WM",
+            "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+            "price": 1099,
+            "discountPercentage": 6.18,
+            "rating": 4.43,
+            "stock": 89,
+            "brand": "HP Pavilion",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/10/1.jpg",
+                "https://cdn.dummyjson.com/product-images/10/2.jpg",
+                "https://cdn.dummyjson.com/product-images/10/3.jpg",
+                "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
+            ]
+        }
+    ],
+    "total": 3,
+    "skip": 0,
+    "limit": 3
+}
+
+21:01:15.855 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+21:01:18.061 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/search?q=Laptop
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 18:01:17 GMT
+x-ratelimit-reset: 1707156079
+content-type: application/json; charset=utf-8
+etag: W/"6ee-WO3hWwt3hA0us0xXJJSumMbvU08"
+vary: Accept-Encoding
+content-encoding: gzip
+server: railway
+transfer-encoding: chunked
+
+{
+    "products": [
+        {
+            "id": 7,
+            "title": "Samsung Galaxy Book",
+            "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+            "price": 1499,
+            "discountPercentage": 4.15,
+            "rating": 4.25,
+            "stock": 50,
+            "brand": "Samsung",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/7/1.jpg",
+                "https://cdn.dummyjson.com/product-images/7/2.jpg",
+                "https://cdn.dummyjson.com/product-images/7/3.jpg",
+                "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Microsoft Surface Laptop 4",
+            "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+            "price": 1499,
+            "discountPercentage": 10.23,
+            "rating": 4.43,
+            "stock": 68,
+            "brand": "Microsoft Surface",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/8/1.jpg",
+                "https://cdn.dummyjson.com/product-images/8/2.jpg",
+                "https://cdn.dummyjson.com/product-images/8/3.jpg",
+                "https://cdn.dummyjson.com/product-images/8/4.jpg",
+                "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "HP Pavilion 15-DK1056WM",
+            "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+            "price": 1099,
+            "discountPercentage": 6.18,
+            "rating": 4.43,
+            "stock": 89,
+            "brand": "HP Pavilion",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/10/1.jpg",
+                "https://cdn.dummyjson.com/product-images/10/2.jpg",
+                "https://cdn.dummyjson.com/product-images/10/3.jpg",
+                "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
+            ]
+        }
+    ],
+    "total": 3,
+    "skip": 0,
+    "limit": 3
+}
+
+21:01:25.601 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+21:01:27.873 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/search?q=Laptop
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 18:01:27 GMT
+x-ratelimit-reset: 1707156089
+content-type: application/json; charset=utf-8
+etag: W/"6ee-WO3hWwt3hA0us0xXJJSumMbvU08"
+vary: Accept-Encoding
+content-encoding: gzip
+server: railway
+transfer-encoding: chunked
+
+{
+    "products": [
+        {
+            "id": 7,
+            "title": "Samsung Galaxy Book",
+            "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+            "price": 1499,
+            "discountPercentage": 4.15,
+            "rating": 4.25,
+            "stock": 50,
+            "brand": "Samsung",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/7/1.jpg",
+                "https://cdn.dummyjson.com/product-images/7/2.jpg",
+                "https://cdn.dummyjson.com/product-images/7/3.jpg",
+                "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Microsoft Surface Laptop 4",
+            "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+            "price": 1499,
+            "discountPercentage": 10.23,
+            "rating": 4.43,
+            "stock": 68,
+            "brand": "Microsoft Surface",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/8/1.jpg",
+                "https://cdn.dummyjson.com/product-images/8/2.jpg",
+                "https://cdn.dummyjson.com/product-images/8/3.jpg",
+                "https://cdn.dummyjson.com/product-images/8/4.jpg",
+                "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "HP Pavilion 15-DK1056WM",
+            "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+            "price": 1099,
+            "discountPercentage": 6.18,
+            "rating": 4.43,
+            "stock": 89,
+            "brand": "HP Pavilion",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/10/1.jpg",
+                "https://cdn.dummyjson.com/product-images/10/2.jpg",
+                "https://cdn.dummyjson.com/product-images/10/3.jpg",
+                "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
+            ]
+        }
+    ],
+    "total": 3,
+    "skip": 0,
+    "limit": 3
+}
+
+21:02:55.224 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+21:02:57.412 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/search?q=Laptop
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 18:02:57 GMT
+x-ratelimit-reset: 1707156179
+content-type: application/json; charset=utf-8
+etag: W/"6ee-WO3hWwt3hA0us0xXJJSumMbvU08"
+vary: Accept-Encoding
+content-encoding: gzip
+server: railway
+transfer-encoding: chunked
+
+{
+    "products": [
+        {
+            "id": 7,
+            "title": "Samsung Galaxy Book",
+            "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+            "price": 1499,
+            "discountPercentage": 4.15,
+            "rating": 4.25,
+            "stock": 50,
+            "brand": "Samsung",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/7/1.jpg",
+                "https://cdn.dummyjson.com/product-images/7/2.jpg",
+                "https://cdn.dummyjson.com/product-images/7/3.jpg",
+                "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Microsoft Surface Laptop 4",
+            "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+            "price": 1499,
+            "discountPercentage": 10.23,
+            "rating": 4.43,
+            "stock": 68,
+            "brand": "Microsoft Surface",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/8/1.jpg",
+                "https://cdn.dummyjson.com/product-images/8/2.jpg",
+                "https://cdn.dummyjson.com/product-images/8/3.jpg",
+                "https://cdn.dummyjson.com/product-images/8/4.jpg",
+                "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "HP Pavilion 15-DK1056WM",
+            "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+            "price": 1099,
+            "discountPercentage": 6.18,
+            "rating": 4.43,
+            "stock": 89,
+            "brand": "HP Pavilion",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/10/1.jpg",
+                "https://cdn.dummyjson.com/product-images/10/2.jpg",
+                "https://cdn.dummyjson.com/product-images/10/3.jpg",
+                "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
+            ]
+        }
+    ],
+    "total": 3,
+    "skip": 0,
+    "limit": 3
+}
+
+21:05:30.668 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+21:05:32.968 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/search?q=Laptop
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 18:05:32 GMT
+x-ratelimit-reset: 1707156339
+content-type: application/json; charset=utf-8
+etag: W/"6ee-WO3hWwt3hA0us0xXJJSumMbvU08"
+vary: Accept-Encoding
+content-encoding: gzip
+server: railway
+transfer-encoding: chunked
+
+{
+    "products": [
+        {
+            "id": 7,
+            "title": "Samsung Galaxy Book",
+            "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+            "price": 1499,
+            "discountPercentage": 4.15,
+            "rating": 4.25,
+            "stock": 50,
+            "brand": "Samsung",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/7/1.jpg",
+                "https://cdn.dummyjson.com/product-images/7/2.jpg",
+                "https://cdn.dummyjson.com/product-images/7/3.jpg",
+                "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Microsoft Surface Laptop 4",
+            "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+            "price": 1499,
+            "discountPercentage": 10.23,
+            "rating": 4.43,
+            "stock": 68,
+            "brand": "Microsoft Surface",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/8/1.jpg",
+                "https://cdn.dummyjson.com/product-images/8/2.jpg",
+                "https://cdn.dummyjson.com/product-images/8/3.jpg",
+                "https://cdn.dummyjson.com/product-images/8/4.jpg",
+                "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "HP Pavilion 15-DK1056WM",
+            "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+            "price": 1099,
+            "discountPercentage": 6.18,
+            "rating": 4.43,
+            "stock": 89,
+            "brand": "HP Pavilion",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/10/1.jpg",
+                "https://cdn.dummyjson.com/product-images/10/2.jpg",
+                "https://cdn.dummyjson.com/product-images/10/3.jpg",
+                "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
+            ]
+        }
+    ],
+    "total": 3,
+    "skip": 0,
+    "limit": 3
+}
+
+21:05:53.413 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+21:05:55.602 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/search?q=Laptop
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 18:05:55 GMT
+x-ratelimit-reset: 1707156359
+content-type: application/json; charset=utf-8
+etag: W/"6ee-WO3hWwt3hA0us0xXJJSumMbvU08"
+vary: Accept-Encoding
+content-encoding: gzip
+server: railway
+transfer-encoding: chunked
+
+{
+    "products": [
+        {
+            "id": 7,
+            "title": "Samsung Galaxy Book",
+            "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+            "price": 1499,
+            "discountPercentage": 4.15,
+            "rating": 4.25,
+            "stock": 50,
+            "brand": "Samsung",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/7/1.jpg",
+                "https://cdn.dummyjson.com/product-images/7/2.jpg",
+                "https://cdn.dummyjson.com/product-images/7/3.jpg",
+                "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Microsoft Surface Laptop 4",
+            "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+            "price": 1499,
+            "discountPercentage": 10.23,
+            "rating": 4.43,
+            "stock": 68,
+            "brand": "Microsoft Surface",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/8/1.jpg",
+                "https://cdn.dummyjson.com/product-images/8/2.jpg",
+                "https://cdn.dummyjson.com/product-images/8/3.jpg",
+                "https://cdn.dummyjson.com/product-images/8/4.jpg",
+                "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "HP Pavilion 15-DK1056WM",
+            "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+            "price": 1099,
+            "discountPercentage": 6.18,
+            "rating": 4.43,
+            "stock": 89,
+            "brand": "HP Pavilion",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/10/1.jpg",
+                "https://cdn.dummyjson.com/product-images/10/2.jpg",
+                "https://cdn.dummyjson.com/product-images/10/3.jpg",
+                "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
+            ]
+        }
+    ],
+    "total": 3,
+    "skip": 0,
+    "limit": 3
+}
+
+21:06:15.802 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+21:06:17.985 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/search?q=Laptop
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 18:06:17 GMT
+x-ratelimit-reset: 1707156379
+content-type: application/json; charset=utf-8
+etag: W/"6ee-WO3hWwt3hA0us0xXJJSumMbvU08"
+vary: Accept-Encoding
+content-encoding: gzip
+server: railway
+transfer-encoding: chunked
+
+{
+    "products": [
+        {
+            "id": 7,
+            "title": "Samsung Galaxy Book",
+            "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+            "price": 1499,
+            "discountPercentage": 4.15,
+            "rating": 4.25,
+            "stock": 50,
+            "brand": "Samsung",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/7/1.jpg",
+                "https://cdn.dummyjson.com/product-images/7/2.jpg",
+                "https://cdn.dummyjson.com/product-images/7/3.jpg",
+                "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Microsoft Surface Laptop 4",
+            "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+            "price": 1499,
+            "discountPercentage": 10.23,
+            "rating": 4.43,
+            "stock": 68,
+            "brand": "Microsoft Surface",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/8/1.jpg",
+                "https://cdn.dummyjson.com/product-images/8/2.jpg",
+                "https://cdn.dummyjson.com/product-images/8/3.jpg",
+                "https://cdn.dummyjson.com/product-images/8/4.jpg",
+                "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "HP Pavilion 15-DK1056WM",
+            "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+            "price": 1099,
+            "discountPercentage": 6.18,
+            "rating": 4.43,
+            "stock": 89,
+            "brand": "HP Pavilion",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/10/1.jpg",
+                "https://cdn.dummyjson.com/product-images/10/2.jpg",
+                "https://cdn.dummyjson.com/product-images/10/3.jpg",
+                "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
+            ]
+        }
+    ],
+    "total": 3,
+    "skip": 0,
+    "limit": 3
+}
+
+21:07:38.900 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+21:07:41.155 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/search?q=Laptop
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 18:07:40 GMT
+x-ratelimit-reset: 1707156469
+content-type: application/json; charset=utf-8
+etag: W/"6ee-WO3hWwt3hA0us0xXJJSumMbvU08"
+vary: Accept-Encoding
+content-encoding: gzip
+server: railway
+transfer-encoding: chunked
+
+{
+    "products": [
+        {
+            "id": 7,
+            "title": "Samsung Galaxy Book",
+            "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+            "price": 1499,
+            "discountPercentage": 4.15,
+            "rating": 4.25,
+            "stock": 50,
+            "brand": "Samsung",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/7/1.jpg",
+                "https://cdn.dummyjson.com/product-images/7/2.jpg",
+                "https://cdn.dummyjson.com/product-images/7/3.jpg",
+                "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Microsoft Surface Laptop 4",
+            "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+            "price": 1499,
+            "discountPercentage": 10.23,
+            "rating": 4.43,
+            "stock": 68,
+            "brand": "Microsoft Surface",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/8/1.jpg",
+                "https://cdn.dummyjson.com/product-images/8/2.jpg",
+                "https://cdn.dummyjson.com/product-images/8/3.jpg",
+                "https://cdn.dummyjson.com/product-images/8/4.jpg",
+                "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "HP Pavilion 15-DK1056WM",
+            "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+            "price": 1099,
+            "discountPercentage": 6.18,
+            "rating": 4.43,
+            "stock": 89,
+            "brand": "HP Pavilion",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/10/1.jpg",
+                "https://cdn.dummyjson.com/product-images/10/2.jpg",
+                "https://cdn.dummyjson.com/product-images/10/3.jpg",
+                "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
+            ]
+        }
+    ],
+    "total": 3,
+    "skip": 0,
+    "limit": 3
+}
+
+21:11:24.484 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+21:11:26.692 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/search?q=Laptop
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 18:11:26 GMT
+x-ratelimit-reset: 1707156689
+content-type: application/json; charset=utf-8
+etag: W/"6ee-WO3hWwt3hA0us0xXJJSumMbvU08"
+vary: Accept-Encoding
+content-encoding: gzip
+server: railway
+transfer-encoding: chunked
+
+{
+    "products": [
+        {
+            "id": 7,
+            "title": "Samsung Galaxy Book",
+            "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+            "price": 1499,
+            "discountPercentage": 4.15,
+            "rating": 4.25,
+            "stock": 50,
+            "brand": "Samsung",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/7/1.jpg",
+                "https://cdn.dummyjson.com/product-images/7/2.jpg",
+                "https://cdn.dummyjson.com/product-images/7/3.jpg",
+                "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Microsoft Surface Laptop 4",
+            "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+            "price": 1499,
+            "discountPercentage": 10.23,
+            "rating": 4.43,
+            "stock": 68,
+            "brand": "Microsoft Surface",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/8/1.jpg",
+                "https://cdn.dummyjson.com/product-images/8/2.jpg",
+                "https://cdn.dummyjson.com/product-images/8/3.jpg",
+                "https://cdn.dummyjson.com/product-images/8/4.jpg",
+                "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "HP Pavilion 15-DK1056WM",
+            "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+            "price": 1099,
+            "discountPercentage": 6.18,
+            "rating": 4.43,
+            "stock": 89,
+            "brand": "HP Pavilion",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/10/1.jpg",
+                "https://cdn.dummyjson.com/product-images/10/2.jpg",
+                "https://cdn.dummyjson.com/product-images/10/3.jpg",
+                "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
+            ]
+        }
+    ],
+    "total": 3,
+    "skip": 0,
+    "limit": 3
+}
+
+21:11:50.408 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+21:11:52.640 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/search?q=Laptop
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 18:11:52 GMT
+x-ratelimit-reset: 1707156719
+content-type: application/json; charset=utf-8
+etag: W/"6ee-WO3hWwt3hA0us0xXJJSumMbvU08"
+vary: Accept-Encoding
+content-encoding: gzip
+server: railway
+transfer-encoding: chunked
+
+{
+    "products": [
+        {
+            "id": 7,
+            "title": "Samsung Galaxy Book",
+            "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+            "price": 1499,
+            "discountPercentage": 4.15,
+            "rating": 4.25,
+            "stock": 50,
+            "brand": "Samsung",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/7/1.jpg",
+                "https://cdn.dummyjson.com/product-images/7/2.jpg",
+                "https://cdn.dummyjson.com/product-images/7/3.jpg",
+                "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Microsoft Surface Laptop 4",
+            "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+            "price": 1499,
+            "discountPercentage": 10.23,
+            "rating": 4.43,
+            "stock": 68,
+            "brand": "Microsoft Surface",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/8/1.jpg",
+                "https://cdn.dummyjson.com/product-images/8/2.jpg",
+                "https://cdn.dummyjson.com/product-images/8/3.jpg",
+                "https://cdn.dummyjson.com/product-images/8/4.jpg",
+                "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "HP Pavilion 15-DK1056WM",
+            "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+            "price": 1099,
+            "discountPercentage": 6.18,
+            "rating": 4.43,
+            "stock": 89,
+            "brand": "HP Pavilion",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/10/1.jpg",
+                "https://cdn.dummyjson.com/product-images/10/2.jpg",
+                "https://cdn.dummyjson.com/product-images/10/3.jpg",
+                "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
+            ]
+        }
+    ],
+    "total": 3,
+    "skip": 0,
+    "limit": 3
+}
+
+21:12:04.197 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+21:12:06.371 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/search?q=Laptop
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 18:12:06 GMT
+x-ratelimit-reset: 1707156729
+content-type: application/json; charset=utf-8
+etag: W/"6ee-WO3hWwt3hA0us0xXJJSumMbvU08"
+vary: Accept-Encoding
+content-encoding: gzip
+server: railway
+transfer-encoding: chunked
+
+{
+    "products": [
+        {
+            "id": 7,
+            "title": "Samsung Galaxy Book",
+            "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+            "price": 1499,
+            "discountPercentage": 4.15,
+            "rating": 4.25,
+            "stock": 50,
+            "brand": "Samsung",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/7/1.jpg",
+                "https://cdn.dummyjson.com/product-images/7/2.jpg",
+                "https://cdn.dummyjson.com/product-images/7/3.jpg",
+                "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Microsoft Surface Laptop 4",
+            "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+            "price": 1499,
+            "discountPercentage": 10.23,
+            "rating": 4.43,
+            "stock": 68,
+            "brand": "Microsoft Surface",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/8/1.jpg",
+                "https://cdn.dummyjson.com/product-images/8/2.jpg",
+                "https://cdn.dummyjson.com/product-images/8/3.jpg",
+                "https://cdn.dummyjson.com/product-images/8/4.jpg",
+                "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "HP Pavilion 15-DK1056WM",
+            "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+            "price": 1099,
+            "discountPercentage": 6.18,
+            "rating": 4.43,
+            "stock": 89,
+            "brand": "HP Pavilion",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/10/1.jpg",
+                "https://cdn.dummyjson.com/product-images/10/2.jpg",
+                "https://cdn.dummyjson.com/product-images/10/3.jpg",
+                "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
+            ]
+        }
+    ],
+    "total": 3,
+    "skip": 0,
+    "limit": 3
+}
+
+21:13:32.599 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+21:13:34.861 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/search?q=Laptop
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 18:13:34 GMT
+x-ratelimit-reset: 1707156819
+content-type: application/json; charset=utf-8
+etag: W/"6ee-WO3hWwt3hA0us0xXJJSumMbvU08"
+vary: Accept-Encoding
+content-encoding: gzip
+server: railway
+transfer-encoding: chunked
+
+{
+    "products": [
+        {
+            "id": 7,
+            "title": "Samsung Galaxy Book",
+            "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+            "price": 1499,
+            "discountPercentage": 4.15,
+            "rating": 4.25,
+            "stock": 50,
+            "brand": "Samsung",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/7/1.jpg",
+                "https://cdn.dummyjson.com/product-images/7/2.jpg",
+                "https://cdn.dummyjson.com/product-images/7/3.jpg",
+                "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Microsoft Surface Laptop 4",
+            "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+            "price": 1499,
+            "discountPercentage": 10.23,
+            "rating": 4.43,
+            "stock": 68,
+            "brand": "Microsoft Surface",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/8/1.jpg",
+                "https://cdn.dummyjson.com/product-images/8/2.jpg",
+                "https://cdn.dummyjson.com/product-images/8/3.jpg",
+                "https://cdn.dummyjson.com/product-images/8/4.jpg",
+                "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "HP Pavilion 15-DK1056WM",
+            "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+            "price": 1099,
+            "discountPercentage": 6.18,
+            "rating": 4.43,
+            "stock": 89,
+            "brand": "HP Pavilion",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/10/1.jpg",
+                "https://cdn.dummyjson.com/product-images/10/2.jpg",
+                "https://cdn.dummyjson.com/product-images/10/3.jpg",
+                "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
+            ]
+        }
+    ],
+    "total": 3,
+    "skip": 0,
+    "limit": 3
+}
+
+21:13:48.936 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+21:13:51.143 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/search?q=Laptop
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 18:13:50 GMT
+x-ratelimit-reset: 1707156839
+content-type: application/json; charset=utf-8
+etag: W/"6ee-WO3hWwt3hA0us0xXJJSumMbvU08"
+vary: Accept-Encoding
+content-encoding: gzip
+server: railway
+transfer-encoding: chunked
+
+{
+    "products": [
+        {
+            "id": 7,
+            "title": "Samsung Galaxy Book",
+            "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+            "price": 1499,
+            "discountPercentage": 4.15,
+            "rating": 4.25,
+            "stock": 50,
+            "brand": "Samsung",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/7/1.jpg",
+                "https://cdn.dummyjson.com/product-images/7/2.jpg",
+                "https://cdn.dummyjson.com/product-images/7/3.jpg",
+                "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Microsoft Surface Laptop 4",
+            "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+            "price": 1499,
+            "discountPercentage": 10.23,
+            "rating": 4.43,
+            "stock": 68,
+            "brand": "Microsoft Surface",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/8/1.jpg",
+                "https://cdn.dummyjson.com/product-images/8/2.jpg",
+                "https://cdn.dummyjson.com/product-images/8/3.jpg",
+                "https://cdn.dummyjson.com/product-images/8/4.jpg",
+                "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "HP Pavilion 15-DK1056WM",
+            "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+            "price": 1099,
+            "discountPercentage": 6.18,
+            "rating": 4.43,
+            "stock": 89,
+            "brand": "HP Pavilion",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/10/1.jpg",
+                "https://cdn.dummyjson.com/product-images/10/2.jpg",
+                "https://cdn.dummyjson.com/product-images/10/3.jpg",
+                "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
+            ]
+        }
+    ],
+    "total": 3,
+    "skip": 0,
+    "limit": 3
+}
+
+21:13:58.871 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+21:14:01.076 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/search?q=Laptop
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 18:14:00 GMT
+x-ratelimit-reset: 1707156849
+content-type: application/json; charset=utf-8
+etag: W/"6ee-WO3hWwt3hA0us0xXJJSumMbvU08"
+vary: Accept-Encoding
+content-encoding: gzip
+server: railway
+transfer-encoding: chunked
+
+{
+    "products": [
+        {
+            "id": 7,
+            "title": "Samsung Galaxy Book",
+            "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+            "price": 1499,
+            "discountPercentage": 4.15,
+            "rating": 4.25,
+            "stock": 50,
+            "brand": "Samsung",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/7/1.jpg",
+                "https://cdn.dummyjson.com/product-images/7/2.jpg",
+                "https://cdn.dummyjson.com/product-images/7/3.jpg",
+                "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Microsoft Surface Laptop 4",
+            "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+            "price": 1499,
+            "discountPercentage": 10.23,
+            "rating": 4.43,
+            "stock": 68,
+            "brand": "Microsoft Surface",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/8/1.jpg",
+                "https://cdn.dummyjson.com/product-images/8/2.jpg",
+                "https://cdn.dummyjson.com/product-images/8/3.jpg",
+                "https://cdn.dummyjson.com/product-images/8/4.jpg",
+                "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "HP Pavilion 15-DK1056WM",
+            "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+            "price": 1099,
+            "discountPercentage": 6.18,
+            "rating": 4.43,
+            "stock": 89,
+            "brand": "HP Pavilion",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/10/1.jpg",
+                "https://cdn.dummyjson.com/product-images/10/2.jpg",
+                "https://cdn.dummyjson.com/product-images/10/3.jpg",
+                "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
+            ]
+        }
+    ],
+    "total": 3,
+    "skip": 0,
+    "limit": 3
+}
+
+21:14:42.383 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+21:14:44.628 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/search?q=Laptop
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 18:14:44 GMT
+x-ratelimit-reset: 1707156889
+content-type: application/json; charset=utf-8
+etag: W/"6ee-WO3hWwt3hA0us0xXJJSumMbvU08"
+vary: Accept-Encoding
+content-encoding: gzip
+server: railway
+transfer-encoding: chunked
+
+{
+    "products": [
+        {
+            "id": 7,
+            "title": "Samsung Galaxy Book",
+            "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+            "price": 1499,
+            "discountPercentage": 4.15,
+            "rating": 4.25,
+            "stock": 50,
+            "brand": "Samsung",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/7/1.jpg",
+                "https://cdn.dummyjson.com/product-images/7/2.jpg",
+                "https://cdn.dummyjson.com/product-images/7/3.jpg",
+                "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Microsoft Surface Laptop 4",
+            "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+            "price": 1499,
+            "discountPercentage": 10.23,
+            "rating": 4.43,
+            "stock": 68,
+            "brand": "Microsoft Surface",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/8/1.jpg",
+                "https://cdn.dummyjson.com/product-images/8/2.jpg",
+                "https://cdn.dummyjson.com/product-images/8/3.jpg",
+                "https://cdn.dummyjson.com/product-images/8/4.jpg",
+                "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "HP Pavilion 15-DK1056WM",
+            "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+            "price": 1099,
+            "discountPercentage": 6.18,
+            "rating": 4.43,
+            "stock": 89,
+            "brand": "HP Pavilion",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/10/1.jpg",
+                "https://cdn.dummyjson.com/product-images/10/2.jpg",
+                "https://cdn.dummyjson.com/product-images/10/3.jpg",
+                "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
+            ]
+        }
+    ],
+    "total": 3,
+    "skip": 0,
+    "limit": 3
+}
+
+21:16:26.456 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+21:16:28.625 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/search?q=dummy
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 18:16:28 GMT
+x-ratelimit-reset: 1707156989
+content-type: application/json; charset=utf-8
+content-length: 44
+etag: W/"2c-yOi/7Bbg3zAE7r3Ra2tViR+0cAQ"
+vary: Accept-Encoding
+server: railway
+
+{
+    "products": [
+        
+    ],
+    "total": 0,
+    "skip": 0,
+    "limit": 0
+}
+
+21:16:40.278 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+21:16:42.552 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/search?q=Laptop
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 18:16:42 GMT
+x-ratelimit-reset: 1707157009
+content-type: application/json; charset=utf-8
+etag: W/"6ee-WO3hWwt3hA0us0xXJJSumMbvU08"
+vary: Accept-Encoding
+content-encoding: gzip
+server: railway
+transfer-encoding: chunked
+
+{
+    "products": [
+        {
+            "id": 7,
+            "title": "Samsung Galaxy Book",
+            "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+            "price": 1499,
+            "discountPercentage": 4.15,
+            "rating": 4.25,
+            "stock": 50,
+            "brand": "Samsung",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/7/1.jpg",
+                "https://cdn.dummyjson.com/product-images/7/2.jpg",
+                "https://cdn.dummyjson.com/product-images/7/3.jpg",
+                "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Microsoft Surface Laptop 4",
+            "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+            "price": 1499,
+            "discountPercentage": 10.23,
+            "rating": 4.43,
+            "stock": 68,
+            "brand": "Microsoft Surface",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/8/1.jpg",
+                "https://cdn.dummyjson.com/product-images/8/2.jpg",
+                "https://cdn.dummyjson.com/product-images/8/3.jpg",
+                "https://cdn.dummyjson.com/product-images/8/4.jpg",
+                "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "HP Pavilion 15-DK1056WM",
+            "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+            "price": 1099,
+            "discountPercentage": 6.18,
+            "rating": 4.43,
+            "stock": 89,
+            "brand": "HP Pavilion",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/10/1.jpg",
+                "https://cdn.dummyjson.com/product-images/10/2.jpg",
+                "https://cdn.dummyjson.com/product-images/10/3.jpg",
+                "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
+            ]
+        }
+    ],
+    "total": 3,
+    "skip": 0,
+    "limit": 3
+}
+
+21:18:33.352 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+21:18:35.599 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/search?q=Laptop
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 18:18:35 GMT
+x-ratelimit-reset: 1707157119
+content-type: application/json; charset=utf-8
+etag: W/"6ee-WO3hWwt3hA0us0xXJJSumMbvU08"
+vary: Accept-Encoding
+content-encoding: gzip
+server: railway
+transfer-encoding: chunked
+
+{
+    "products": [
+        {
+            "id": 7,
+            "title": "Samsung Galaxy Book",
+            "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+            "price": 1499,
+            "discountPercentage": 4.15,
+            "rating": 4.25,
+            "stock": 50,
+            "brand": "Samsung",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/7/1.jpg",
+                "https://cdn.dummyjson.com/product-images/7/2.jpg",
+                "https://cdn.dummyjson.com/product-images/7/3.jpg",
+                "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Microsoft Surface Laptop 4",
+            "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+            "price": 1499,
+            "discountPercentage": 10.23,
+            "rating": 4.43,
+            "stock": 68,
+            "brand": "Microsoft Surface",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/8/1.jpg",
+                "https://cdn.dummyjson.com/product-images/8/2.jpg",
+                "https://cdn.dummyjson.com/product-images/8/3.jpg",
+                "https://cdn.dummyjson.com/product-images/8/4.jpg",
+                "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "HP Pavilion 15-DK1056WM",
+            "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+            "price": 1099,
+            "discountPercentage": 6.18,
+            "rating": 4.43,
+            "stock": 89,
+            "brand": "HP Pavilion",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/10/1.jpg",
+                "https://cdn.dummyjson.com/product-images/10/2.jpg",
+                "https://cdn.dummyjson.com/product-images/10/3.jpg",
+                "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
+            ]
+        }
+    ],
+    "total": 3,
+    "skip": 0,
+    "limit": 3
+}
+
+21:24:04.416 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+21:24:06.692 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/search?q=Laptop
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 18:24:06 GMT
+x-ratelimit-reset: 1707157449
+content-type: application/json; charset=utf-8
+etag: W/"6ee-WO3hWwt3hA0us0xXJJSumMbvU08"
+vary: Accept-Encoding
+content-encoding: gzip
+server: railway
+transfer-encoding: chunked
+
+{
+    "products": [
+        {
+            "id": 7,
+            "title": "Samsung Galaxy Book",
+            "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+            "price": 1499,
+            "discountPercentage": 4.15,
+            "rating": 4.25,
+            "stock": 50,
+            "brand": "Samsung",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/7/1.jpg",
+                "https://cdn.dummyjson.com/product-images/7/2.jpg",
+                "https://cdn.dummyjson.com/product-images/7/3.jpg",
+                "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Microsoft Surface Laptop 4",
+            "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+            "price": 1499,
+            "discountPercentage": 10.23,
+            "rating": 4.43,
+            "stock": 68,
+            "brand": "Microsoft Surface",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/8/1.jpg",
+                "https://cdn.dummyjson.com/product-images/8/2.jpg",
+                "https://cdn.dummyjson.com/product-images/8/3.jpg",
+                "https://cdn.dummyjson.com/product-images/8/4.jpg",
+                "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "HP Pavilion 15-DK1056WM",
+            "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+            "price": 1099,
+            "discountPercentage": 6.18,
+            "rating": 4.43,
+            "stock": 89,
+            "brand": "HP Pavilion",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/10/1.jpg",
+                "https://cdn.dummyjson.com/product-images/10/2.jpg",
+                "https://cdn.dummyjson.com/product-images/10/3.jpg",
+                "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
+            ]
+        }
+    ],
+    "total": 3,
+    "skip": 0,
+    "limit": 3
+}
+
+21:24:26.693 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+21:24:28.977 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/search?q=Laptop
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Mon, 05 Feb 2024 18:24:28 GMT
+x-ratelimit-reset: 1707157479
+content-type: application/json; charset=utf-8
+etag: W/"6ee-WO3hWwt3hA0us0xXJJSumMbvU08"
+vary: Accept-Encoding
+content-encoding: gzip
+server: railway
+transfer-encoding: chunked
+
+{
+    "products": [
+        {
+            "id": 7,
+            "title": "Samsung Galaxy Book",
+            "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+            "price": 1499,
+            "discountPercentage": 4.15,
+            "rating": 4.25,
+            "stock": 50,
+            "brand": "Samsung",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/7/1.jpg",
+                "https://cdn.dummyjson.com/product-images/7/2.jpg",
+                "https://cdn.dummyjson.com/product-images/7/3.jpg",
+                "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Microsoft Surface Laptop 4",
+            "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+            "price": 1499,
+            "discountPercentage": 10.23,
+            "rating": 4.43,
+            "stock": 68,
+            "brand": "Microsoft Surface",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/8/1.jpg",
+                "https://cdn.dummyjson.com/product-images/8/2.jpg",
+                "https://cdn.dummyjson.com/product-images/8/3.jpg",
+                "https://cdn.dummyjson.com/product-images/8/4.jpg",
+                "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "HP Pavilion 15-DK1056WM",
+            "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+            "price": 1099,
+            "discountPercentage": 6.18,
+            "rating": 4.43,
+            "stock": 89,
+            "brand": "HP Pavilion",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/10/1.jpg",
+                "https://cdn.dummyjson.com/product-images/10/2.jpg",
+                "https://cdn.dummyjson.com/product-images/10/3.jpg",
+                "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
+            ]
+        }
+    ],
+    "total": 3,
+    "skip": 0,
+    "limit": 3
+}
+
+17:30:49.073 [main] INFO  org.reflections.Reflections - Reflections took 77 ms to scan 6 urls, producing 102 keys and 340 values
+17:30:49.149 [main] INFO  com.zebrunner.carina.core.listeners.CarinaListener - 
+=========== WebDriver configuration ===========
+-------------- Driver capabilities ------------
+===============================================
+
+17:30:49.186 [main] WARN  com.zebrunner.agent.core.registrar.TestRunRegistrar - Reporting disabled: using no op test run registrar
+17:30:50.013 [main] INFO  org.reflections.Reflections - Reflections took 810 ms to scan 166 urls, producing 7887 keys and 33427 values
+17:30:50.750 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+17:30:50.765 [main] INFO  com.zebrunner.carina.core.listeners.CarinaListener - Set thread-count=1
+17:30:50.767 [main] INFO  com.zebrunner.carina.core.listeners.CarinaListener - Set data-provider-thread-count=1
+17:30:50.776 [main] INFO  com.zebrunner.carina.core.listeners.CarinaListener - CARINA_CORE_VERSION: 1.2.6
+17:30:50.828 [main] WARN  com.zebrunner.agent.core.registrar.TestRunRegistrar - Reporting disabled: using no op test run registrar
+17:30:50.831 [main] INFO  com.zebrunner.carina.utils.messager.Messager - TEST [automation-tests-practice - testCreateProduct] STARTED at [17:30:50 2024-02-06]
+17:30:53.278 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	POST
+Request URI:	https://dummyjson.com/products/add
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:
+{
+    "id": 101,
+    "title": "Product",
+    "description": "Product",
+    "price": 500,
+    "discountPercentage": 10.0,
+    "rating": 10.0,
+    "stock": 99,
+    "brand": "Product",
+    "category": "Product",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
+    "images": "skip"
+}
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Tue, 06 Feb 2024 14:30:53 GMT
+x-ratelimit-reset: 1707229860
+content-type: application/json; charset=utf-8
+content-length: 213
+etag: W/"d5-ILko+sAbJN/f/DST9qwyJvtK+PI"
+vary: Accept-Encoding
+server: railway
+
+{
+    "id": 101,
+    "title": "Product",
+    "price": 500,
+    "stock": 99,
+    "rating": 10,
+    "images": "skip",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
+    "description": "Product",
+    "brand": "Product",
+    "category": "Product"
+}
+
+17:30:53.293 [main] INFO  com.zebrunner.carina.utils.messager.Messager - TEST [automation-tests-practice - testCreateProduct] PASSED at [17:30:53 2024-02-06]
+17:30:53.328 [main] WARN  com.zebrunner.agent.core.registrar.TestRunRegistrar - Reporting disabled: using no op test run registrar
+17:30:53.328 [main] INFO  com.zebrunner.carina.utils.messager.Messager - TEST [automation-tests-practice - testDeleteProduct] STARTED at [17:30:53 2024-02-06]
+17:30:53.910 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	DELETE
+Request URI:	https://dummyjson.com/products/1
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 98
+date: Tue, 06 Feb 2024 14:30:53 GMT
+x-ratelimit-reset: 1707229860
+content-type: application/json; charset=utf-8
+content-length: 593
+etag: W/"251-/2AcJD6MjC8+0DWorKy9F9yTFXE"
+vary: Accept-Encoding
+server: railway
+
+{
+    "id": 1,
+    "title": "iPhone 9",
+    "description": "An apple mobile which is nothing like apple",
+    "price": 549,
+    "discountPercentage": 12.96,
+    "rating": 4.69,
+    "stock": 94,
+    "brand": "Apple",
+    "category": "smartphones",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
+    "images": [
+        "https://cdn.dummyjson.com/product-images/1/1.jpg",
+        "https://cdn.dummyjson.com/product-images/1/2.jpg",
+        "https://cdn.dummyjson.com/product-images/1/3.jpg",
+        "https://cdn.dummyjson.com/product-images/1/4.jpg",
+        "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"
+    ],
+    "isDeleted": true,
+    "deletedOn": "2024-02-06T14:30:53.816Z"
+}
+
+17:30:53.911 [main] INFO  com.zebrunner.carina.utils.messager.Messager - TEST [automation-tests-practice - testDeleteProduct] PASSED at [17:30:53 2024-02-06]
+17:30:53.913 [main] WARN  com.zebrunner.agent.core.registrar.TestRunRegistrar - Reporting disabled: using no op test run registrar
+17:30:53.913 [main] INFO  com.zebrunner.carina.utils.messager.Messager - TEST [automation-tests-practice - testGetProductById] STARTED at [17:30:53 2024-02-06]
+17:30:54.458 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/1
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 97
+date: Tue, 06 Feb 2024 14:30:54 GMT
+x-ratelimit-reset: 1707229860
+content-type: application/json; charset=utf-8
+content-length: 537
+etag: W/"219-Qb5jNZGxbDZom9db3B0+RJe2d+4"
+vary: Accept-Encoding
+server: railway
+
+{
+    "id": 1,
+    "title": "iPhone 9",
+    "description": "An apple mobile which is nothing like apple",
+    "price": 549,
+    "discountPercentage": 12.96,
+    "rating": 4.69,
+    "stock": 94,
+    "brand": "Apple",
+    "category": "smartphones",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
+    "images": [
+        "https://cdn.dummyjson.com/product-images/1/1.jpg",
+        "https://cdn.dummyjson.com/product-images/1/2.jpg",
+        "https://cdn.dummyjson.com/product-images/1/3.jpg",
+        "https://cdn.dummyjson.com/product-images/1/4.jpg",
+        "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"
+    ]
+}
+
+17:30:54.477 [main] INFO  com.zebrunner.carina.utils.messager.Messager - TEST [automation-tests-practice - testGetProductById] PASSED at [17:30:54 2024-02-06]
+17:30:54.479 [main] WARN  com.zebrunner.agent.core.registrar.TestRunRegistrar - Reporting disabled: using no op test run registrar
+17:30:54.480 [main] INFO  com.zebrunner.carina.utils.messager.Messager - TEST [automation-tests-practice - testSearchNonexistentProduct] STARTED at [17:30:54 2024-02-06]
+17:30:55.006 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/search?q=dummy
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 96
+date: Tue, 06 Feb 2024 14:30:54 GMT
+x-ratelimit-reset: 1707229860
+content-type: application/json; charset=utf-8
+content-length: 44
+etag: W/"2c-yOi/7Bbg3zAE7r3Ra2tViR+0cAQ"
+vary: Accept-Encoding
+server: railway
+
+{
+    "products": [
+        
+    ],
+    "total": 0,
+    "skip": 0,
+    "limit": 0
+}
+
+17:30:55.008 [main] INFO  com.zebrunner.carina.utils.messager.Messager - TEST [automation-tests-practice - testSearchNonexistentProduct] PASSED at [17:30:55 2024-02-06]
+17:30:55.015 [main] WARN  com.zebrunner.agent.core.registrar.TestRunRegistrar - Reporting disabled: using no op test run registrar
+17:30:55.015 [main] INFO  com.zebrunner.carina.utils.messager.Messager - TEST [automation-tests-practice - testSearchProduct] STARTED at [17:30:55 2024-02-06]
+17:30:55.538 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/search?q=Laptop
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 95
+date: Tue, 06 Feb 2024 14:30:55 GMT
+x-ratelimit-reset: 1707229860
+content-type: application/json; charset=utf-8
+etag: W/"6ee-WO3hWwt3hA0us0xXJJSumMbvU08"
+vary: Accept-Encoding
+content-encoding: gzip
+server: railway
+transfer-encoding: chunked
+
+{
+    "products": [
+        {
+            "id": 7,
+            "title": "Samsung Galaxy Book",
+            "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+            "price": 1499,
+            "discountPercentage": 4.15,
+            "rating": 4.25,
+            "stock": 50,
+            "brand": "Samsung",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/7/1.jpg",
+                "https://cdn.dummyjson.com/product-images/7/2.jpg",
+                "https://cdn.dummyjson.com/product-images/7/3.jpg",
+                "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Microsoft Surface Laptop 4",
+            "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+            "price": 1499,
+            "discountPercentage": 10.23,
+            "rating": 4.43,
+            "stock": 68,
+            "brand": "Microsoft Surface",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/8/1.jpg",
+                "https://cdn.dummyjson.com/product-images/8/2.jpg",
+                "https://cdn.dummyjson.com/product-images/8/3.jpg",
+                "https://cdn.dummyjson.com/product-images/8/4.jpg",
+                "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "HP Pavilion 15-DK1056WM",
+            "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+            "price": 1099,
+            "discountPercentage": 6.18,
+            "rating": 4.43,
+            "stock": 89,
+            "brand": "HP Pavilion",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/10/1.jpg",
+                "https://cdn.dummyjson.com/product-images/10/2.jpg",
+                "https://cdn.dummyjson.com/product-images/10/3.jpg",
+                "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
+            ]
+        }
+    ],
+    "total": 3,
+    "skip": 0,
+    "limit": 3
+}
+
+17:30:55.545 [main] INFO  com.zebrunner.carina.utils.messager.Messager - TEST [automation-tests-practice - testSearchProduct] PASSED at [17:30:55 2024-02-06]
+17:30:55.557 [main] INFO  com.zebrunner.carina.utils.messager.Messager - INFO: '**************** Test execution summary ****************'.
+17:30:55.557 [main] INFO  com.zebrunner.carina.utils.messager.Messager - RESULT #1: TEST [automation-tests-practice - testCreateProduct] PASS []
+17:30:55.557 [main] INFO  com.zebrunner.carina.utils.messager.Messager - RESULT #2: TEST [automation-tests-practice - testDeleteProduct] PASS []
+17:30:55.557 [main] INFO  com.zebrunner.carina.utils.messager.Messager - RESULT #3: TEST [automation-tests-practice - testGetProductById] PASS []
+17:30:55.558 [main] INFO  com.zebrunner.carina.utils.messager.Messager - RESULT #4: TEST [automation-tests-practice - testSearchNonexistentProduct] PASS []
+17:30:55.558 [main] INFO  com.zebrunner.carina.utils.messager.Messager - RESULT #5: TEST [automation-tests-practice - testSearchProduct] PASS []
+19:30:58.146 [main] INFO  org.reflections.Reflections - Reflections took 79 ms to scan 6 urls, producing 102 keys and 340 values
+19:30:58.237 [main] INFO  com.zebrunner.carina.core.listeners.CarinaListener - 
+============= Basic configuration =============
+env=PROD
+=========== WebDriver configuration ===========
+browser=chrome
+selenium_url=http://localhost:4444/wb/hub
+-------------- Driver capabilities ------------
+===============================================
+
+19:30:58.264 [main] WARN  com.zebrunner.agent.core.registrar.TestRunRegistrar - Reporting disabled: using no op test run registrar
+19:30:59.027 [main] INFO  org.reflections.Reflections - Reflections took 741 ms to scan 166 urls, producing 7888 keys and 33431 values
+19:30:59.683 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+19:30:59.695 [main] INFO  com.zebrunner.carina.core.listeners.CarinaListener - Set thread-count=1
+19:30:59.698 [main] INFO  com.zebrunner.carina.core.listeners.CarinaListener - Set data-provider-thread-count=1
+19:30:59.709 [main] INFO  com.zebrunner.carina.core.listeners.CarinaListener - CARINA_CORE_VERSION: 1.2.6
+19:30:59.762 [main] WARN  com.zebrunner.agent.core.registrar.TestRunRegistrar - Reporting disabled: using no op test run registrar
+19:30:59.766 [main] INFO  com.zebrunner.carina.utils.messager.Messager - TEST [automation-tests-practice - testSearch] STARTED at [19:30:59 2024-02-06]
+19:30:59.777 [main] INFO  com.zebrunner.carina.webdriver.core.factory.DriverFactory - Starting driver session...
+19:31:00.375 [main] ERROR com.zebrunner.carina.utils.messager.Messager - TEST [automation-tests-practice - testSearch] FAILED at [19:31:00 2024-02-06] - Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'ALFY', ip: '192.168.0.104'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --test-type, --start-maximized, --ignore-ssl-errors], extensions: []}}]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --test-type, --start-maximized, --ignore-ssl-errors], extensions: []}}
+
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+com.zebrunner.carina.webdriver.core.factory.impl.DesktopFactory.create(DesktopFactory.java:87)
+com.zebrunner.carina.webdriver.core.factory.DriverFactory.create(DriverFactory.java:89)
+com.zebrunner.carina.webdriver.IDriverPool.createDriver(IDriverPool.java:369)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:120)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:83)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:71)
+com.solvd.web.EbayTest.testSearch(EbayTest.java:11)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:568)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:819)
+org.testng.TestRunner.run(TestRunner.java:619)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+org.testng.SuiteRunner.run(SuiteRunner.java:336)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+org.testng.TestNG.runSuites(TestNG.java:1134)
+org.testng.TestNG.run(TestNG.java:1101)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+19:31:00.451 [main] INFO  com.zebrunner.carina.utils.messager.Messager - INFO: '**************** Test execution summary ****************'.
+19:31:00.451 [main] INFO  com.zebrunner.carina.utils.messager.Messager - RESULT #1: TEST [automation-tests-practice - testSearch] FAIL []
+19:33:19.887 [main] INFO  org.reflections.Reflections - Reflections took 80 ms to scan 6 urls, producing 102 keys and 340 values
+19:33:19.950 [main] INFO  com.zebrunner.carina.core.listeners.CarinaListener - 
+============= Basic configuration =============
+env=PROD
+=========== WebDriver configuration ===========
+browser=chrome
+selenium_url=http://localhost:4444/wb/hub
+-------------- Driver capabilities ------------
+===============================================
+
+19:33:19.977 [main] WARN  com.zebrunner.agent.core.registrar.TestRunRegistrar - Reporting disabled: using no op test run registrar
+19:33:20.698 [main] INFO  org.reflections.Reflections - Reflections took 700 ms to scan 166 urls, producing 7888 keys and 33431 values
+19:33:21.362 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+19:33:21.373 [main] INFO  com.zebrunner.carina.core.listeners.CarinaListener - Set thread-count=1
+19:33:21.375 [main] INFO  com.zebrunner.carina.core.listeners.CarinaListener - Set data-provider-thread-count=1
+19:33:21.386 [main] INFO  com.zebrunner.carina.core.listeners.CarinaListener - CARINA_CORE_VERSION: 1.2.6
+19:33:21.435 [main] WARN  com.zebrunner.agent.core.registrar.TestRunRegistrar - Reporting disabled: using no op test run registrar
+19:33:21.439 [main] INFO  com.zebrunner.carina.utils.messager.Messager - TEST [automation-tests-practice - testSearch] STARTED at [19:33:21 2024-02-06]
+19:33:21.451 [main] INFO  com.zebrunner.carina.webdriver.core.factory.DriverFactory - Starting driver session...
+19:33:22.119 [main] ERROR com.zebrunner.carina.utils.messager.Messager - TEST [automation-tests-practice - testSearch] FAILED at [19:33:22 2024-02-06] - Could not start a new session. Response code 404. Message: Unable to find handler for (POST) /wb/hub/session 
+Host info: host: 'ALFY', ip: '192.168.0.104'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --test-type, --start-maximized, --ignore-ssl-errors], extensions: []}}]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --test-type, --start-maximized, --ignore-ssl-errors], extensions: []}}
+
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+com.zebrunner.carina.webdriver.listener.EventFiringSeleniumCommandExecutor.execute(EventFiringSeleniumCommandExecutor.java:52)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+com.zebrunner.carina.webdriver.core.factory.impl.DesktopFactory.create(DesktopFactory.java:87)
+com.zebrunner.carina.webdriver.core.factory.DriverFactory.create(DriverFactory.java:89)
+com.zebrunner.carina.webdriver.IDriverPool.createDriver(IDriverPool.java:369)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:120)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:83)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:71)
+com.solvd.web.EbayTest.testSearch(EbayTest.java:11)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:568)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:819)
+org.testng.TestRunner.run(TestRunner.java:619)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+org.testng.SuiteRunner.run(SuiteRunner.java:336)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+org.testng.TestNG.runSuites(TestNG.java:1134)
+org.testng.TestNG.run(TestNG.java:1101)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+19:33:22.167 [main] INFO  com.zebrunner.carina.utils.messager.Messager - INFO: '**************** Test execution summary ****************'.
+19:33:22.168 [main] INFO  com.zebrunner.carina.utils.messager.Messager - RESULT #1: TEST [automation-tests-practice - testSearch] FAIL []
+19:35:27.574 [main] INFO  org.reflections.Reflections - Reflections took 75 ms to scan 6 urls, producing 102 keys and 340 values
+19:35:27.644 [main] INFO  com.zebrunner.carina.core.listeners.CarinaListener - 
+============= Basic configuration =============
+env=PROD
+=========== WebDriver configuration ===========
+browser=chrome
+selenium_url=http://localhost:4444
+-------------- Driver capabilities ------------
+===============================================
+
+19:35:27.664 [main] WARN  com.zebrunner.agent.core.registrar.TestRunRegistrar - Reporting disabled: using no op test run registrar
+19:35:28.389 [main] INFO  org.reflections.Reflections - Reflections took 707 ms to scan 166 urls, producing 7888 keys and 33431 values
+19:35:29.120 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+19:35:29.130 [main] INFO  com.zebrunner.carina.core.listeners.CarinaListener - Set thread-count=1
+19:35:29.132 [main] INFO  com.zebrunner.carina.core.listeners.CarinaListener - Set data-provider-thread-count=1
+19:35:29.142 [main] INFO  com.zebrunner.carina.core.listeners.CarinaListener - CARINA_CORE_VERSION: 1.2.6
+19:35:29.187 [main] WARN  com.zebrunner.agent.core.registrar.TestRunRegistrar - Reporting disabled: using no op test run registrar
+19:35:29.191 [main] INFO  com.zebrunner.carina.utils.messager.Messager - TEST [automation-tests-practice - testSearch] STARTED at [19:35:29 2024-02-06]
+19:35:29.204 [main] INFO  com.zebrunner.carina.webdriver.core.factory.DriverFactory - Starting driver session...
+19:35:31.332 [main] INFO  com.zebrunner.carina.webdriver.core.factory.DriverFactory - Driver session started.
+19:35:31.664 [main] INFO  com.zebrunner.carina.utils.messager.Messager - INFO: opening url 'https://www.ebay.com'
+19:35:33.223 [main] INFO  com.zebrunner.carina.utils.messager.Messager - TEST [automation-tests-practice - testSearch] PASSED at [19:35:33 2024-02-06]
+19:35:33.386 [main] INFO  com.zebrunner.carina.utils.messager.Messager - INFO: '**************** Test execution summary ****************'.
+19:35:33.386 [main] INFO  com.zebrunner.carina.utils.messager.Messager - RESULT #1: TEST [automation-tests-practice - testSearch] PASS []
+19:57:20.096 [main] INFO  org.reflections.Reflections - Reflections took 77 ms to scan 6 urls, producing 102 keys and 340 values
+19:57:20.167 [main] INFO  com.zebrunner.carina.core.listeners.CarinaListener - 
+============= Basic configuration =============
+env=PROD
+=========== WebDriver configuration ===========
+browser=chrome
+selenium_url=http://localhost:4444
+-------------- Driver capabilities ------------
+===============================================
+
+19:57:20.192 [main] WARN  com.zebrunner.agent.core.registrar.TestRunRegistrar - Reporting disabled: using no op test run registrar
+19:57:20.993 [main] INFO  org.reflections.Reflections - Reflections took 781 ms to scan 166 urls, producing 7888 keys and 33432 values
+19:57:21.685 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+19:57:21.697 [main] INFO  com.zebrunner.carina.core.listeners.CarinaListener - Set thread-count=1
+19:57:21.699 [main] INFO  com.zebrunner.carina.core.listeners.CarinaListener - Set data-provider-thread-count=1
+19:57:21.711 [main] INFO  com.zebrunner.carina.core.listeners.CarinaListener - CARINA_CORE_VERSION: 1.2.6
+19:57:21.764 [main] WARN  com.zebrunner.agent.core.registrar.TestRunRegistrar - Reporting disabled: using no op test run registrar
+19:57:21.766 [main] INFO  com.zebrunner.carina.utils.messager.Messager - TEST [automation-tests-practice - testSearch] STARTED at [19:57:21 2024-02-06]
+19:57:21.776 [main] INFO  com.zebrunner.carina.webdriver.core.factory.DriverFactory - Starting driver session...
+19:57:23.406 [main] INFO  com.zebrunner.carina.webdriver.core.factory.DriverFactory - Driver session started.
+19:57:23.708 [main] INFO  com.zebrunner.carina.utils.messager.Messager - INFO: opening url 'https://www.ebay.com'
+19:57:26.016 [main] INFO  com.zebrunner.carina.webdriver.listener.DriverListener - Keys 'iPhone' are sent to element 'searchInput'.
+19:57:30.553 [main] INFO  com.zebrunner.carina.webdriver.listener.DriverListener - Element 'searchButton' is clicked.
+19:57:31.176 [main] ERROR com.zebrunner.carina.utils.messager.Messager - TEST [automation-tests-practice - testSearch] FAILED at [19:57:31 2024-02-06] - The following asserts failed:
+	Search input incorrect placeholder expected [Search for anything] but found [Найдите любые товары],
+	Url does not contain search request expected [true] but found [false]
+
+org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+com.solvd.web.EbayTest.testSearch(EbayTest.java:46)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:568)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:819)
+org.testng.TestRunner.run(TestRunner.java:619)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+org.testng.SuiteRunner.run(SuiteRunner.java:336)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+org.testng.TestNG.runSuites(TestNG.java:1134)
+org.testng.TestNG.run(TestNG.java:1101)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+19:57:31.350 [main] INFO  com.zebrunner.carina.utils.messager.Messager - INFO: '**************** Test execution summary ****************'.
+19:57:31.350 [main] INFO  com.zebrunner.carina.utils.messager.Messager - RESULT #1: TEST [automation-tests-practice - testSearch] FAIL []
+20:53:23.473 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+20:54:55.199 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+20:55:08.833 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+20:55:27.010 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+20:55:56.172 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+20:57:44.085 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+20:59:33.826 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+21:01:16.911 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+21:01:44.101 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+21:03:21.886 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+21:04:00.286 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+21:04:19.611 [main] INFO  org.reflections.Reflections - Reflections took 98 ms to scan 6 urls, producing 102 keys and 340 values
+21:04:19.691 [main] INFO  com.zebrunner.carina.core.listeners.CarinaListener - 
+============= Basic configuration =============
+env=PRACTICE
+=========== WebDriver configuration ===========
+browser=chrome
+selenium_url=http://localhost:4444
+-------------- Driver capabilities ------------
+===============================================
+
+21:04:19.713 [main] WARN  com.zebrunner.agent.core.registrar.TestRunRegistrar - Reporting disabled: using no op test run registrar
+21:04:20.656 [main] INFO  org.reflections.Reflections - Reflections took 928 ms to scan 164 urls, producing 7869 keys and 33393 values
+21:04:21.399 [main] INFO  com.zebrunner.carina.core.listeners.CarinaListener - Set thread-count=1
+21:04:21.399 [main] INFO  com.zebrunner.carina.core.listeners.CarinaListener - Set data-provider-thread-count=1
+21:04:21.408 [main] INFO  com.zebrunner.carina.core.listeners.CarinaListener - CARINA_CORE_VERSION: 1.2.6
+21:04:21.463 [main] WARN  com.zebrunner.agent.core.registrar.TestRunRegistrar - Reporting disabled: using no op test run registrar
+21:04:21.465 [main] INFO  com.zebrunner.carina.utils.messager.Messager - TEST [Surefire test - testCreateProduct] STARTED at [21:04:21 2024-02-06]
+21:04:23.861 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	POST
+Request URI:	https://dummyjson.com/products/add
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:
+{
+    "id": 101,
+    "title": "Product",
+    "description": "Product",
+    "price": 500,
+    "discountPercentage": 10.0,
+    "rating": 10.0,
+    "stock": 99,
+    "brand": "Product",
+    "category": "Product",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
+    "images": "skip"
+}
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Tue, 06 Feb 2024 18:04:23 GMT
+x-ratelimit-reset: 1707242671
+content-type: application/json; charset=utf-8
+content-length: 213
+etag: W/"d5-ILko+sAbJN/f/DST9qwyJvtK+PI"
+vary: Accept-Encoding
+server: railway
+
+{
+    "id": 101,
+    "title": "Product",
+    "price": 500,
+    "stock": 99,
+    "rating": 10,
+    "images": "skip",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
+    "description": "Product",
+    "brand": "Product",
+    "category": "Product"
+}
+
+21:04:23.876 [main] INFO  com.zebrunner.carina.utils.messager.Messager - TEST [Surefire test - testCreateProduct] PASSED at [21:04:23 2024-02-06]
+21:04:23.907 [main] WARN  com.zebrunner.agent.core.registrar.TestRunRegistrar - Reporting disabled: using no op test run registrar
+21:04:23.909 [main] INFO  com.zebrunner.carina.utils.messager.Messager - TEST [Surefire test - testDeleteProduct] STARTED at [21:04:23 2024-02-06]
+21:04:24.483 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	DELETE
+Request URI:	https://dummyjson.com/products/1
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 98
+date: Tue, 06 Feb 2024 18:04:24 GMT
+x-ratelimit-reset: 1707242671
+content-type: application/json; charset=utf-8
+content-length: 593
+etag: W/"251-dnyzHC8C2n1OJgh7PNHwpyDmNE0"
+vary: Accept-Encoding
+server: railway
+
+{
+    "id": 1,
+    "title": "iPhone 9",
+    "description": "An apple mobile which is nothing like apple",
+    "price": 549,
+    "discountPercentage": 12.96,
+    "rating": 4.69,
+    "stock": 94,
+    "brand": "Apple",
+    "category": "smartphones",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
+    "images": [
+        "https://cdn.dummyjson.com/product-images/1/1.jpg",
+        "https://cdn.dummyjson.com/product-images/1/2.jpg",
+        "https://cdn.dummyjson.com/product-images/1/3.jpg",
+        "https://cdn.dummyjson.com/product-images/1/4.jpg",
+        "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"
+    ],
+    "isDeleted": true,
+    "deletedOn": "2024-02-06T18:04:24.402Z"
+}
+
+21:04:24.484 [main] INFO  com.zebrunner.carina.utils.messager.Messager - TEST [Surefire test - testDeleteProduct] PASSED at [21:04:24 2024-02-06]
+21:04:24.486 [main] WARN  com.zebrunner.agent.core.registrar.TestRunRegistrar - Reporting disabled: using no op test run registrar
+21:04:24.487 [main] INFO  com.zebrunner.carina.utils.messager.Messager - TEST [Surefire test - testGetProductById] STARTED at [21:04:24 2024-02-06]
+21:04:25.010 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/1
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 97
+date: Tue, 06 Feb 2024 18:04:24 GMT
+x-ratelimit-reset: 1707242671
+content-type: application/json; charset=utf-8
+content-length: 537
+etag: W/"219-Qb5jNZGxbDZom9db3B0+RJe2d+4"
+vary: Accept-Encoding
+server: railway
+
+{
+    "id": 1,
+    "title": "iPhone 9",
+    "description": "An apple mobile which is nothing like apple",
+    "price": 549,
+    "discountPercentage": 12.96,
+    "rating": 4.69,
+    "stock": 94,
+    "brand": "Apple",
+    "category": "smartphones",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
+    "images": [
+        "https://cdn.dummyjson.com/product-images/1/1.jpg",
+        "https://cdn.dummyjson.com/product-images/1/2.jpg",
+        "https://cdn.dummyjson.com/product-images/1/3.jpg",
+        "https://cdn.dummyjson.com/product-images/1/4.jpg",
+        "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"
+    ]
+}
+
+21:04:25.021 [main] INFO  com.zebrunner.carina.utils.messager.Messager - TEST [Surefire test - testGetProductById] PASSED at [21:04:25 2024-02-06]
+21:04:25.024 [main] WARN  com.zebrunner.agent.core.registrar.TestRunRegistrar - Reporting disabled: using no op test run registrar
+21:04:25.025 [main] INFO  com.zebrunner.carina.utils.messager.Messager - TEST [Surefire test - testSearchNonexistentProduct] STARTED at [21:04:25 2024-02-06]
+21:04:25.551 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/search?q=dummy
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 96
+date: Tue, 06 Feb 2024 18:04:25 GMT
+x-ratelimit-reset: 1707242671
+content-type: application/json; charset=utf-8
+content-length: 44
+etag: W/"2c-yOi/7Bbg3zAE7r3Ra2tViR+0cAQ"
+vary: Accept-Encoding
+server: railway
+
+{
+    "products": [
+        
+    ],
+    "total": 0,
+    "skip": 0,
+    "limit": 0
+}
+
+21:04:25.553 [main] INFO  com.zebrunner.carina.utils.messager.Messager - TEST [Surefire test - testSearchNonexistentProduct] PASSED at [21:04:25 2024-02-06]
+21:04:25.559 [main] WARN  com.zebrunner.agent.core.registrar.TestRunRegistrar - Reporting disabled: using no op test run registrar
+21:04:25.559 [main] INFO  com.zebrunner.carina.utils.messager.Messager - TEST [Surefire test - testSearchProduct] STARTED at [21:04:25 2024-02-06]
+21:04:26.089 [main] INFO  com.zebrunner.carina.api.AbstractApiMethod - Request method:	GET
+Request URI:	https://dummyjson.com/products/search?q=Laptop
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 95
+date: Tue, 06 Feb 2024 18:04:26 GMT
+x-ratelimit-reset: 1707242671
+content-type: application/json; charset=utf-8
+etag: W/"6ee-WO3hWwt3hA0us0xXJJSumMbvU08"
+vary: Accept-Encoding
+content-encoding: gzip
+server: railway
+transfer-encoding: chunked
+
+{
+    "products": [
+        {
+            "id": 7,
+            "title": "Samsung Galaxy Book",
+            "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+            "price": 1499,
+            "discountPercentage": 4.15,
+            "rating": 4.25,
+            "stock": 50,
+            "brand": "Samsung",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/7/1.jpg",
+                "https://cdn.dummyjson.com/product-images/7/2.jpg",
+                "https://cdn.dummyjson.com/product-images/7/3.jpg",
+                "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Microsoft Surface Laptop 4",
+            "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+            "price": 1499,
+            "discountPercentage": 10.23,
+            "rating": 4.43,
+            "stock": 68,
+            "brand": "Microsoft Surface",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/8/1.jpg",
+                "https://cdn.dummyjson.com/product-images/8/2.jpg",
+                "https://cdn.dummyjson.com/product-images/8/3.jpg",
+                "https://cdn.dummyjson.com/product-images/8/4.jpg",
+                "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "HP Pavilion 15-DK1056WM",
+            "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+            "price": 1099,
+            "discountPercentage": 6.18,
+            "rating": 4.43,
+            "stock": 89,
+            "brand": "HP Pavilion",
+            "category": "laptops",
+            "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+            "images": [
+                "https://cdn.dummyjson.com/product-images/10/1.jpg",
+                "https://cdn.dummyjson.com/product-images/10/2.jpg",
+                "https://cdn.dummyjson.com/product-images/10/3.jpg",
+                "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
+            ]
+        }
+    ],
+    "total": 3,
+    "skip": 0,
+    "limit": 3
+}
+
+21:04:26.101 [main] INFO  com.zebrunner.carina.utils.messager.Messager - TEST [Surefire test - testSearchProduct] PASSED at [21:04:26 2024-02-06]
+21:04:26.106 [main] WARN  com.zebrunner.agent.core.registrar.TestRunRegistrar - Reporting disabled: using no op test run registrar
+21:04:26.106 [main] INFO  com.zebrunner.carina.utils.messager.Messager - TEST [Surefire test - testValidLogin] STARTED at [21:04:26 2024-02-06]
+21:04:26.113 [main] ERROR com.zebrunner.carina.utils.messager.Messager - TEST [Surefire test - testValidLogin] FAILED at [21:04:26 2024-02-06] - Zebrunner didn't provide a selenium hub url.
+
+com.zebrunner.agent.core.webdriver.RemoteWebDriverFactory.lambda$getMandatorySeleniumHubUrl$0(RemoteWebDriverFactory.java:32)
+java.base/java.util.Optional.orElseThrow(Optional.java:403)
+com.zebrunner.agent.core.webdriver.RemoteWebDriverFactory.getMandatorySeleniumHubUrl(RemoteWebDriverFactory.java:32)
+com.zebrunner.agent.core.webdriver.RemoteWebDriverFactory.getDriver(RemoteWebDriverFactory.java:48)
+com.solvd.web.SaucedemoTest.testValidLogin(SaucedemoTest.java:17)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:568)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:819)
+org.testng.TestRunner.run(TestRunner.java:619)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+org.testng.SuiteRunner.run(SuiteRunner.java:336)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+org.testng.TestNG.runSuites(TestNG.java:1134)
+org.testng.TestNG.run(TestNG.java:1101)
+org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+21:04:26.150 [main] INFO  com.zebrunner.carina.utils.messager.Messager - INFO: '**************** Test execution summary ****************'.
+21:04:26.150 [main] INFO  com.zebrunner.carina.utils.messager.Messager - RESULT #1: TEST [Surefire test - testCreateProduct] PASS []
+21:04:26.150 [main] INFO  com.zebrunner.carina.utils.messager.Messager - RESULT #2: TEST [Surefire test - testDeleteProduct] PASS []
+21:04:26.151 [main] INFO  com.zebrunner.carina.utils.messager.Messager - RESULT #3: TEST [Surefire test - testGetProductById] PASS []
+21:04:26.151 [main] INFO  com.zebrunner.carina.utils.messager.Messager - RESULT #4: TEST [Surefire test - testSearchNonexistentProduct] PASS []
+21:04:26.151 [main] INFO  com.zebrunner.carina.utils.messager.Messager - RESULT #5: TEST [Surefire test - testSearchProduct] PASS []
+21:04:26.151 [main] INFO  com.zebrunner.carina.utils.messager.Messager - RESULT #6: TEST [Surefire test - testValidLogin] FAIL []
+21:04:33.506 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+21:06:32.895 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\_Alfy_\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
