@@ -1,4 +1,4 @@
-package com.solvd;
+package com.solvd.api;
 
 import com.solvd.api.DeleteProduct;
 import com.solvd.api.GetProductSearch;
