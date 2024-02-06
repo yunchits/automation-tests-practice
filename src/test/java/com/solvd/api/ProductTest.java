@@ -1,9 +1,5 @@
-package com.solvd;
+package com.solvd.api;
 
-import com.solvd.api.DeleteProduct;
-import com.solvd.api.GetProductSearch;
-import com.solvd.api.GetProductById;
-import com.solvd.api.PostProduct;
 import com.solvd.model.Product;
 import org.testng.annotations.Test;
 

@@ -3,7 +3,7 @@
 <suite name="Products Suite" verbose="1" parallel="methods" thread-count="5">
     <test name="Products API tests" parallel="methods" thread-count="5">
         <classes>
-            <class name="com.solvd.ProductTest">
+            <class name="com.solvd.api.ProductTest">
             </class>
         </classes>
     </test>
