@@ -35,7 +35,7 @@ public class ProductTest implements IAbstractTest {
     @Test
     public void testSearchNonexistentProduct() {
         GetProductSearch api = new GetProductSearch("dummy");
-        api.setResponseTemplate("api/products/_get/not_exist_category_rs.json");
+        api.setResponseTemplate("api/products/_get/not_exist_search_rs.json");
         api.callAPI();
         api.validateResponse();
     }
