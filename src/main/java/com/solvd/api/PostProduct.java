@@ -17,8 +17,6 @@ import com.zebrunner.carina.utils.config.Configuration;
 public class PostProduct extends AbstractApiMethodV2 {
 
     public PostProduct() {
-        super(null, "api/products/_post/product_rs.json");
-
         replaceUrlPlaceholder("base_url", Configuration.getRequired("api_url"));
 
         ignorePropertiesProcessor(NotStringValuesProcessor.class);

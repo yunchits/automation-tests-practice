@@ -12,7 +12,7 @@ public class ProductTest {
     @Test
     public void testGetProductById() {
         Product product = new Product()
-                .setId(1L)
+                .setId(1)
                 .setTitle("iPhone 9")
                 .setBrand("Apple")
                 .setCategory("smartphones");
@@ -24,7 +24,7 @@ public class ProductTest {
     }
 
     @Test
-    public void testGetProductSearch() {
+    public void testSearchProduct() {
         GetProductSearch api = new GetProductSearch("Laptop");
         api.setResponseTemplate("api/products/_get/laptops_rs.json");
         api.callAPI();
@@ -32,13 +32,12 @@ public class ProductTest {
     }
 
     @Test
-    public void testGetProductByNonexistent() {
+    public void testSearchNonexistentProduct() {
         GetProductSearch api = new GetProductSearch("dummy");
         api.setResponseTemplate("api/products/_get/not_exist_category_rs.json");
         api.callAPI();
         api.validateResponse();
     }
-
 
     @Test
     public void testCreateProduct() {
@@ -52,5 +51,4 @@ public class ProductTest {
         DeleteProduct api = new DeleteProduct();
         api.callAPIExpectSuccess();
     }
-
 }

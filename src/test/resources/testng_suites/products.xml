@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Products Suite" verbose="1" parallel="methods" thread-count="5">
+    <test name="Products API tests" parallel="methods" thread-count="5">
+        <classes>
+            <class name="com.solvd.ProductTest">
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -14,9 +14,7 @@ import com.zebrunner.carina.utils.config.Configuration;
 @SuccessfulHttpStatus(status = HttpResponseStatusType.OK_200)
 public class GetProductById extends AbstractApiMethodV2 {
 
-    public GetProductById(Long id) {
-        super(null, "api/products/_get/product_rs.json");
-
+    public GetProductById(Integer id) {
         replaceUrlPlaceholder("base_url", Configuration.getRequired("api_url"));
         replaceUrlPlaceholder("product_id", String.valueOf(id));
 

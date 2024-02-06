@@ -1,5 +1,5 @@
 {
-  "id": "${product.id}",
+  "id": ${product.id},
   "title": "${product.title}",
   "description": "type:String",
   "price": "type:Integer",

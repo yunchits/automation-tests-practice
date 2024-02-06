@@ -8,7 +8,7 @@ import lombok.experimental.Accessors;
 @Setter
 @Accessors(chain = true)
 public class Product {
-    private Long id;
+    private Integer id;
     private String title;
     private String brand;
     private String category;
