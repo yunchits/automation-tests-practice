@@ -5,9 +5,10 @@ import com.solvd.api.GetProductSearch;
 import com.solvd.api.GetProductById;
 import com.solvd.api.PostProduct;
 import com.solvd.model.Product;
+import com.zebrunner.carina.core.IAbstractTest;
 import org.testng.annotations.Test;
 
-public class ProductTest {
+public class ProductTest implements IAbstractTest {
 
     @Test
     public void testGetProductById() {
