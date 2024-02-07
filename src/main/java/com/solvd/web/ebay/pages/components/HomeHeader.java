@@ -1,4 +1,4 @@
-package com.solvd.web.ebay.components;
+package com.solvd.web.ebay.pages.components;
 
 import com.zebrunner.carina.webdriver.gui.AbstractUIObject;
 import lombok.Getter;
@@ -7,12 +7,17 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
 
 @Getter
-public class Header extends AbstractUIObject {
+public class HomeHeader extends AbstractUIObject {
+
+    @FindBy(xpath = ".//ul[@id='gh-eb']")
+    private Language language;
 
     @FindBy(xpath = ".//*[@id='gh-f']")
     private SearchLine searchLine;
 
-    public Header(WebDriver driver, SearchContext searchContext) {
+    public HomeHeader(WebDriver driver, SearchContext searchContext) {
         super(driver, searchContext);
     }
+
+
 }

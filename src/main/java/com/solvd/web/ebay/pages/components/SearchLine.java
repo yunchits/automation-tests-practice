@@ -1,6 +1,6 @@
-package com.solvd.web.ebay.components;
+package com.solvd.web.ebay.pages.components;
 
-import com.solvd.web.ebay.SearchPage;
+import com.solvd.web.ebay.pages.SearchPage;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import com.zebrunner.carina.webdriver.gui.AbstractUIObject;
 import lombok.Getter;

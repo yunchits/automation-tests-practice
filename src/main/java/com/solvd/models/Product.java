@@ -1,4 +1,4 @@
-package com.solvd.model;
+package com.solvd.models;
 
 import lombok.Getter;
 import lombok.Setter;
