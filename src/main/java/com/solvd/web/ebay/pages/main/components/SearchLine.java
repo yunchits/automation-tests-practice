@@ -1,6 +1,6 @@
-package com.solvd.web.ebay.pages.components;
+package com.solvd.web.ebay.pages.main.components;
 
-import com.solvd.web.ebay.pages.SearchPage;
+import com.solvd.web.ebay.pages.main.SearchPage;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import com.zebrunner.carina.webdriver.gui.AbstractUIObject;
 import lombok.Getter;
@@ -10,9 +10,6 @@ import org.openqa.selenium.support.FindBy;
 
 @Getter
 public class SearchLine extends AbstractUIObject {
-
-    @FindBy(xpath = ".//select[@id='gh-cat']")
-    private ExtendedWebElement categoriesSelect;
 
     @FindBy(xpath = ".//input[@type='text' and @role='combobox']")
     private ExtendedWebElement searchInput;
@@ -31,9 +28,5 @@ public class SearchLine extends AbstractUIObject {
 
     public void typeSearchInputValue(String value) {
         searchInput.type(value);
-    }
-
-    public String getSearchInputPlaceholder() { //todo
-        return searchInput.getAttribute("placeholder");
     }
 }

@@ -1,18 +1,20 @@
-package com.solvd.web.ebay.pages.components;
+package com.solvd.web.ebay.pages.main.components;
 
-import com.solvd.web.ebay.pages.ItemPage;
+import com.solvd.web.ebay.pages.main.ItemPage;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import com.zebrunner.carina.webdriver.gui.AbstractUIObject;
+import lombok.Getter;
 import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
 
-public class ItemCard extends AbstractUIObject {
+@Getter
+public class ItemSearchCard extends AbstractUIObject {
 
     @FindBy(xpath = ".//div[@class='s-item__title']//span[@role='heading']")
     private ExtendedWebElement title;
 
-    public ItemCard(WebDriver driver, SearchContext searchContext) {
+    public ItemSearchCard(WebDriver driver, SearchContext searchContext) {
         super(driver, searchContext);
     }
 

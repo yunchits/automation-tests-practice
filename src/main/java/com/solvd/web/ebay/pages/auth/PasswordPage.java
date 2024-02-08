@@ -1,5 +1,6 @@
-package com.solvd.web.ebay.pages;
+package com.solvd.web.ebay.pages.auth;
 
+import com.solvd.web.ebay.pages.main.HomePage;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import com.zebrunner.carina.webdriver.gui.AbstractPage;
 import lombok.Getter;
@@ -13,7 +14,7 @@ public class PasswordPage extends AbstractPage {
     private ExtendedWebElement passInput;
 
     @FindBy(xpath = "//button[@id='sgnBt']")
-    private ExtendedWebElement singInButton;
+    private ExtendedWebElement signInButton;
 
     @FindBy(xpath = "//p[@id='errormsg']")
     private ExtendedWebElement errorMessage;
@@ -28,7 +29,7 @@ public class PasswordPage extends AbstractPage {
     }
 
     public HomePage clickSingInButton() {
-        singInButton.click();
+        signInButton.click();
         return new HomePage(getDriver());
     }
 

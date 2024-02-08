@@ -1,12 +1,14 @@
 package com.solvd.web;
 
+import com.solvd.constants.TimeConstant;
 import com.solvd.models.Users;
 import com.solvd.servicies.LanguageService;
 import com.solvd.servicies.SignInService;
-import com.solvd.web.ebay.pages.HomePage;
-import com.solvd.web.ebay.pages.LoginPage;
-import com.solvd.web.ebay.pages.PasswordPage;
-import com.solvd.web.ebay.pages.SingOutPage;
+import com.solvd.web.ebay.pages.auth.LoginPage;
+import com.solvd.web.ebay.pages.auth.PasswordPage;
+import com.solvd.web.ebay.pages.auth.SingOutPage;
+import com.solvd.web.ebay.pages.main.HomePage;
+import com.solvd.web.ebay.pages.main.components.Navigation;
 import com.zebrunner.carina.core.IAbstractTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -15,81 +17,79 @@ public class EbayAuthenticationTest implements IAbstractTest {
 
     @Test(description = "Verify valid login")
     public void testValidLogin() {
-        HomePage page = openHomePage();
+        HomePage homePage = openHomePageInEnglish();
+        Navigation navigation = homePage.getNavigation();
 
         SignInService signInService = new SignInService();
 
-        Assert.assertTrue(page.getSignInButton().isElementPresent());
-        LoginPage loginPage = page.clickSignIn();
+        Assert.assertTrue(navigation.getSignInButton().isElementPresent(TimeConstant.SHORT_TIMEOUT),
+            "Sign in button is not present");
+        LoginPage loginPage = homePage.clickSignIn();
 
-        Assert.assertTrue(loginPage.getUsernameInput().isElementPresent());
-        Assert.assertTrue(loginPage.getContinueButton().isElementPresent());
+        Assert.assertTrue(loginPage.getUsernameInput().isElementPresent(TimeConstant.SHORT_TIMEOUT),
+            "Username input is not present");
+        Assert.assertTrue(loginPage.getContinueButton().isElementPresent(TimeConstant.SHORT_TIMEOUT),
+            "Continue button is not present");
         PasswordPage passwordPage = signInService.setLogin(loginPage, Users.VALID);
 
-        Assert.assertTrue(passwordPage.getPassInput().isElementPresent());
-        Assert.assertTrue(passwordPage.getSingInButton().isElementPresent());
+        Assert.assertTrue(passwordPage.getPassInput().isElementPresent(TimeConstant.SHORT_TIMEOUT),
+            "Pass input is not present");
+        Assert.assertTrue(passwordPage.getSignInButton().isElementPresent(TimeConstant.SHORT_TIMEOUT),
+            "Sign in button is not present");
+
         signInService.setPassword(passwordPage, Users.VALID);
+
+        Assert.assertTrue(homePage.isUserSignIn(), "User is not sign in");
     }
 
     @Test(description = "Check the invalid login exception")
     public void testInvalidLogin() {
-        HomePage page = openHomePage();
+        HomePage homePage = openHomePageInEnglish();
 
         SignInService signInService = new SignInService();
 
-        Assert.assertTrue(page.getSignInButton().isElementPresent());
-        LoginPage loginPage = page.clickSignIn();
+        LoginPage loginPage = homePage.clickSignIn();
 
-        Assert.assertTrue(loginPage.getUsernameInput().isElementPresent());
-        Assert.assertTrue(loginPage.getContinueButton().isElementPresent());
         signInService.setLogin(loginPage, Users.INVALID);
 
-        Assert.assertTrue(loginPage.getErrorMessage().isElementPresent());
+        Assert.assertTrue(loginPage.getErrorMessage().isElementPresent(TimeConstant.SHORT_TIMEOUT),
+            "Error message is not present");
         Assert.assertEquals(loginPage.getErrorMessageText(), "We couldn't find this eBay account.");
     }
 
     @Test(description = "Check the invalid password exception")
     public void testInvalidPass() {
-        HomePage page = openHomePage();
+        HomePage homePage = openHomePageInEnglish();
         SignInService signInService = new SignInService();
 
-        Assert.assertTrue(page.getSignInButton().isElementPresent());
-        LoginPage loginPage = page.clickSignIn();
+        LoginPage loginPage = homePage.clickSignIn();
 
-        Assert.assertTrue(loginPage.getUsernameInput().isElementPresent());
-        Assert.assertTrue(loginPage.getContinueButton().isElementPresent());
         PasswordPage passwordPage = signInService.setLogin(loginPage, Users.VALID);
 
-        Assert.assertTrue(passwordPage.getPassInput().isElementPresent());
-        Assert.assertTrue(passwordPage.getSingInButton().isElementPresent());
         signInService.setPassword(passwordPage, Users.INVALID);
 
-        Assert.assertTrue(passwordPage.getErrorMessage().isElementPresent());
+        Assert.assertTrue(passwordPage.getErrorMessage().isElementPresent(TimeConstant.SHORT_TIMEOUT),
+            "Error message is not present");
     }
 
     @Test(description = "Verify successful sign out")
     public void testSingOut() {
-        HomePage page = openHomePage();
+        HomePage homePage = openHomePageInEnglish();
 
         SignInService signInService = new SignInService();
 
-        Assert.assertTrue(page.getSignInButton().isElementPresent());
-        LoginPage loginPage = page.clickSignIn();
+        LoginPage loginPage = homePage.clickSignIn();
 
-        Assert.assertTrue(loginPage.getUsernameInput().isElementPresent());
-        Assert.assertTrue(loginPage.getContinueButton().isElementPresent());
         PasswordPage passwordPage = signInService.setLogin(loginPage, Users.VALID);
 
-        Assert.assertTrue(passwordPage.getPassInput().isElementPresent());
-        Assert.assertTrue(passwordPage.getSingInButton().isElementPresent());
         signInService.setPassword(passwordPage, Users.VALID);
 
-        SingOutPage singOutPage = page.clickSignOut();
-        Assert.assertTrue(singOutPage.getSignOutBanner().isElementPresent());
+        SingOutPage singOutPage = homePage.clickSignOut();
+        Assert.assertTrue(singOutPage.getSignOutBanner().isElementPresent(TimeConstant.SHORT_TIMEOUT),
+            "Sign out banner is not present");
     }
 
-
-    private HomePage openHomePage() {
+    private HomePage openHomePageInEnglish() {
         HomePage page = new HomePage(getDriver());
         page.open();
         new LanguageService().setEnglishLanguage(page);

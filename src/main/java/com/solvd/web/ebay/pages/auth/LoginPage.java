@@ -1,6 +1,5 @@
-package com.solvd.web.ebay.pages;
+package com.solvd.web.ebay.pages.auth;
 
-import com.solvd.models.User;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import com.zebrunner.carina.webdriver.gui.AbstractPage;
 import lombok.Getter;

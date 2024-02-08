@@ -1,9 +1,8 @@
-package com.solvd.web.ebay.pages.components;
+package com.solvd.web.ebay.pages.main.components;
 
-import com.solvd.web.ebay.pages.HomePage;
+import com.solvd.web.ebay.pages.main.HomePage;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import com.zebrunner.carina.webdriver.gui.AbstractUIObject;
-import lombok.Getter;
 import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
@@ -21,10 +20,6 @@ public class Language extends AbstractUIObject {
 
     public Language(WebDriver driver, SearchContext searchContext) {
         super(driver, searchContext);
-    }
-
-    public boolean isPresent() {
-        return languageButton.isElementPresent(1);
     }
 
     public String getText() {
