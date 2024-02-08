@@ -1,6 +1,5 @@
 package com.solvd.web.ebay.pages;
 
-import com.solvd.models.User;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import com.zebrunner.carina.webdriver.gui.AbstractPage;
 import lombok.Getter;
@@ -16,17 +15,24 @@ public class PasswordPage extends AbstractPage {
     @FindBy(xpath = "//button[@id='sgnBt']")
     private ExtendedWebElement singInButton;
 
+    @FindBy(xpath = "//p[@id='errormsg']")
+    private ExtendedWebElement errorMessage;
+
     public PasswordPage(WebDriver driver) {
         super(driver);
     }
 
-    public PasswordPage typePass(User user) {
-        passInput.type(user.getPassword());
+    public PasswordPage typePass(String pass) {
+        passInput.type(pass);
         return this;
     }
 
-    public PasswordPage clickSingIn() {
+    public HomePage clickSingInButton() {
         singInButton.click();
-        return this;
+        return new HomePage(getDriver());
+    }
+
+    public String getErrorMessageText() {
+        return errorMessage.getText();
     }
 }

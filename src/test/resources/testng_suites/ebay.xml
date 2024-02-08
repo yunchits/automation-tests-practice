@@ -4,7 +4,7 @@
     <test name="Products API tests">
         <classes>
             <class name="com.solvd.web.EbayWebTest"/>
-            <class name="com.solvd.web.EbayLoginTest"/>
+            <class name="com.solvd.web.EbayAuthenticationTest"/>
         </classes>
     </test>
 </suite>

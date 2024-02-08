@@ -16,12 +16,15 @@ public class LoginPage extends AbstractPage {
     @FindBy(xpath = "//button[@id='signin-continue-btn']")
     private ExtendedWebElement continueButton;
 
+    @FindBy(xpath = "//p[@id='signin-error-msg']")
+    private ExtendedWebElement errorMessage;
+
     public LoginPage(WebDriver driver) {
         super(driver);
     }
 
-    public LoginPage typeUsername(User user) {
-        usernameInput.type(user.getUsername());
+    public LoginPage typeUsername(String username) {
+        usernameInput.type(username);
         return this;
     }
 
@@ -30,4 +33,7 @@ public class LoginPage extends AbstractPage {
         return new PasswordPage(getDriver());
     }
 
+    public String getErrorMessageText() {
+        return errorMessage.getText();
+    }
 }

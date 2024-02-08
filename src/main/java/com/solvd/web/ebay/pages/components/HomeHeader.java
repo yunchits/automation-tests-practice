@@ -10,7 +10,7 @@ import org.openqa.selenium.support.FindBy;
 public class HomeHeader extends AbstractUIObject {
 
     @FindBy(xpath = ".//ul[@id='gh-eb']")
-    private Language language;
+    private Language languageSetter;
 
     @FindBy(xpath = ".//*[@id='gh-f']")
     private SearchLine searchLine;
@@ -18,6 +18,4 @@ public class HomeHeader extends AbstractUIObject {
     public HomeHeader(WebDriver driver, SearchContext searchContext) {
         super(driver, searchContext);
     }
-
-
 }

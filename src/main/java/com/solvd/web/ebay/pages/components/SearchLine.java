@@ -33,7 +33,7 @@ public class SearchLine extends AbstractUIObject {
         searchInput.type(value);
     }
 
-    public String getSearchInputPlaceholder() {
+    public String getSearchInputPlaceholder() { //todo
         return searchInput.getAttribute("placeholder");
     }
 }

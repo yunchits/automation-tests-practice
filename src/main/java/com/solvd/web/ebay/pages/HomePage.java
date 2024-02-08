@@ -15,7 +15,13 @@ public class HomePage extends AbstractPage {
     private HomeHeader homeHeader;
 
     @FindBy(xpath = "//div[@id='gh-top']//a[text()='Sign in']")
-    private ExtendedWebElement singIn;
+    private ExtendedWebElement signInButton;
+
+    @FindBy(id = "gh-ug")
+    private ExtendedWebElement accountButton;
+
+    @FindBy(xpath = "//li[@id='gh-uo']//a[text()]")
+    private ExtendedWebElement signOutButton;
 
     public HomePage(WebDriver driver) {
         super(driver);
@@ -26,8 +32,14 @@ public class HomePage extends AbstractPage {
         openURL(Configuration.getRequired("home_url"));
     }
 
-    public LoginPage clickSingIn() {
-        singIn.click();
+    public LoginPage clickSignIn() {
+        signInButton.click();
         return new LoginPage(getDriver());
+    }
+
+    public SingOutPage clickSignOut() {
+        accountButton.click();
+        signOutButton.click();
+        return new SingOutPage(getDriver());
     }
 }

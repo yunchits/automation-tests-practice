@@ -1,5 +1,6 @@
 package com.solvd.web.ebay.pages.components;
 
+import com.solvd.web.ebay.pages.ItemPage;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import com.zebrunner.carina.webdriver.gui.AbstractUIObject;
 import org.openqa.selenium.SearchContext;
@@ -15,7 +16,12 @@ public class ItemCard extends AbstractUIObject {
         super(driver, searchContext);
     }
 
-    public String getTextTitle() {
+    public String getTitleText() {
         return title.getText();
+    }
+
+    public ItemPage click() {
+        title.click();
+        return new ItemPage(getDriver());
     }
 }

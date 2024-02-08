@@ -8,7 +8,6 @@ import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
 
-@Getter
 public class Language extends AbstractUIObject {
 
     @FindBy(xpath = ".//a[@id='gh-eb-Geo-a-default']")
@@ -22,6 +21,14 @@ public class Language extends AbstractUIObject {
 
     public Language(WebDriver driver, SearchContext searchContext) {
         super(driver, searchContext);
+    }
+
+    public boolean isPresent() {
+        return languageButton.isElementPresent(1);
+    }
+
+    public String getText() {
+        return languageName.getText();
     }
 
     public HomePage setLanguage() {

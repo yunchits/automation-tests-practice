@@ -1,15 +1,17 @@
 package com.solvd.servicies;
 
 import com.solvd.web.ebay.pages.HomePage;
+import com.solvd.web.ebay.pages.components.Language;
 
 public class LanguageService {
 
-    private static final String ENGLISH_LANG = "English";
+    public static final String ENGLISH_LANG = "English";
 
-    public HomePage setEnglishLanguage(HomePage page) {
-        if (!page.getHomeHeader().getLanguage().getLanguageName().getText().equals(ENGLISH_LANG)) {
-            page.getHomeHeader().getLanguage().setLanguage();
+    public void setEnglishLanguage(HomePage page) {
+        Language languageButton = page.getHomeHeader().getLanguageSetter();
+
+        if (languageButton.isPresent() && (!languageButton.getText().equals(ENGLISH_LANG))) {
+            languageButton.setLanguage();
         }
-        return page;
     }
 }
