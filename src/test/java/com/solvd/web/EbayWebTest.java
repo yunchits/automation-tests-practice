@@ -36,8 +36,11 @@ public class EbayWebTest extends AbstractTest {
         Assert.assertTrue(languageSetter.getRootExtendedElement().isElementPresent(TimeConstant.SHORT_TIMEOUT),
             "Language setter is not present");
         String actual = languageSetter.getText();
-
         Assert.assertEquals(actual, Languages.ENGLISH.getName(), "Language is incorrect");
+
+        new LanguageService().setLanguage(homePage, Languages.RUSSIAN);
+        String actualAfterChange = languageSetter.getText();
+        Assert.assertEquals(actualAfterChange, Languages.RUSSIAN.getName(), "The language has not been changed");
     }
 
     @Test(description = "Verify search")

@@ -12,11 +12,11 @@ public class Language extends AbstractUIObject {
     @FindBy(xpath = ".//a[@id='gh-eb-Geo-a-default']")
     private ExtendedWebElement languageButton;
 
-    @FindBy(xpath = ".//span[@class='gh-eb-Geo-txt']")
+    @FindBy(xpath = ".//a[@id='gh-eb-Geo-a-default']//span[@class='gh-eb-Geo-txt']")
     private ExtendedWebElement languageName;
 
-    @FindBy(xpath = ".//li[@lang='en-US']//a[@id='gh-eb-Geo-a-en']")
-    private ExtendedWebElement englishButton;
+    @FindBy(xpath = ".//a[@id='gh-eb-Geo-a-en']")
+    private ExtendedWebElement unselectedLangButton;
 
     public Language(WebDriver driver, SearchContext searchContext) {
         super(driver, searchContext);
@@ -28,7 +28,7 @@ public class Language extends AbstractUIObject {
 
     public HomePage setLanguage() {
         languageButton.click();
-        englishButton.click();
+        unselectedLangButton.click();
         return new HomePage(getDriver());
     }
 }

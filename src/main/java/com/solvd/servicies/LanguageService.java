@@ -10,7 +10,7 @@ public class LanguageService {
         Language languageButton = page.getNavigation().getLanguageSetter();
 
         if (languageButton.getRootExtendedElement().isElementPresent()
-                && (!languageButton.getText().equals(lang.getName()))) {
+                && !languageButton.getText().equals(lang.getName())) {
             languageButton.setLanguage();
         }
     }
