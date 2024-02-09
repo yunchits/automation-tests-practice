@@ -1,6 +1,7 @@
 package com.solvd.web.ebay.pages.main;
 
 import com.solvd.constants.TimeConstant;
+import com.solvd.web.ebay.pages.base.BasePage;
 import com.solvd.web.ebay.pages.main.components.ItemSearchCard;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import lombok.Getter;

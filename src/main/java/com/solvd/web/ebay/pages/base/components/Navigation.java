@@ -1,4 +1,4 @@
-package com.solvd.web.ebay.pages.main.components;
+package com.solvd.web.ebay.pages.base.components;
 
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import com.zebrunner.carina.webdriver.gui.AbstractUIObject;

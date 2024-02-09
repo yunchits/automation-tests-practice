@@ -1,6 +1,7 @@
 package com.solvd.web;
 
 import com.solvd.constants.TimeConstant;
+import com.solvd.models.Languages;
 import com.solvd.servicies.LanguageService;
 import com.solvd.web.ebay.pages.main.CartPage;
 import com.solvd.web.ebay.pages.main.HomePage;
@@ -8,7 +9,7 @@ import com.solvd.web.ebay.pages.main.ItemPage;
 import com.solvd.web.ebay.pages.main.SearchPage;
 import com.solvd.web.ebay.pages.main.components.ItemSearchCard;
 import com.solvd.web.ebay.pages.main.components.ItemCartSummary;
-import com.solvd.web.ebay.pages.main.components.Language;
+import com.solvd.web.ebay.pages.base.components.Language;
 import com.solvd.web.ebay.pages.main.components.SearchLine;
 import com.zebrunner.carina.core.AbstractTest;
 import org.testng.Assert;
@@ -36,7 +37,7 @@ public class EbayWebTest extends AbstractTest {
             "Language setter is not present");
         String actual = languageSetter.getText();
 
-        Assert.assertEquals(actual, LanguageService.ENGLISH_LANG, "Language is incorrect");
+        Assert.assertEquals(actual, Languages.ENGLISH.getName(), "Language is incorrect");
     }
 
     @Test(description = "Verify search")
@@ -75,7 +76,7 @@ public class EbayWebTest extends AbstractTest {
         SearchPage searchPage = searchLine.clickSearchButton();
 
         ItemSearchCard card = searchPage.getCardByIndex(FIRST_ELEMENT_INDEX);
-        Assert.assertTrue(card.getTitle().isElementPresent(TimeConstant.SHORT_TIMEOUT),
+        Assert.assertTrue(card.getItemTitle().isElementPresent(TimeConstant.SHORT_TIMEOUT),
             "Cart title is not present");
 
         String expectedTitle = card.getTitleText();
@@ -161,16 +162,16 @@ public class EbayWebTest extends AbstractTest {
         getDriver().switchTo().window(tabs.get(lastIndex));
     }
 
-    private void switchToTab(String searchPageTab) {
+    private void switchToTab(String tab) {
         Set<String> windowHandles = getDriver().getWindowHandles();
-        windowHandles.stream().filter(i -> i.equals(searchPageTab))
+        windowHandles.stream().filter(i -> i.equals(tab))
             .findFirst().ifPresent(w -> getDriver().switchTo().window(w));
     }
 
     private HomePage openHomePageInEnglish() {
         HomePage page = new HomePage(getDriver());
         page.open();
-        new LanguageService().setEnglishLanguage(page);
+        new LanguageService().setLanguage(page, Languages.ENGLISH);
         return page;
     }
 }

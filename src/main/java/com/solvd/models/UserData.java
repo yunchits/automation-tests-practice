@@ -6,7 +6,8 @@ import lombok.Getter;
 
 @AllArgsConstructor
 @Getter
-public enum Users {
+public enum UserData {
+
     VALID(R.TESTDATA.get("valid.login"), R.TESTDATA.get("valid.password")),
     INVALID(R.TESTDATA.get("invalid.login"), R.TESTDATA.get("invalid.password"));
 

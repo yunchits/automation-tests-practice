@@ -12,18 +12,18 @@ import org.openqa.selenium.support.FindBy;
 public class ItemSearchCard extends AbstractUIObject {
 
     @FindBy(xpath = ".//div[@class='s-item__title']//span[@role='heading']")
-    private ExtendedWebElement title;
+    private ExtendedWebElement itemTitle;
 
     public ItemSearchCard(WebDriver driver, SearchContext searchContext) {
         super(driver, searchContext);
     }
 
     public String getTitleText() {
-        return title.getText();
+        return itemTitle.getText();
     }
 
     public ItemPage click() {
-        title.click();
+        itemTitle.click();
         return new ItemPage(getDriver());
     }
 }

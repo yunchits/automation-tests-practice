@@ -1,8 +1,9 @@
-package com.solvd.web.ebay.pages.main;
+package com.solvd.web.ebay.pages.base;
 
 import com.solvd.web.ebay.pages.auth.LoginPage;
 import com.solvd.web.ebay.pages.auth.SingOutPage;
-import com.solvd.web.ebay.pages.main.components.Navigation;
+import com.solvd.web.ebay.pages.main.CartPage;
+import com.solvd.web.ebay.pages.base.components.Navigation;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import com.zebrunner.carina.webdriver.gui.AbstractPage;
 import lombok.Getter;

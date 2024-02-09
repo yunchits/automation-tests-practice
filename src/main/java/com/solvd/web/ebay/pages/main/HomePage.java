@@ -1,5 +1,6 @@
 package com.solvd.web.ebay.pages.main;
 
+import com.solvd.web.ebay.pages.base.BasePage;
 import com.solvd.web.ebay.pages.main.components.SearchLine;
 import com.zebrunner.carina.utils.config.Configuration;
 import lombok.Getter;
