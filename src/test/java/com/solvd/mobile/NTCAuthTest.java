@@ -1,45 +1,54 @@
 package com.solvd.mobile;
 
-import com.solvd.mobile.pages.HomePage;
+import com.solvd.mobile.base.NTCBaseTest;
+import com.solvd.mobile.modals.LogOutConfirmationModal;
+import com.solvd.mobile.models.UserData;
 import com.solvd.mobile.pages.ReturnToAccountPage;
-import com.solvd.mobile.pages.common.AuthPageBase;
-import com.solvd.mobile.pages.common.HomePageBase;
-import com.solvd.mobile.pages.common.ReturnToAccountPageBase;
-import com.zebrunner.carina.core.IAbstractTest;
-import com.zebrunner.carina.utils.mobile.IMobileUtils;
+import com.solvd.mobile.pages.common.*;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class NTCAuthTest implements IAbstractTest, IMobileUtils {
+public class NTCAuthTest extends NTCBaseTest {
 
-    @Test()
+    @Test(description = "Verify successful log out")
     public void testLogOut() {
+        AuthPageBase authPage = logOut();
 
+        Assert.assertTrue(authPage.isAuthTitlePresent(), "Incorrect log out");
     }
 
     @Test()
     public void testReturnToAccount() {
+        logOut();
         ReturnToAccountPageBase returnToAccountPageBase = initPage(getDriver(), ReturnToAccountPage.class);
-        HomePage homePage = returnToAccountPageBase.clickContinueButton();
-        Assert.assertTrue(homePage.getHomeTitle().isElementPresent(),
+        HomePageBase homePage = returnToAccountPageBase.clickContinueButton();
+        Assert.assertTrue(homePage.isTitlePresent(),
             "Authorization failed. You were not directed to the home page");
     }
 
     @Test()
     public void testSingIn() {
-        AuthPageBase authPage = initPage(getDriver(), AuthPageBase.class);
+        AuthPageBase authPage = logOut();
         authPage.clickSingInButton();
-        HomePageBase homePage = initPage(getDriver(), HomePageBase.class);
-        homePage.clickAllowNotifications();
-        homePage.closeFeedbackModal();
-//        NotificationModalBase notificationModal = initPage(getDriver(), NotificationModal.class);
-//        notificationModal.clickAllowNotifications();
-//        SignInPageBase signInPage = initPage(getDriver(), SignInPageBase.class);
-//        signInPage.typeEmail(UserData.INVALID.getEmail());
-//        PassPage passPage = signInPage.clickContinue();
-//        passPage.typePass(UserData.INVALID.getPass());
-//        HomePage homePage = passPage.clickSingIn();
-        Assert.assertTrue(homePage.isTitlePresent(),
-            "Authorization failed. You were not directed to the home page");
+        SignInRecoveryPageBase signInRecoveryPage = initPage(getDriver(), SignInRecoveryPageBase.class);
+        if (signInRecoveryPage.isPresent()) {
+            signInRecoveryPage.clickUseAnotherAccount();
+        }
+
+        SignInPageBase signInPage = initPage(getDriver(), SignInPageBase.class); //todo
+        signInPage.typeEmail(UserData.VALID.getEmail());
+        PassPageBase passPage = signInPage.clickContinue();
+        passPage.typePass(UserData.VALID.getPass());
+        SignedPageBase signedPage = passPage.clickSingIn();
+
+        Assert.assertTrue(signedPage.isPresent(), "Authorization failed");
+    }
+
+    private AuthPageBase logOut() {
+        HomePageBase homePage = performDefaultSteps();
+        SideMenuPageBase sideMenuPage = homePage.clickOpenSideMenuButton();
+        SettingsPageBase settingsPage = sideMenuPage.clickSettingsButton();
+        LogOutConfirmationModal logOutConfirmationModal = settingsPage.clickLogOut();
+        return logOutConfirmationModal.clickConfirmLogOut();
     }
 }

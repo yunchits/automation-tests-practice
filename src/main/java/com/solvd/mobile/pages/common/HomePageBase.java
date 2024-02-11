@@ -1,6 +1,6 @@
 package com.solvd.mobile.pages.common;
 
-import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
+import com.solvd.mobile.pages.SideMenuPage;
 import com.zebrunner.carina.webdriver.gui.AbstractPage;
 import org.openqa.selenium.WebDriver;
 
@@ -15,4 +15,6 @@ public abstract class HomePageBase extends AbstractPage {
     public abstract void clickAllowNotifications();
 
     public abstract void closeFeedbackModal();
+
+    public abstract SideMenuPageBase clickOpenSideMenuButton();
 }

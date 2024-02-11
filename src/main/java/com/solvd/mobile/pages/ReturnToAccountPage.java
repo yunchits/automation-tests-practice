@@ -1,6 +1,8 @@
 package com.solvd.mobile.pages;
 
+import com.solvd.mobile.pages.common.HomePageBase;
 import com.solvd.mobile.pages.common.ReturnToAccountPageBase;
+import com.solvd.mobile.pages.common.SignInPageBase;
 import com.zebrunner.carina.utils.factory.DeviceType;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import org.openqa.selenium.WebDriver;
@@ -23,15 +25,15 @@ public class ReturnToAccountPage extends ReturnToAccountPageBase {
     }
 
     @Override
-    public SignInPage clickRejectButton() {
+    public SignInPageBase clickRejectButton() {
         rejectButton.click();
-        return new SignInPage(getDriver());
+        return initPage(getDriver(), SignInPageBase.class);
     }
 
     @Override
-    public HomePage clickContinueButton() {
+    public HomePageBase clickContinueButton() {
         continueButton.click();
-        return new HomePage(getDriver());
+        return initPage(getDriver(), HomePageBase.class);
     }
 
     @Override

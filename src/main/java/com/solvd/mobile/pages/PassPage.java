@@ -1,6 +1,8 @@
 package com.solvd.mobile.pages;
 
+import com.solvd.mobile.pages.common.HomePageBase;
 import com.solvd.mobile.pages.common.PassPageBase;
+import com.solvd.mobile.pages.common.SignedPageBase;
 import com.zebrunner.carina.utils.factory.DeviceType;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import org.openqa.selenium.WebDriver;
@@ -25,8 +27,8 @@ public class PassPage extends PassPageBase {
     }
 
     @Override
-    public HomePage clickSingIn() {
+    public SignedPageBase clickSingIn() {
         singInButton.click();
-        return new HomePage(getDriver());
+        return initPage(getDriver(), SignedPageBase.class);
     }
 }
