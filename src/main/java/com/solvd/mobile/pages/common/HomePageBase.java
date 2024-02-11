@@ -1,6 +1,5 @@
 package com.solvd.mobile.pages.common;
 
-import com.solvd.mobile.pages.SideMenuPage;
 import com.zebrunner.carina.webdriver.gui.AbstractPage;
 import org.openqa.selenium.WebDriver;
 
@@ -10,7 +9,7 @@ public abstract class HomePageBase extends AbstractPage {
         super(driver);
     }
 
-    public abstract boolean isTitlePresent();
+    public abstract boolean isPresent();
 
     public abstract void clickAllowNotifications();
 

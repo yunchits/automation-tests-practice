@@ -30,7 +30,7 @@ public class HomePage extends HomePageBase {
     }
 
     @Override
-    public boolean isTitlePresent() {
+    public boolean isPresent() {
         return homeTitle.isElementPresent();
     }
 
