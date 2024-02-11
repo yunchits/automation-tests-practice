@@ -29,4 +29,9 @@ public class NTCBaseTest implements IAbstractTest, IMobileUtils {
         homePage.closeFeedbackModal();
         return homePage;
     }
+
+    protected void closeModals(HomePageBase homePage) {
+        homePage.clickAllowNotifications();
+        homePage.closeFeedbackModal();
+    }
 }
