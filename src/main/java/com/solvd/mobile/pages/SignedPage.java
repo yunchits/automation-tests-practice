@@ -21,8 +21,8 @@ public class SignedPage extends SignedPageBase {
     }
 
     @Override
-    public boolean isPresent() {
-        return signedMassage.isElementPresent();
+    public boolean isPresent(int timeout) {
+        return signedMassage.isElementPresent(timeout);
     }
 
     @Override

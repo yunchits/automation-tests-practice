@@ -1,5 +1,6 @@
 package com.solvd.mobile.pages;
 
+import com.solvd.mobile.models.TimeoutConstants;
 import com.solvd.mobile.pages.common.HomePageBase;
 import com.solvd.mobile.pages.common.PassPageBase;
 import com.solvd.mobile.pages.common.SignInPageBase;
@@ -26,8 +27,8 @@ public class SignInRecoveryPage extends SignInRecoveryPageBase {
     }
 
     @Override
-    public boolean isPresent() {
-        return continueTitle.isElementPresent();
+    public boolean isPresent(int timeout) {
+        return continueTitle.isElementPresent(timeout);
     }
 
     @Override

@@ -10,5 +10,5 @@ public abstract class AuthPageBase extends AbstractPage {
 
     public abstract SignInPageBase clickSingInButton();
 
-    public abstract boolean isAuthTitlePresent();
+    public abstract boolean isAuthTitlePresent(int timeout);
 }

@@ -8,7 +8,7 @@ public abstract class SignInPageBase extends AbstractPage {
         super(driver);
     }
 
-    public abstract boolean isPresent();
+    public abstract boolean isPresent(int timeout);
 
     public abstract String getCountyText(); // todo
 

@@ -1,6 +1,7 @@
 package com.solvd.mobile;
 
 import com.solvd.mobile.base.NTCBaseTest;
+import com.solvd.mobile.models.TimeoutConstants;
 import com.solvd.mobile.models.UserData;
 import com.solvd.mobile.pages.common.*;
 import com.solvd.mobile.services.AuthService;
@@ -16,7 +17,7 @@ public class NTCAuthTest extends NTCBaseTest {
         HomePageBase homePage = performDefaultSteps();
         AuthPageBase authPage = authService.logOut(homePage);
 
-        Assert.assertTrue(authPage.isAuthTitlePresent(), "Incorrect log out");
+        Assert.assertTrue(authPage.isAuthTitlePresent(TimeoutConstants.SHORT_TIMEOUT_SECONDS), "Incorrect log out");
     }
 
     //NOT OPTIMIZED TEST
@@ -40,10 +41,10 @@ public class NTCAuthTest extends NTCBaseTest {
         SignInPageBase signInPage = authPage.clickSingInButton();
         HomePageBase homePage = initPage(getDriver(), HomePageBase.class);
 
-        if (signInPage.isPresent()) {
+        if (signInPage.isPresent(TimeoutConstants.SHORT_TIMEOUT_SECONDS)) {
             authService.login(signInPage, UserData.VALID);
             authService.logOut(homePage);
-        } else if (homePage.isPresent()) {
+        } else if (homePage.isPresent(TimeoutConstants.SHORT_TIMEOUT_SECONDS)) {
             authService.logOut(homePage);
         }
 
@@ -52,7 +53,7 @@ public class NTCAuthTest extends NTCBaseTest {
 
         ReturnToAccountPageBase returnToAccountPageBase = initPage(getDriver(), ReturnToAccountPageBase.class);
         returnToAccountPageBase.clickContinueButton();
-        Assert.assertTrue(homePage.isPresent(),
+        Assert.assertTrue(homePage.isPresent(TimeoutConstants.SHORT_TIMEOUT_SECONDS),
             "Authorization failed. You were not directed to the home page");
     }
 
@@ -80,37 +81,37 @@ public class NTCAuthTest extends NTCBaseTest {
 //    }
 
     @Test(description = "Verify successful authorization with the valid user data")
-    public void testSingIn() {
+    public void testSignIn() {
         AuthPageBase authPage = initPage(getDriver(), AuthPageBase.class);
         SignInPageBase signInPage = authPage.clickSingInButton();
         SignInRecoveryPageBase signInRecoveryPage = initPage(getDriver(), SignInRecoveryPageBase.class);
         HomePageBase homePage = initPage(getDriver(), HomePageBase.class);
 
-        if (signInRecoveryPage.isPresent()) {
+        if (signInRecoveryPage.isPresent(TimeoutConstants.SHORT_TIMEOUT_SECONDS)) {
             signInRecoveryPage.clickUseAnotherAccount();
-        } else if (!signInPage.isPresent()) {
+        } else if (!signInPage.isPresent(TimeoutConstants.SHORT_TIMEOUT_SECONDS)) {
             closeModals(homePage);
             authService.logOut(homePage);
             authPage.clickSingInButton();
         }
 
-        Assert.assertTrue(signInPage.isPresent(), "Sign in page is not available");
+        Assert.assertTrue(signInPage.isPresent(TimeoutConstants.SHORT_TIMEOUT_SECONDS), "Sign in page is not available");
         signInPage.typeEmail(UserData.VALID.getEmail());
         PassPageBase passPage = signInPage.clickContinue();
-        Assert.assertTrue(passPage.isPresent(), "Password entry page is not available");
+        Assert.assertTrue(passPage.isPresent(TimeoutConstants.SHORT_TIMEOUT_SECONDS), "Password entry page is not available");
         passPage.typePass(UserData.VALID.getPass());
-        SignedPageBase signedPage = passPage.clickSingIn();
+        SignedPageBase signedPage = passPage.clickSignIn();
 
-        Assert.assertTrue(signedPage.isPresent(), "Authorization failed");
+        Assert.assertTrue(signedPage.isPresent(TimeoutConstants.SHORT_TIMEOUT_SECONDS), "Authorization failed");
     }
 
     @Test()
-    public void testSingInWithInvalidEmail() {
+    public void testSignInWithInvalidEmail() {
 
     }
 
     @Test()
-    public void testSingInWithInvalidPass() {
+    public void testSignInWithInvalidPass() {
 
     }
 }

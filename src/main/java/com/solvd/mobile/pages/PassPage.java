@@ -26,13 +26,13 @@ public class PassPage extends PassPageBase {
     }
 
     @Override
-    public SignedPageBase clickSingIn() {
+    public SignedPageBase clickSignIn() {
         singInButton.click();
         return initPage(getDriver(), SignedPageBase.class);
     }
 
     @Override
-    public boolean isPresent() {
-        return passInput.isElementPresent();
+    public boolean isPresent(int timeout) {
+        return passInput.isElementPresent(timeout);
     }
 }

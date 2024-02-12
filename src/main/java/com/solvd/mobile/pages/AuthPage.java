@@ -27,7 +27,7 @@ public class AuthPage extends AuthPageBase {
     }
 
     @Override
-    public boolean isAuthTitlePresent() {
-        return authTitle.isElementPresent();
+    public boolean isAuthTitlePresent(int timeout) {
+        return authTitle.isElementPresent(timeout);
     }
 }

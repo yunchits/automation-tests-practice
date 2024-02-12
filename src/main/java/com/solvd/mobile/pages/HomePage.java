@@ -3,8 +3,10 @@ package com.solvd.mobile.pages;
 import com.solvd.mobile.modals.FeedbackModal;
 import com.solvd.mobile.pages.common.HomePageBase;
 import com.solvd.mobile.pages.common.SideMenuPageBase;
+import com.solvd.mobile.pages.components.Browse;
 import com.zebrunner.carina.utils.factory.DeviceType;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
+import com.zebrunner.carina.webdriver.locator.ExtendedFindBy;
 import lombok.Getter;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
@@ -22,6 +24,9 @@ public class HomePage extends HomePageBase {
     @FindBy(xpath = "//android.widget.ImageButton[@content-desc='Open']")
     private ExtendedWebElement openSideMenuButton;
 
+    @FindBy(xpath = "//android.widget.TextView[@text='Browse']")
+    private ExtendedWebElement browse;
+
     @FindBy
     private FeedbackModal feedbackModal;
 
@@ -30,8 +35,8 @@ public class HomePage extends HomePageBase {
     }
 
     @Override
-    public boolean isPresent() {
-        return homeTitle.isElementPresent();
+    public boolean isPresent(int timeout) {
+        return homeTitle.isElementPresent(timeout);
     }
 
     @Override
@@ -48,5 +53,11 @@ public class HomePage extends HomePageBase {
     public SideMenuPageBase clickOpenSideMenuButton() {
         openSideMenuButton.click();
         return initPage(getDriver(), SideMenuPageBase.class);
+    }
+
+    @Override
+    public Browse clickBrowse() {
+        browse.click();
+        return new Browse(getDriver());
     }
 }

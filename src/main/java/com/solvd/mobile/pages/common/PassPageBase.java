@@ -11,7 +11,7 @@ public abstract class PassPageBase extends AbstractPage {
 
     public abstract void typePass(String pass);
 
-    public abstract SignedPageBase clickSingIn();
+    public abstract SignedPageBase clickSignIn();
 
-    public abstract boolean isPresent();
+    public abstract boolean isPresent(int timeout);
 }

@@ -10,7 +10,7 @@ public class AuthService {
         signInPage.typeEmail(userData.getEmail());
         PassPageBase passPage = signInPage.clickContinue();
         passPage.typePass(userData.getPass());
-        return passPage.clickSingIn();
+        return passPage.clickSignIn();
     }
 
     public AuthPageBase logOut(HomePageBase homePage) {

@@ -9,7 +9,7 @@ public abstract class SignInRecoveryPageBase extends AbstractPage {
         super(driver);
     }
 
-    public abstract boolean isPresent();
+    public abstract boolean isPresent(int timeout);
 
     public abstract HomePageBase clickContinue();
 

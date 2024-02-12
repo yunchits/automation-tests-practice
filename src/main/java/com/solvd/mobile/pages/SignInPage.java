@@ -1,5 +1,6 @@
 package com.solvd.mobile.pages;
 
+import com.solvd.mobile.models.TimeoutConstants;
 import com.solvd.mobile.pages.common.PassPageBase;
 import com.solvd.mobile.pages.common.SignInPageBase;
 import com.zebrunner.carina.utils.factory.DeviceType;
@@ -25,8 +26,8 @@ public class SignInPage extends SignInPageBase {
     }
 
     @Override
-    public boolean isPresent() {
-        return emailInput.isElementPresent();
+    public boolean isPresent(int timeout) {
+        return emailInput.isElementPresent(timeout);
     }
 
     @Override

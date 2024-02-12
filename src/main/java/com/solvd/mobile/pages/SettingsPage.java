@@ -9,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
 
 @DeviceType(pageType = DeviceType.Type.ANDROID_PHONE, parentClass = SettingsPageBase.class)
-public class SettingsPage extends SettingsPageBase implements IMobileUtils {
+public class SettingsPage extends SettingsPageBase {
 
     @FindBy(xpath = "//android.widget.Button[@text='Log Out']")
     private ExtendedWebElement logOutButton;
