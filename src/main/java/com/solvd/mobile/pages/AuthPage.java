@@ -14,15 +14,15 @@ public class AuthPage extends AuthPageBase {
     private ExtendedWebElement authTitle;
 
     @FindBy(xpath = "//android.widget.Button[@resource-id='com.nike.ntc:id/action_log_in']")
-    private ExtendedWebElement singInButton;
+    private ExtendedWebElement signInButton;
 
     public AuthPage(WebDriver driver) {
         super(driver);
     }
 
     @Override
-    public SignInPageBase clickSingInButton() {
-        singInButton.click();
+    public SignInPageBase clickSignInButton() {
+        signInButton.click();
         return initPage(getDriver(), SignInPageBase.class);
     }
 

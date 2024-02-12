@@ -11,7 +11,7 @@ public class NTCBaseTest implements IAbstractTest, IMobileUtils {
 
     protected HomePageBase performDefaultSteps() {
         AuthPageBase authPage = initPage(getDriver(), AuthPageBase.class);
-        authPage.clickSingInButton();
+        authPage.clickSignInButton();
 
         SignInRecoveryPageBase signInRecoveryPage = initPage(getDriver(), SignInRecoveryPageBase.class);
         SignInPageBase signInPage = initPage(getDriver(), SignInPageBase.class);

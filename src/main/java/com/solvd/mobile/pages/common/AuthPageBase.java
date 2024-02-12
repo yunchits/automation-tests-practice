@@ -8,7 +8,7 @@ public abstract class AuthPageBase extends AbstractPage {
         super(driver);
     }
 
-    public abstract SignInPageBase clickSingInButton();
+    public abstract SignInPageBase clickSignInButton();
 
     public abstract boolean isAuthTitlePresent(int timeout);
 }

@@ -1,6 +1,5 @@
 package com.solvd.mobile.pages;
 
-import com.solvd.mobile.models.TimeoutConstants;
 import com.solvd.mobile.pages.common.PassPageBase;
 import com.solvd.mobile.pages.common.SignedPageBase;
 import com.zebrunner.carina.utils.factory.DeviceType;
@@ -15,7 +14,7 @@ public class PassPage extends PassPageBase {
     private ExtendedWebElement passInput;
 
     @FindBy(xpath = "//android.widget.Button[@text='Sign In']")
-    private ExtendedWebElement singInButton;
+    private ExtendedWebElement signInButton;
 
     @FindBy(xpath = "//android.widget.TextView[@text='Your credentials are invalid']")
     private ExtendedWebElement invalidCredentialsMessage;
@@ -32,7 +31,7 @@ public class PassPage extends PassPageBase {
 
     @Override
     public SignedPageBase clickSignIn() {
-        singInButton.click();
+        signInButton.click();
         return initPage(getDriver(), SignedPageBase.class);
     }
 

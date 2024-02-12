@@ -22,24 +22,10 @@ public class NTCAuthTest extends NTCBaseTest {
         Assert.assertTrue(authPage.isAuthTitlePresent(TimeoutConstants.LONG_TIMEOUT_SECONDS), "Incorrect log out");
     }
 
-    //NOT OPTIMIZED TEST
-//    @Deprecated
-//    @Test(description = "Verify successful return after log out", enabled = false)
-//    public void testReturnToAccount() {
-//        HomePageBase homePage = performDefaultSteps();
-//        AuthPageBase authPage = authService.logOut(homePage);
-//        authPage.clickSingInButton();
-//
-//        ReturnToAccountPageBase returnToAccountPageBase = initPage(getDriver(), ReturnToAccountPageBase.class);
-//        returnToAccountPageBase.clickContinueButton();
-//        Assert.assertTrue(homePage.isPresent(TimeoutConstants.SHORT_TIMEOUT_SECONDS),
-//            "Authorization failed. You were not directed to the home page");
-//    }
-
     @Test(description = "Verify successful return after log out")
     public void testReturnToAccount() {
         AuthPageBase authPage = initPage(getDriver(), AuthPageBase.class);
-        SignInPageBase signInPage = authPage.clickSingInButton();
+        SignInPageBase signInPage = authPage.clickSignInButton();
         HomePageBase homePage = initPage(getDriver(), HomePageBase.class);
 
         if (signInPage.isPresent(TimeoutConstants.SHORT_TIMEOUT_SECONDS)) {
@@ -50,37 +36,13 @@ public class NTCAuthTest extends NTCBaseTest {
         }
 
         authService.logOut(homePage);
-        authPage.clickSingInButton();
+        authPage.clickSignInButton();
 
         ReturnToAccountPageBase returnToAccountPageBase = initPage(getDriver(), ReturnToAccountPageBase.class);
         returnToAccountPageBase.clickContinueButton();
         Assert.assertTrue(homePage.isPresent(TimeoutConstants.LONG_TIMEOUT_SECONDS),
             "Authorization failed. You were not directed to the home page");
     }
-
-    //NOT OPTIMIZED TEST
-//    @Deprecated
-//    @Test(description = "Verify successful authorization with the valid user data", enabled = false)
-//    public void testSingIn() {
-//        HomePageBase homePage = performDefaultSteps();
-//        authService.logOut(homePage);
-//        AuthPageBase authPage = initPage(getDriver(), AuthPageBase.class);
-//        SignInPageBase signInPage = authPage.clickSingInButton();
-//        SignInRecoveryPageBase signInRecoveryPage = initPage(getDriver(), SignInRecoveryPageBase.class);
-//
-//        if (signInRecoveryPage.isPresent()) {
-//            signInRecoveryPage.clickUseAnotherAccount();
-//        }
-//
-//        Assert.assertTrue(signInPage.isPresent(TimeoutConstants.SHORT_TIMEOUT_SECONDS), "Sign in page is not available");
-//        signInPage.typeEmail(UserData.VALID.getEmail());
-//        PassPageBase passPage = signInPage.clickContinue();
-//        Assert.assertTrue(passPage.isPresent(TimeoutConstants.SHORT_TIMEOUT_SECONDS), "Password entry page is not available");
-//        passPage.typePass(UserData.VALID.getPass());
-//        SignedPageBase signedPage = passPage.clickSignIn();
-//
-//        Assert.assertTrue(signedPage.isPresent(TimeoutConstants.SHORT_TIMEOUT_SECONDS), "Authorization failed");
-//    }
 
     @Test(description = "Verify successful authorization with the valid user data")
     public void testSignIn() {
@@ -96,7 +58,7 @@ public class NTCAuthTest extends NTCBaseTest {
         Assert.assertTrue(signedPage.isPresent(TimeoutConstants.LONG_TIMEOUT_SECONDS), "Authorization failed");
     }
 
-    @Test()
+    @Test(description = "Verify unsuccessful sign in with invalid email")
     public void testSignInWithInvalidEmail() {
         SignInPageBase signInPage = openSignInPage();
 
@@ -107,7 +69,7 @@ public class NTCAuthTest extends NTCBaseTest {
             "Invalid mail message is not present");
     }
 
-    @Test()
+    @Test(description = "Verify unsuccessful sign in with invalid password")
     public void testSignInWithInvalidPass() {
         SignInPageBase signInPage = openSignInPage();
 
@@ -125,7 +87,7 @@ public class NTCAuthTest extends NTCBaseTest {
 
     private SignInPageBase openSignInPage() {
         AuthPageBase authPage = initPage(getDriver(), AuthPageBase.class);
-        SignInPageBase signInPage = authPage.clickSingInButton();
+        SignInPageBase signInPage = authPage.clickSignInButton();
         SignInRecoveryPageBase signInRecoveryPage = initPage(getDriver(), SignInRecoveryPageBase.class);
         HomePageBase homePage = initPage(getDriver(), HomePageBase.class);
 
@@ -134,7 +96,7 @@ public class NTCAuthTest extends NTCBaseTest {
         } else if (!signInPage.isPresent(TimeoutConstants.LONG_TIMEOUT_SECONDS)) {
             closeModals(homePage);
             authService.logOut(homePage);
-            authPage.clickSingInButton();
+            authPage.clickSignInButton();
         }
         return signInPage;
     }
