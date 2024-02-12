@@ -1,6 +1,6 @@
 package com.solvd.mobile.pages.common;
 
-import com.solvd.mobile.pages.components.TrainingCard;
+import com.solvd.mobile.pages.components.WorkoutCard;
 import com.zebrunner.carina.utils.mobile.IMobileUtils;
 import com.zebrunner.carina.webdriver.gui.AbstractPage;
 import org.openqa.selenium.WebDriver;
@@ -13,5 +13,9 @@ public abstract class ResultPageBase extends AbstractPage implements IMobileUtil
         super(driver);
     }
 
-    public abstract List<TrainingCard> getAllTrainingCards();
+    public abstract List<WorkoutCard> getAllTrainingCards();
+
+    public abstract FilterPageBase clickFilterButton();
+
+    public abstract SearchPageBase clickBack();
 }

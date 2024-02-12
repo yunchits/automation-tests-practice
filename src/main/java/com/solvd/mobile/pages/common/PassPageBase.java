@@ -9,9 +9,11 @@ public abstract class PassPageBase extends AbstractPage {
         super(driver);
     }
 
-    public abstract void typePass(String pass);
+    public abstract PassPageBase typePass(String pass);
 
     public abstract SignedPageBase clickSignIn();
 
     public abstract boolean isPresent(int timeout);
+
+    public abstract boolean isInvalidCredentialsMessagePresent(int timeout);
 }

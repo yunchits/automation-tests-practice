@@ -21,6 +21,9 @@ public class SignInPage extends SignInPageBase {
     @FindBy(xpath = "//android.widget.Button[@text='continue']")
     private ExtendedWebElement continueButton;
 
+    @FindBy(xpath = "//android.widget.TextView[@text='Invalid email address']")
+    private ExtendedWebElement invalidEmailMessage;
+
     public SignInPage(WebDriver driver) {
         super(driver);
     }
@@ -36,14 +39,20 @@ public class SignInPage extends SignInPageBase {
     }
 
     @Override
-    public void typeEmail(String email) {
+    public SignInPageBase typeEmail(String email) {
         emailInput.type(email);
+        return initPage(getDriver(), SignInPageBase.class);
     }
 
     @Override
     public PassPageBase clickContinue() {
         continueButton.click();
         return initPage(getDriver(), PassPageBase.class);
+    }
+
+    @Override
+    public boolean isInvalidEmailMessagePresent(int timeout) {
+        return invalidEmailMessage.isElementPresent(timeout);
     }
 
 

@@ -1,5 +1,6 @@
 package com.solvd.mobile.base;
 
+import com.solvd.mobile.models.TimeoutConstants;
 import com.solvd.mobile.models.UserData;
 import com.solvd.mobile.pages.common.*;
 import com.solvd.mobile.services.AuthService;
@@ -16,9 +17,9 @@ public class NTCBaseTest implements IAbstractTest, IMobileUtils {
         SignInPageBase signInPage = initPage(getDriver(), SignInPageBase.class);
 
         HomePageBase homePage;
-        if (signInRecoveryPage.isPresent()) {
+        if (signInRecoveryPage.isPresent(TimeoutConstants.SHORT_TIMEOUT_SECONDS)) {
             homePage = signInRecoveryPage.clickContinue();
-        } else if (signInPage.isPresent()) {
+        } else if (signInPage.isPresent(TimeoutConstants.SHORT_TIMEOUT_SECONDS)) {
             SignedPageBase signedPage = new AuthService().login(signInPage, UserData.VALID);
             homePage = signedPage.clickContinue();
         } else {

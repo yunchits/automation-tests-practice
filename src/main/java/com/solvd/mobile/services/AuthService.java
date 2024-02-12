@@ -14,8 +14,8 @@ public class AuthService {
     }
 
     public AuthPageBase logOut(HomePageBase homePage) {
-        SideMenuPageBase sideMenuPage = homePage.clickOpenSideMenuButton();
-        SettingsPageBase settingsPage = sideMenuPage.clickSettingsButton();
+        SideMenuPageBase sideMenuPage = homePage.clickOpenSideMenu();
+        SettingsPageBase settingsPage = sideMenuPage.clickSettings();
         LogOutConfirmationModal logOutConfirmationModal = settingsPage.clickLogOut();
         return logOutConfirmationModal.clickConfirmLogOut();
     }

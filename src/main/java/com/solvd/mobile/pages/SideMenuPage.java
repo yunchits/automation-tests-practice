@@ -1,5 +1,6 @@
 package com.solvd.mobile.pages;
 
+import com.solvd.mobile.pages.common.SavedPageBase;
 import com.solvd.mobile.pages.common.SettingsPageBase;
 import com.solvd.mobile.pages.common.SideMenuPageBase;
 import com.zebrunner.carina.utils.factory.DeviceType;
@@ -13,13 +14,22 @@ public class SideMenuPage extends SideMenuPageBase {
     @FindBy(xpath = "//androidx.appcompat.widget.LinearLayoutCompat[@resource-id='com.nike.ntc:id/nav_settings_item']")
     private ExtendedWebElement settingsButton;
 
+    @FindBy(xpath = "//androidx.appcompat.widget.LinearLayoutCompat[@resource-id='com.nike.ntc:id/nav_favorites_item']")
+    private ExtendedWebElement savedButton;
+
     public SideMenuPage(WebDriver driver) {
         super(driver);
     }
 
     @Override
-    public SettingsPageBase clickSettingsButton() {
+    public SettingsPageBase clickSettings() {
         settingsButton.click();
         return initPage(getDriver(), SettingsPageBase.class);
+    }
+
+    @Override
+    public SavedPageBase clickSaved() {
+        savedButton.click();
+        return initPage(getDriver(), SavedPageBase.class);
     }
 }

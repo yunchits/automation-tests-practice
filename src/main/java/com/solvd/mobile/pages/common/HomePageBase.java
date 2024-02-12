@@ -16,7 +16,7 @@ public abstract class HomePageBase extends AbstractPage {
 
     public abstract void closeFeedbackModal();
 
-    public abstract SideMenuPageBase clickOpenSideMenuButton();
+    public abstract SideMenuPageBase clickOpenSideMenu();
 
     public abstract Browse clickBrowse();
 }
