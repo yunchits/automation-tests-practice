@@ -11,8 +11,6 @@ public abstract class SignInPageBase extends AbstractPage {
 
     public abstract boolean isPresent(int timeout);
 
-    public abstract String getCountyText(); // todo
-
     public abstract SignInPageBase typeEmail(String email);
 
     public abstract PassPageBase clickContinue();

@@ -13,7 +13,9 @@ public abstract class ResultPageBase extends AbstractPage implements IMobileUtil
         super(driver);
     }
 
-    public abstract List<WorkoutCard> getAllTrainingCards();
+    public abstract WorkoutCard getFistWorkoutCard();
+
+    public abstract List<WorkoutCard> getVisableWorkoutCards();
 
     public abstract FilterPageBase clickFilterButton();
 

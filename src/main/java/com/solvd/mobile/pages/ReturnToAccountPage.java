@@ -11,33 +11,33 @@ import org.openqa.selenium.support.FindBy;
 @DeviceType(pageType = DeviceType.Type.ANDROID_PHONE, parentClass = ReturnToAccountPageBase.class)
 public class ReturnToAccountPage extends ReturnToAccountPageBase {
 
-    @FindBy(xpath = "//android.widget.TextView[@text='subheader-text']")
-    private ExtendedWebElement emailTitle;
+    @FindBy(xpath = "//android.view.View[@text='continue_as_header group']")
+    private ExtendedWebElement continueTitle;
 
     @FindBy(xpath = "//android.widget.Button[@text='Continue']")
     private ExtendedWebElement continueButton;
 
     @FindBy(xpath = "//android.widget.Button[@text='No, use another account']")
-    private ExtendedWebElement rejectButton;
+    private ExtendedWebElement useAnotherAccountButton;
 
     public ReturnToAccountPage(WebDriver driver) {
         super(driver);
     }
 
     @Override
-    public SignInPageBase clickRejectButton() {
-        rejectButton.click();
+    public boolean isPresent(int timeout) {
+        return continueTitle.isElementPresent(timeout);
+    }
+
+    @Override
+    public SignInPageBase clickUseAnotherAccount() {
+        useAnotherAccountButton.click();
         return initPage(getDriver(), SignInPageBase.class);
     }
 
     @Override
-    public HomePageBase clickContinueButton() {
+    public HomePageBase clickContinue() {
         continueButton.click();
         return initPage(getDriver(), HomePageBase.class);
-    }
-
-    @Override
-    public String getEmailTitleText() {
-        return emailTitle.getText();
     }
 }

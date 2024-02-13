@@ -9,9 +9,9 @@ public abstract class ReturnToAccountPageBase extends AbstractPage {
         super(driver);
     }
 
-    public abstract SignInPageBase clickRejectButton();
+    public abstract boolean isPresent(int timeout);
 
-    public abstract HomePageBase clickContinueButton(); //todo
+    public abstract SignInPageBase clickUseAnotherAccount();
 
-    public abstract String getEmailTitleText();
+    public abstract HomePageBase clickContinue();
 }

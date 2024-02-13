@@ -6,8 +6,6 @@ import com.solvd.mobile.pages.common.SideMenuPageBase;
 import com.solvd.mobile.pages.components.Browse;
 import com.zebrunner.carina.utils.factory.DeviceType;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
-import com.zebrunner.carina.webdriver.locator.ExtendedFindBy;
-import lombok.Getter;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
 
@@ -35,7 +33,7 @@ public class HomePage extends HomePageBase {
 
     @Override
     public boolean isPresent(int timeout) {
-        return homeTitle.isElementPresent(timeout);
+        return homeTitle.isElementPresent(timeout) || allowButton.isElementPresent(timeout);
     }
 
     @Override

@@ -1,11 +1,13 @@
 package com.solvd.mobile;
 
-import com.solvd.mobile.base.NTCBaseTest;
 import com.solvd.mobile.models.TimeoutConstants;
 import com.solvd.mobile.pages.common.HomePageBase;
 import com.solvd.mobile.pages.common.ResultPageBase;
 import com.solvd.mobile.pages.components.Browse;
 import com.solvd.mobile.pages.components.WorkoutCard;
+import com.solvd.mobile.services.BaseActionsService;
+import com.zebrunner.carina.core.IAbstractTest;
+import com.zebrunner.carina.utils.mobile.IMobileUtils;
 import lombok.extern.log4j.Log4j2;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -13,11 +15,13 @@ import org.testng.annotations.Test;
 import java.util.List;
 
 @Log4j2
-public class NTCFeaturesTest extends NTCBaseTest {
+public class NTCFeaturesTest implements IAbstractTest, IMobileUtils {
 
-    @Test()
+    private final BaseActionsService actionsService = new BaseActionsService();
+
+    @Test(description = "Verify the success of applying the search filter")
     public void testSearchFilter() {
-        HomePageBase homePage = performDefaultSteps();
+        HomePageBase homePage = actionsService.performDefaultSteps();
         Browse browse = homePage.clickBrowse();
         Assert.assertTrue(browse.isSearchInputPresent(TimeoutConstants.SHORT_TIMEOUT_SECONDS),
             "Search input is not present");
@@ -27,43 +31,37 @@ public class NTCFeaturesTest extends NTCBaseTest {
             .clickLevelIntermediate()
             .clickDone();
 
-        List<WorkoutCard> cards = resultPage.getAllTrainingCards();
-        log.info(cards.size());
-        cards.remove(cards.size() - 1);
-        log.info(cards.size());
-        int i = 0;
-        for (WorkoutCard card : cards) {
-            log.info(i);
-            String title = card.getDescriptionTitle();
-            log.info(title);
-            log.info(title.contains("Intermediate"));
+        List<WorkoutCard> cards = resultPage.getVisableWorkoutCards();
+
+        for (int i = 0; i < cards.size() - 2; i++) {
+            String title = cards.get(i).getDescriptionTitle();
             Assert.assertTrue(title.contains("Intermediate"),
                 "Filtering of the search query failed");
-            i++;
         }
     }
 
-    @Test()
+    @Test(description = "Verify successful adding workout to saved")
     public void testSaveWorkout() {
-        HomePageBase homePage = performDefaultSteps();
+        HomePageBase homePage = actionsService.performDefaultSteps();
         Browse browse = homePage.clickBrowse();
         Assert.assertTrue(browse.isSearchInputPresent(TimeoutConstants.SHORT_TIMEOUT_SECONDS),
             "Search input is not present");
         ResultPageBase resultPage = browse
             .clickSearch()
             .searchByText("long workout");
-        WorkoutCard card = resultPage.getAllTrainingCards().get(0);
+
+        WorkoutCard card = resultPage.getFistWorkoutCard();
         String expectedWorkoutTitle = card.getWorkoutTitle();
         card.clickSave();
         homePage = resultPage
             .clickBack()
             .clickBack();
-
         WorkoutCard savedWorkOut = homePage
             .clickOpenSideMenu()
             .clickSaved()
             .getCard();
         String actualWorkoutTitle = savedWorkOut.getWorkoutTitle();
+
         Assert.assertEquals(actualWorkoutTitle, expectedWorkoutTitle, "Workout is not saved");
 
         savedWorkOut.clickSave();

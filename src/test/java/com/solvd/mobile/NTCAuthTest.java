@@ -1,22 +1,25 @@
 package com.solvd.mobile;
 
-import com.solvd.mobile.base.NTCBaseTest;
 import com.solvd.mobile.models.TimeoutConstants;
 import com.solvd.mobile.models.UserData;
 import com.solvd.mobile.pages.common.*;
 import com.solvd.mobile.services.AuthService;
+import com.solvd.mobile.services.BaseActionsService;
+import com.zebrunner.carina.core.IAbstractTest;
+import com.zebrunner.carina.utils.mobile.IMobileUtils;
 import lombok.extern.log4j.Log4j2;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 @Log4j2
-public class NTCAuthTest extends NTCBaseTest {
+public class NTCAuthTest implements IAbstractTest, IMobileUtils {
 
+    private final BaseActionsService actionsService = new BaseActionsService();
     private final AuthService authService = new AuthService();
 
     @Test(description = "Verify successful log out")
     public void testLogOut() {
-        HomePageBase homePage = performDefaultSteps();
+        HomePageBase homePage = actionsService.performDefaultSteps();
         AuthPageBase authPage = authService.logOut(homePage);
 
         Assert.assertTrue(authPage.isAuthTitlePresent(TimeoutConstants.LONG_TIMEOUT_SECONDS), "Incorrect log out");
@@ -24,29 +27,17 @@ public class NTCAuthTest extends NTCBaseTest {
 
     @Test(description = "Verify successful return after log out")
     public void testReturnToAccount() {
-        AuthPageBase authPage = initPage(getDriver(), AuthPageBase.class);
-        SignInPageBase signInPage = authPage.clickSignInButton();
-        HomePageBase homePage = initPage(getDriver(), HomePageBase.class);
+        HomePageBase homePage = actionsService
+            .openReturnToAccountPage()
+            .clickContinue();
 
-        if (signInPage.isPresent(TimeoutConstants.SHORT_TIMEOUT_SECONDS)) {
-            authService.login(signInPage, UserData.VALID);
-            authService.logOut(homePage);
-        } else if (homePage.isPresent(TimeoutConstants.SHORT_TIMEOUT_SECONDS)) {
-            authService.logOut(homePage);
-        }
-
-        authService.logOut(homePage);
-        authPage.clickSignInButton();
-
-        ReturnToAccountPageBase returnToAccountPageBase = initPage(getDriver(), ReturnToAccountPageBase.class);
-        returnToAccountPageBase.clickContinueButton();
         Assert.assertTrue(homePage.isPresent(TimeoutConstants.LONG_TIMEOUT_SECONDS),
             "Authorization failed. You were not directed to the home page");
     }
 
     @Test(description = "Verify successful authorization with the valid user data")
     public void testSignIn() {
-        SignInPageBase signInPage = openSignInPage();
+        SignInPageBase signInPage = actionsService.openSignInPage();
 
         Assert.assertTrue(signInPage.isPresent(TimeoutConstants.SHORT_TIMEOUT_SECONDS), "Sign in page is not available");
         signInPage.typeEmail(UserData.VALID.getEmail());
@@ -60,10 +51,11 @@ public class NTCAuthTest extends NTCBaseTest {
 
     @Test(description = "Verify unsuccessful sign in with invalid email")
     public void testSignInWithInvalidEmail() {
-        SignInPageBase signInPage = openSignInPage();
+        SignInPageBase signInPage = actionsService.openSignInPage();
 
-        signInPage.typeEmail(UserData.INVALID.getEmail());
-        signInPage.clickContinue();
+        signInPage
+            .typeEmail(UserData.INVALID.getEmail())
+            .clickContinue();
 
         Assert.assertTrue(signInPage.isInvalidEmailMessagePresent(TimeoutConstants.LONG_TIMEOUT_SECONDS),
             "Invalid mail message is not present");
@@ -71,7 +63,7 @@ public class NTCAuthTest extends NTCBaseTest {
 
     @Test(description = "Verify unsuccessful sign in with invalid password")
     public void testSignInWithInvalidPass() {
-        SignInPageBase signInPage = openSignInPage();
+        SignInPageBase signInPage = actionsService.openSignInPage();
 
         PassPageBase passPage = signInPage
             .typeEmail(UserData.VALID.getEmail())
@@ -85,19 +77,16 @@ public class NTCAuthTest extends NTCBaseTest {
             "Invalid credentials message is not present");
     }
 
-    private SignInPageBase openSignInPage() {
-        AuthPageBase authPage = initPage(getDriver(), AuthPageBase.class);
-        SignInPageBase signInPage = authPage.clickSignInButton();
-        SignInRecoveryPageBase signInRecoveryPage = initPage(getDriver(), SignInRecoveryPageBase.class);
-        HomePageBase homePage = initPage(getDriver(), HomePageBase.class);
+    @Test(description = "Verify that when trying to sign in with an unregistered email returns the registration page")
+    public void testSingInWithNewEmail() {
+        SignInPageBase signInPage = actionsService.openSignInPage();
 
-        if (signInRecoveryPage.isPresent(TimeoutConstants.LONG_TIMEOUT_SECONDS)) {
-            signInRecoveryPage.clickUseAnotherAccount();
-        } else if (!signInPage.isPresent(TimeoutConstants.LONG_TIMEOUT_SECONDS)) {
-            closeModals(homePage);
-            authService.logOut(homePage);
-            authPage.clickSignInButton();
-        }
-        return signInPage;
+        signInPage
+            .typeEmail(UserData.NEW.getEmail())
+            .clickContinue();
+
+        SignUpPageBase signUpPage = initPage(getDriver(), SignUpPageBase.class);
+        Assert.assertTrue(signUpPage.isPresent(TimeoutConstants.LONG_TIMEOUT_SECONDS),
+            "Sing up page is not present");
     }
 }

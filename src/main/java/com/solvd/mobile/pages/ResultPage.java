@@ -1,5 +1,6 @@
 package com.solvd.mobile.pages;
 
+import com.solvd.mobile.models.TimeoutConstants;
 import com.solvd.mobile.pages.common.FilterPageBase;
 import com.solvd.mobile.pages.common.ResultPageBase;
 import com.solvd.mobile.pages.common.SearchPageBase;
@@ -31,8 +32,13 @@ public class ResultPage extends ResultPageBase {
     }
 
     @Override
-    public List<WorkoutCard> getAllTrainingCards() {
-        workoutCard.isUIObjectPresent(5);
+    public WorkoutCard getFistWorkoutCard() {
+        return workoutCard;
+    }
+
+    @Override
+    public List<WorkoutCard> getVisableWorkoutCards() {
+        workoutCard.isUIObjectPresent(TimeoutConstants.SHORT_TIMEOUT_SECONDS);
         return workoutCards;
     }
 
@@ -47,17 +53,4 @@ public class ResultPage extends ResultPageBase {
         backButton.click();
         return initPage(getDriver(), SearchPageBase.class);
     }
-
-//    @Override
-//    public List<TrainingCard> getAllTrainingCards() {
-//        List<TrainingCard> allCards = new ArrayList<>();
-//        int swipeCount = 5; // Количество прокруток страницы
-//        for (int i = 0; i < swipeCount; i++) {
-//            // Прокрутка страницы вниз
-//            swipeDown(5); // Используйте метод swipeDown из вашего интерфейса IMobileUtils
-//            // Получение всех видимых карточек после каждой прокрутки
-//            allCards.addAll(trainingCards);
-//        }
-//        return allCards;
-//    }
 }
