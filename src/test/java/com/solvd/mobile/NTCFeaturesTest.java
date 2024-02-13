@@ -3,6 +3,7 @@ package com.solvd.mobile;
 import com.solvd.mobile.models.TimeoutConstants;
 import com.solvd.mobile.pages.common.HomePageBase;
 import com.solvd.mobile.pages.common.ResultPageBase;
+import com.solvd.mobile.pages.common.WorkoutPageBase;
 import com.solvd.mobile.pages.components.Browse;
 import com.solvd.mobile.pages.components.WorkoutCard;
 import com.solvd.mobile.services.BaseActionsService;
@@ -17,6 +18,8 @@ import java.util.List;
 @Log4j2
 public class NTCFeaturesTest implements IAbstractTest, IMobileUtils {
 
+    private final static String SEARCH_QUERY = "long workout";
+
     private final BaseActionsService actionsService = new BaseActionsService();
 
     @Test(description = "Verify the success of applying the search filter")
@@ -25,8 +28,9 @@ public class NTCFeaturesTest implements IAbstractTest, IMobileUtils {
         Browse browse = homePage.clickBrowse();
         Assert.assertTrue(browse.isSearchInputPresent(TimeoutConstants.SHORT_TIMEOUT_SECONDS),
             "Search input is not present");
+
         ResultPageBase resultPage = browse.clickSearch()
-            .searchByText("long workout")
+            .searchByText(SEARCH_QUERY)
             .clickFilterButton()
             .clickLevelIntermediate()
             .clickDone();
@@ -48,7 +52,7 @@ public class NTCFeaturesTest implements IAbstractTest, IMobileUtils {
             "Search input is not present");
         ResultPageBase resultPage = browse
             .clickSearch()
-            .searchByText("long workout");
+            .searchByText(SEARCH_QUERY);
 
         WorkoutCard card = resultPage.getFistWorkoutCard();
         String expectedWorkoutTitle = card.getWorkoutTitle();
@@ -65,5 +69,27 @@ public class NTCFeaturesTest implements IAbstractTest, IMobileUtils {
         Assert.assertEquals(actualWorkoutTitle, expectedWorkoutTitle, "Workout is not saved");
 
         savedWorkOut.clickSave();
+    }
+
+    @Test(description = "Verify that workout card displayed correctly")
+    public void testOpenWorkoutCard() {
+        HomePageBase homePage = actionsService.performDefaultSteps();
+        Browse browse = homePage.clickBrowse();
+
+        Assert.assertTrue(browse.isSearchInputPresent(TimeoutConstants.SHORT_TIMEOUT_SECONDS),
+            "Search input is not present");
+
+        ResultPageBase resultPage = browse
+            .clickSearch()
+            .searchByText(SEARCH_QUERY);
+
+        WorkoutCard card = resultPage.getFistWorkoutCard();
+        String expectedWorkoutTitle = card.getWorkoutTitle();
+        WorkoutPageBase workoutPage = card.openWorkout();
+        Assert.assertTrue(workoutPage.isPresent(TimeoutConstants.LONG_TIMEOUT_SECONDS),
+            "Workout page is not present or displays incorrectly");
+
+        String actualWorkoutTitle = workoutPage.getWorkoutTitleText();
+        Assert.assertEquals(actualWorkoutTitle, expectedWorkoutTitle, "Workout displays incorrectly");
     }
 }
