@@ -11,10 +11,10 @@ import org.openqa.selenium.support.FindBy;
 @DeviceType(pageType = DeviceType.Type.ANDROID_PHONE, parentClass = SideMenuPageBase.class)
 public class SideMenuPage extends SideMenuPageBase {
 
-    @FindBy(xpath = "//androidx.appcompat.widget.LinearLayoutCompat[@resource-id='com.nike.ntc:id/nav_settings_item']")
+    @FindBy(id = "com.nike.ntc:id/nav_settings_item")
     private ExtendedWebElement settingsButton;
 
-    @FindBy(xpath = "//androidx.appcompat.widget.LinearLayoutCompat[@resource-id='com.nike.ntc:id/nav_favorites_item']")
+    @FindBy(id = "com.nike.ntc:id/nav_favorites_item")
     private ExtendedWebElement savedButton;
 
     public SideMenuPage(WebDriver driver) {

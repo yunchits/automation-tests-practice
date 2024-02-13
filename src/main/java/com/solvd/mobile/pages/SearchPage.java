@@ -10,7 +10,7 @@ import org.openqa.selenium.support.FindBy;
 @DeviceType(pageType = DeviceType.Type.ANDROID_PHONE, parentClass = SearchPageBase.class)
 public class SearchPage extends SearchPageBase {
 
-    @FindBy(xpath = "//android.widget.AutoCompleteTextView[@resource-id='com.nike.ntc:id/search_src_text']")
+    @FindBy(id = "com.nike.ntc:id/search_src_text")
     private ExtendedWebElement searchInput;
 
     @FindBy(xpath = "//android.widget.TextView[@resource-id='com.nike.ntc:id/title']")
