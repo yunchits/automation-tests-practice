@@ -1,7 +1,6 @@
 package com.solvd.mobile.pages;
 
 import com.solvd.mobile.pages.common.FilterPageBase;
-import com.solvd.mobile.pages.common.HomePageBase;
 import com.solvd.mobile.pages.common.ResultPageBase;
 import com.zebrunner.carina.utils.factory.DeviceType;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;

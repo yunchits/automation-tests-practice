@@ -1,7 +1,6 @@
 package com.solvd.mobile.pages;
 
 import com.solvd.mobile.pages.common.SavedPageBase;
-import com.solvd.mobile.pages.common.SearchPageBase;
 import com.solvd.mobile.pages.components.WorkoutCard;
 import com.zebrunner.carina.utils.factory.DeviceType;
 import org.openqa.selenium.WebDriver;

@@ -22,7 +22,8 @@ public class NTCAuthTest implements IAbstractTest, IMobileUtils {
         HomePageBase homePage = actionsService.performDefaultSteps();
         AuthPageBase authPage = authService.logOut(homePage);
 
-        Assert.assertTrue(authPage.isAuthTitlePresent(TimeoutConstants.LONG_TIMEOUT_SECONDS), "Incorrect log out");
+        Assert.assertTrue(authPage.isAuthTitlePresent(TimeoutConstants.LONG_TIMEOUT_SECONDS),
+            "Incorrect log out");
     }
 
     @Test(description = "Verify successful return after log out")
@@ -38,15 +39,19 @@ public class NTCAuthTest implements IAbstractTest, IMobileUtils {
     @Test(description = "Verify successful authorization with the valid user data")
     public void testSignIn() {
         SignInPageBase signInPage = actionsService.openSignInPage();
+        Assert.assertTrue(signInPage.isPresent(TimeoutConstants.SHORT_TIMEOUT_SECONDS),
+            "Sign in page is not available");
 
-        Assert.assertTrue(signInPage.isPresent(TimeoutConstants.SHORT_TIMEOUT_SECONDS), "Sign in page is not available");
         signInPage.typeEmail(UserData.VALID.getEmail());
         PassPageBase passPage = signInPage.clickContinue();
-        Assert.assertTrue(passPage.isPresent(TimeoutConstants.SHORT_TIMEOUT_SECONDS), "Password entry page is not available");
+        Assert.assertTrue(passPage.isPresent(TimeoutConstants.SHORT_TIMEOUT_SECONDS),
+            "Password entry page is not available");
+
         passPage.typePass(UserData.VALID.getPass());
         SignedPageBase signedPage = passPage.clickSignIn();
 
-        Assert.assertTrue(signedPage.isPresent(TimeoutConstants.LONG_TIMEOUT_SECONDS), "Authorization failed");
+        Assert.assertTrue(signedPage.isPresent(TimeoutConstants.LONG_TIMEOUT_SECONDS),
+            "Authorization failed");
     }
 
     @Test(description = "Verify unsuccessful sign in with invalid email")

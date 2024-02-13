@@ -27,7 +27,6 @@ public class SearchPage extends SearchPageBase {
     public ResultPage searchByText(String text) {
         searchInput.type(text);
         searchButton.click();
-//        pressKeyboardKey(AndroidKey.SEARCH); todo
         return new ResultPage(getDriver());
     }
 
