@@ -1,5 +1,6 @@
 package com.solvd.mobile.pages;
 
+import com.solvd.mobile.models.Filters;
 import com.solvd.mobile.pages.common.FilterPageBase;
 import com.solvd.mobile.pages.common.ResultPageBase;
 import com.zebrunner.carina.utils.factory.DeviceType;
@@ -10,8 +11,8 @@ import org.openqa.selenium.support.FindBy;
 @DeviceType(pageType = DeviceType.Type.ANDROID_PHONE, parentClass = FilterPageBase.class)
 public class FilterPage extends FilterPageBase {
 
-    @FindBy(xpath = "//android.widget.TextView[@resource-id='com.nike.ntc:id/intermediate']")
-    private ExtendedWebElement levelIntermediateButton;
+    @FindBy(id = "com.nike.ntc:id/%s")
+    private ExtendedWebElement filterButton;
 
     @FindBy(xpath = "//android.widget.Button[@content-desc='Done']")
     private ExtendedWebElement doneButton;
@@ -21,8 +22,8 @@ public class FilterPage extends FilterPageBase {
     }
 
     @Override
-    public FilterPageBase clickLevelIntermediate() {
-        levelIntermediateButton.click();
+    public FilterPageBase selectFilter(Filters filter) {
+        filterButton.format(filter.getId()).click();
         return initPage(getDriver(), FilterPageBase.class);
     }
 

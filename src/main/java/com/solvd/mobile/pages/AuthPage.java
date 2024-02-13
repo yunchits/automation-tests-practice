@@ -10,10 +10,10 @@ import org.openqa.selenium.support.FindBy;
 @DeviceType(pageType = DeviceType.Type.ANDROID_PHONE, parentClass = AuthPageBase.class)
 public class AuthPage extends AuthPageBase {
 
-    @FindBy(xpath = "//android.widget.TextView[@resource-id='com.nike.ntc:id/overviewTitle']")
+    @FindBy(id = "com.nike.ntc:id/overviewTitle")
     private ExtendedWebElement authTitle;
 
-    @FindBy(xpath = "//android.widget.Button[@resource-id='com.nike.ntc:id/action_log_in']")
+    @FindBy(id = "com.nike.ntc:id/action_log_in")
     private ExtendedWebElement signInButton;
 
     public AuthPage(WebDriver driver) {

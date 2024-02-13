@@ -1,5 +1,6 @@
 package com.solvd.mobile;
 
+import com.solvd.mobile.models.Filters;
 import com.solvd.mobile.models.TimeoutConstants;
 import com.solvd.mobile.pages.common.HomePageBase;
 import com.solvd.mobile.pages.common.ResultPageBase;
@@ -32,14 +33,14 @@ public class NTCFeaturesTest implements IAbstractTest, IMobileUtils {
         ResultPageBase resultPage = browse.clickSearch()
             .searchByText(SEARCH_QUERY)
             .clickFilterButton()
-            .clickLevelIntermediate()
+            .selectFilter(Filters.INTERMEDIATE)
             .clickDone();
 
         List<WorkoutCard> cards = resultPage.getVisableWorkoutCards();
 
         for (int i = 0; i < cards.size() - 2; i++) {
             String title = cards.get(i).getDescriptionTitle();
-            Assert.assertTrue(title.contains("Intermediate"),
+            Assert.assertTrue(title.toLowerCase().contains(Filters.INTERMEDIATE.getId()),
                 "Filtering of the search query failed");
         }
     }
