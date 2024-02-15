@@ -3,14 +3,13 @@ package com.solvd.web;
 import com.solvd.constants.TimeConstant;
 import com.solvd.models.Languages;
 import com.solvd.servicies.LanguageService;
+import com.solvd.web.ebay.pages.base.components.Language;
 import com.solvd.web.ebay.pages.main.CartPage;
 import com.solvd.web.ebay.pages.main.HomePage;
 import com.solvd.web.ebay.pages.main.ItemPage;
 import com.solvd.web.ebay.pages.main.SearchPage;
-import com.solvd.web.ebay.pages.main.components.ItemSearchCard;
 import com.solvd.web.ebay.pages.main.components.ItemCartSummary;
-import com.solvd.web.ebay.pages.base.components.Language;
-import com.solvd.web.ebay.pages.main.components.SearchLine;
+import com.solvd.web.ebay.pages.main.components.ItemSearchCard;
 import com.zebrunner.carina.core.AbstractTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -31,7 +30,7 @@ public class EbayWebTest extends AbstractTest {
     public void testSetLanguage() {
         HomePage homePage = openHomePageInEnglish();
 
-        Language languageSetter = homePage.getNavigation().getLanguageSetter();
+        Language languageSetter = homePage.getLanguageSetter();
 
         Assert.assertTrue(languageSetter.getRootExtendedElement().isElementPresent(TimeConstant.SHORT_TIMEOUT),
             "Language setter is not present");

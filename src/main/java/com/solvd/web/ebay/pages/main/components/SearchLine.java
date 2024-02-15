@@ -1,9 +1,7 @@
 package com.solvd.web.ebay.pages.main.components;
 
-import com.solvd.web.ebay.pages.main.SearchPage;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import com.zebrunner.carina.webdriver.gui.AbstractUIObject;
-import lombok.Getter;
 import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
