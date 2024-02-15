@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Ebay Web Suite" verbose="1">
+    <test name="Products API tests">
+        <classes>
+            <class name="com.solvd.web.EbayWebTest"/>
+            <class name="com.solvd.web.EbayAuthenticationTest"/>
+        </classes>
+    </test>
+</suite>

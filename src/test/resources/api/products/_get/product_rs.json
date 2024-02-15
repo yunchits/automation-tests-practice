@@ -1,0 +1,13 @@
+{
+  "id": ${product.id},
+  "title": "${product.title}",
+  "description": "type:String",
+  "price": "type:Integer",
+  "discountPercentage": "type:Double",
+  "rating": "type:Double",
+  "stock": "type:Integer",
+  "brand": "${product.brand}",
+  "category": "${product.category}",
+  "thumbnail": "https://cdn.dummyjson.com/product-images/${product.id}/thumbnail.jpg",
+  "images": "skip"
+}
