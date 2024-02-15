@@ -19,28 +19,27 @@ public class EbayAuthenticationTest implements IAbstractTest {
     @Test(description = "Verify valid login")
     public void testValidLogin() {
         HomePage homePage = openHomePageInEnglish();
-        Navigation navigation = homePage.getNavigation();
 
         SignInService signInService = new SignInService();
 
-        Assert.assertTrue(navigation.getSignInButton().isElementPresent(TimeConstant.SHORT_TIMEOUT),
+        Assert.assertTrue(homePage.isSignInButtonPresent(TimeConstant.SHORT_TIMEOUT),
                 "Sign in button is not present");
         LoginPage loginPage = homePage.clickSignIn();
 
-        Assert.assertTrue(loginPage.getUsernameInput().isElementPresent(TimeConstant.SHORT_TIMEOUT),
+        Assert.assertTrue(loginPage.isUsernameInputPresent(TimeConstant.SHORT_TIMEOUT),
                 "Username input is not present");
-        Assert.assertTrue(loginPage.getContinueButton().isElementPresent(TimeConstant.SHORT_TIMEOUT),
+        Assert.assertTrue(loginPage.isContinueButtonPresent(TimeConstant.SHORT_TIMEOUT),
                 "Continue button is not present");
         PasswordPage passwordPage = signInService.setLogin(loginPage, UserData.VALID);
 
-        Assert.assertTrue(passwordPage.getPassInput().isElementPresent(TimeConstant.SHORT_TIMEOUT),
+        Assert.assertTrue(passwordPage.isPassInputPresent(TimeConstant.SHORT_TIMEOUT),
                 "Pass input is not present");
-        Assert.assertTrue(passwordPage.getSignInButton().isElementPresent(TimeConstant.SHORT_TIMEOUT),
+        Assert.assertTrue(passwordPage.isSignInButtonPresent(TimeConstant.SHORT_TIMEOUT),
                 "Sign in button is not present");
 
         signInService.setPassword(passwordPage, UserData.VALID);
 
-        Assert.assertTrue(homePage.isUserSignIn(), "User is not sign in");
+        Assert.assertTrue(homePage.isUserSignIn(TimeConstant.SHORT_TIMEOUT), "User is not sign in");
     }
 
     @Test(description = "Check the invalid login exception")
@@ -50,7 +49,7 @@ public class EbayAuthenticationTest implements IAbstractTest {
 
         new SignInService().setLogin(loginPage, UserData.INVALID);
 
-        Assert.assertTrue(loginPage.getErrorMessage().isElementPresent(TimeConstant.SHORT_TIMEOUT),
+        Assert.assertTrue(loginPage.isErrorMessagePresent(TimeConstant.SHORT_TIMEOUT),
                 "Error message is not present");
         Assert.assertEquals(loginPage.getErrorMessageText(), "We couldn't find this eBay account.");
     }
@@ -64,7 +63,7 @@ public class EbayAuthenticationTest implements IAbstractTest {
         PasswordPage passwordPage = signInService.setLogin(loginPage, UserData.VALID);
         signInService.setPassword(passwordPage, UserData.INVALID);
 
-        Assert.assertTrue(passwordPage.getErrorMessage().isElementPresent(TimeConstant.SHORT_TIMEOUT),
+        Assert.assertTrue(passwordPage.isErrorMessagePresent(TimeConstant.SHORT_TIMEOUT),
                 "Error message is not present");
     }
 
@@ -78,7 +77,7 @@ public class EbayAuthenticationTest implements IAbstractTest {
         signInService.setPassword(passwordPage, UserData.VALID);
 
         SingOutPage singOutPage = homePage.clickSignOut();
-        Assert.assertTrue(singOutPage.getSignOutBanner().isElementPresent(TimeConstant.SHORT_TIMEOUT),
+        Assert.assertTrue(singOutPage.isSingOut(TimeConstant.SHORT_TIMEOUT),
                 "Sign out banner is not present");
     }
 

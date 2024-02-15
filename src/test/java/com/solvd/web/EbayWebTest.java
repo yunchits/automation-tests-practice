@@ -47,20 +47,17 @@ public class EbayWebTest extends AbstractTest {
     public void testSearch() {
         HomePage homePage = openHomePageInEnglish();
 
-        SearchLine searchLine = homePage.getSearchLine();
-
-        Assert.assertTrue(searchLine.getSearchInput().isElementPresent(TimeConstant.SHORT_TIMEOUT),
+        Assert.assertTrue(homePage.isSearchInputPresent(TimeConstant.SHORT_TIMEOUT),
             "Search input is not present");
-        Assert.assertTrue(searchLine.getSearchButton().isElementPresent(TimeConstant.SHORT_TIMEOUT),
+        Assert.assertTrue(homePage.isSearchButtonPresent(TimeConstant.SHORT_TIMEOUT),
             "Search button is not present");
 
-        searchLine.typeSearchInputValue(SEARCH_ITEM_TITLE);
-        SearchPage searchPage = searchLine.clickSearchButton();
+        SearchPage searchPage = homePage.typeSearchInputValue(SEARCH_ITEM_TITLE).clickSearchButton();
 
-        Assert.assertTrue(getDriver().getCurrentUrl().contains(SEARCH_ITEM_TITLE),
+        Assert.assertTrue(searchPage.getCurrentUrl().contains(SEARCH_ITEM_TITLE),
             "Url does not contain search request");
 
-        List<ItemSearchCard> cards = searchPage.getCards();
+        List<ItemSearchCard> cards = searchPage.getAllCards();
 
         cards.forEach(card -> {
             String actualItemTitle = card.getTitleText();
@@ -71,15 +68,13 @@ public class EbayWebTest extends AbstractTest {
 
     @Test(description = "Verify that the required item card opens")
     public void testItemCard() {
-        HomePage page = openHomePageInEnglish();
+        HomePage homePage = openHomePageInEnglish();
 
-        SearchLine searchLine = page.getSearchLine();
-
-        searchLine.typeSearchInputValue(SEARCH_ITEM_TITLE);
-        SearchPage searchPage = searchLine.clickSearchButton();
+        homePage.typeSearchInputValue(SEARCH_ITEM_TITLE);
+        SearchPage searchPage = homePage.clickSearchButton();
 
         ItemSearchCard card = searchPage.getCardByIndex(FIRST_ELEMENT_INDEX);
-        Assert.assertTrue(card.getItemTitle().isElementPresent(TimeConstant.SHORT_TIMEOUT),
+        Assert.assertTrue(card.isItemTitlePresent(TimeConstant.SHORT_TIMEOUT),
             "Cart title is not present");
 
         String expectedTitle = card.getTitleText();
@@ -94,11 +89,8 @@ public class EbayWebTest extends AbstractTest {
     @Test(description = "Verify that the items add to the card and the total price is displays correctly")
     public void testAddItemsToCard() {
         HomePage homePage = openHomePageInEnglish();
-
-        SearchLine searchLine = homePage.getSearchLine();
-
-        searchLine.typeSearchInputValue(SEARCH_ITEM_TITLE + ADDITIONAL_PARAMETERS);
-        SearchPage searchPage = searchLine.clickSearchButton();
+        homePage.typeSearchInputValue(SEARCH_ITEM_TITLE + ADDITIONAL_PARAMETERS);
+        SearchPage searchPage = homePage.clickSearchButton();
         String searchPageTab = getDriver().getWindowHandle();
 
         double expectedSubtotal = addItemToCartAndGetPrice(searchPage, FIRST_ELEMENT_INDEX);
@@ -122,10 +114,8 @@ public class EbayWebTest extends AbstractTest {
     public void testCleanCart() {
         HomePage homePage = openHomePageInEnglish();
 
-        SearchLine searchLine = homePage.getSearchLine();
-
-        searchLine.typeSearchInputValue(SEARCH_ITEM_TITLE + ADDITIONAL_PARAMETERS);
-        SearchPage searchPage = searchLine.clickSearchButton();
+        homePage.typeSearchInputValue(SEARCH_ITEM_TITLE + ADDITIONAL_PARAMETERS);
+        SearchPage searchPage = homePage.clickSearchButton();
         String searchPageTab = getDriver().getWindowHandle();
 
         addItemToCartAndGetPrice(searchPage, FIRST_ELEMENT_INDEX);
@@ -136,17 +126,17 @@ public class EbayWebTest extends AbstractTest {
 
         CartPage cartPage = homePage.openCart();
 
-        List<ItemCartSummary> itemSummaries = cartPage.getItemSummaries();
+        List<ItemCartSummary> itemSummaries = cartPage.getAllItemSummaries();
 
         /* It is not possible to iterate through itemSummaries with forEach and close each one individually
          * because eBay refreshes the page after removing the first item, making subsequent elements
          * in the list unrecognizable. */
         for (int i = 0; i < itemSummaries.size(); i++) {
             pause(TimeConstant.SEC_TIMEOUT); // waitUntil(ExpectedConditions.elementToBeClickable(removeButton.getElement()), 3); doesnt work, element is clickable
-            cartPage.getItemSummaries().get(FIRST_ELEMENT_INDEX).clickRemoveButton();
+            cartPage.getAllItemSummaries().get(FIRST_ELEMENT_INDEX).clickRemoveButton();
         }
 
-        Assert.assertTrue(cartPage.getEmptyCartText().isElementPresent(TimeConstant.SHORT_TIMEOUT),
+        Assert.assertTrue(cartPage.isEmptyCartTextPresent(TimeConstant.SHORT_TIMEOUT),
             "No indication that the cart is empty");
     }
 

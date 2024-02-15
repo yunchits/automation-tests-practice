@@ -9,7 +9,6 @@ import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
 
-@Getter
 public class CartPage extends BasePage {
 
     @FindBy(xpath = "//div[@data-test-id='SUBTOTAL']//*[text()]")
@@ -34,5 +33,13 @@ public class CartPage extends BasePage {
 
     public double getShippingAmount() {
         return Double.parseDouble(shipping.getText().replaceAll("[^\\d.]", ""));
+    }
+
+    public List<ItemCartSummary> getAllItemSummaries() {
+        return itemSummaries;
+    }
+
+    public boolean isEmptyCartTextPresent(int timeout) {
+        return emptyCartText.isElementPresent(timeout);
     }
 }

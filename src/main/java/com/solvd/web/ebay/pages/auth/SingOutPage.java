@@ -6,7 +6,6 @@ import lombok.Getter;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
 
-@Getter
 public class SingOutPage extends AbstractPage {
 
     @FindBy(xpath = "//div[@id='signout-banner-text']")
@@ -18,5 +17,9 @@ public class SingOutPage extends AbstractPage {
 
     public String getSingOutBannerText() {
         return signOutBanner.getText();
+    }
+
+    public boolean isSingOut(int timeout) {
+        return signOutBanner.isElementPresent(timeout);
     }
 }

@@ -7,7 +7,6 @@ import lombok.Getter;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
 
-@Getter
 public class HomePage extends BasePage {
 
     @FindBy(id = "gh-f")
@@ -22,4 +21,21 @@ public class HomePage extends BasePage {
         openURL(Configuration.getRequired("home_url"));
     }
 
+    public SearchPage clickSearchButton() {
+        searchLine.clickSearchButton();
+        return new SearchPage(getDriver());
+    }
+
+    public HomePage typeSearchInputValue(String value) {
+        searchLine.typeSearchInputValue(value);
+        return this;
+    }
+
+    public boolean isSearchInputPresent(int timeout) {
+        return searchLine.isSearchInputPresent(timeout);
+    }
+
+    public boolean isSearchButtonPresent(int timeout) {
+        return searchLine.isSearchInputPresent(timeout);
+    }
 }

@@ -8,7 +8,6 @@ import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
 
-@Getter
 public class SearchLine extends AbstractUIObject {
 
     @FindBy(xpath = ".//input[@type='text' and @role='combobox']")
@@ -21,12 +20,19 @@ public class SearchLine extends AbstractUIObject {
         super(driver, searchContext);
     }
 
-    public SearchPage clickSearchButton() {
+    public void clickSearchButton() {
         searchButton.click();
-        return new SearchPage(getDriver());
     }
 
     public void typeSearchInputValue(String value) {
         searchInput.type(value);
+    }
+
+    public boolean isSearchInputPresent(int timeout) {
+        return searchInput.isElementPresent(timeout);
+    }
+
+    public boolean isSearchButtonPresent(int timeout) {
+        return searchButton.isElementPresent(timeout);
     }
 }

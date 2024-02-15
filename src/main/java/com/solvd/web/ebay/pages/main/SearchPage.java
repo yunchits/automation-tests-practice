@@ -12,7 +12,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.List;
 
-@Getter
 public class SearchPage extends BasePage {
 
     @FindBy(xpath = "//h1[@class='srp-controls__count-heading']//span[text()][1]")
@@ -29,5 +28,13 @@ public class SearchPage extends BasePage {
         waitUntil(ExpectedConditions.numberOfElementsToBeMoreThan(
             By.xpath("//li[contains(@id, 'item')]"), 0), TimeConstant.SHORT_TIMEOUT);
         return cards.get(index);
+    }
+
+    public List<ItemSearchCard> getAllCards() {
+        return cards;
+    }
+
+    public String getCurrentURL() {
+        return getDriver().getCurrentUrl();
     }
 }

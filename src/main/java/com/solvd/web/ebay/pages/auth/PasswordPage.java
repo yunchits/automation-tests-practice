@@ -7,7 +7,6 @@ import lombok.Getter;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
 
-@Getter
 public class PasswordPage extends AbstractPage {
 
     @FindBy(xpath = "//input[@id='pass']")
@@ -33,7 +32,15 @@ public class PasswordPage extends AbstractPage {
         return new HomePage(getDriver());
     }
 
-    public String getErrorMessageText() {
-        return errorMessage.getText();
+    public boolean isPassInputPresent(int timeout) {
+        return passInput.isElementPresent(timeout);
+    }
+
+    public boolean isSignInButtonPresent(int timeout) {
+        return signInButton.isElementPresent(timeout);
+    }
+
+    public boolean isErrorMessagePresent(int timeout) {
+        return errorMessage.isElementPresent(timeout);
     }
 }

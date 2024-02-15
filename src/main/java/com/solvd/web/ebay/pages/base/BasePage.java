@@ -10,7 +10,6 @@ import lombok.Getter;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
 
-@Getter
 public abstract class BasePage extends AbstractPage {
 
     @FindBy(xpath = "//div[@id='gh-top']")
@@ -29,17 +28,20 @@ public abstract class BasePage extends AbstractPage {
     }
 
     public LoginPage clickSignIn() {
-        navigation.getSignInButton().click();
+        navigation.clickSignIn();
         return new LoginPage(getDriver());
     }
 
     public SingOutPage clickSignOut() {
-        navigation.getAccountButton().click();
-        navigation.getSignOutButton().click();
+        navigation.signOut();
         return new SingOutPage(getDriver());
     }
 
-    public boolean isUserSignIn() {
-        return navigation.getSignInGreeting().isElementPresent();
+    public boolean isUserSignIn(int timeout) {
+        return navigation.isSignInGreetingPresent(timeout);
+    }
+
+    public boolean isSignInButtonPresent(int timeout) {
+        return navigation.isSignInButtonPresent(timeout);
     }
 }

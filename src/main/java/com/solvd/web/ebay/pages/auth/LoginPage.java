@@ -6,7 +6,6 @@ import lombok.Getter;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
 
-@Getter
 public class LoginPage extends AbstractPage {
 
     @FindBy(xpath = "//input[@id='userid']")
@@ -34,5 +33,17 @@ public class LoginPage extends AbstractPage {
 
     public String getErrorMessageText() {
         return errorMessage.getText();
+    }
+
+    public boolean isUsernameInputPresent(int timeout) {
+        return usernameInput.isElementPresent(timeout);
+    }
+
+    public boolean isContinueButtonPresent(int timeout) {
+        return usernameInput.isElementPresent(timeout);
+    }
+
+    public boolean isErrorMessagePresent(int timeout) {
+        return errorMessage.isElementPresent(timeout);
     }
 }
