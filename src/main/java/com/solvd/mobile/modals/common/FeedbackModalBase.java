@@ -1,5 +1,6 @@
 package com.solvd.mobile.modals.common;
 
+import com.solvd.mobile.pages.common.HomePageBase;
 import com.zebrunner.carina.webdriver.gui.AbstractPage;
 import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebDriver;
@@ -14,5 +15,5 @@ public abstract class FeedbackModalBase extends AbstractPage {
         super(driver);
     }
 
-    public abstract void clickRejectButton();
+    public abstract HomePageBase clickRejectButton();
 }

@@ -10,11 +10,11 @@ public abstract class HomePageBase extends AbstractPage {
         super(driver);
     }
 
-    public abstract boolean isPresent(int timeout);
+    public abstract boolean isOpened(int timeout);
 
-    public abstract void clickAllowNotifications();
+    public abstract void clickAllowNotificationsIfPresent(int timeout);
 
-    public abstract void closeFeedbackModal();
+    public abstract HomePageBase closeFeedbackModal();
 
     public abstract SideMenuPageBase clickOpenSideMenu();
 

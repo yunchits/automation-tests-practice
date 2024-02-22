@@ -32,7 +32,7 @@ public class NTCAuthTest implements IAbstractTest, IMobileUtils {
             .openReturnToAccountPage()
             .clickContinue();
 
-        Assert.assertTrue(homePage.isPresent(TimeoutConstants.LONG_TIMEOUT_SECONDS),
+        Assert.assertTrue(homePage.isOpened(TimeoutConstants.LONG_TIMEOUT_SECONDS),
             "Authorization failed. You were not directed to the home page");
     }
 

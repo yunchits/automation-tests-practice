@@ -1,6 +1,7 @@
 package com.solvd.mobile.modals;
 
 import com.solvd.mobile.modals.common.FeedbackModalBase;
+import com.solvd.mobile.pages.common.HomePageBase;
 import com.zebrunner.carina.utils.factory.DeviceType;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import org.openqa.selenium.SearchContext;
@@ -22,7 +23,8 @@ public class FeedbackModal extends FeedbackModalBase {
     }
 
     @Override
-    public void clickRejectButton() {
+    public HomePageBase clickRejectButton() {
         rejectButton.click();
+        return initPage(getDriver(), HomePageBase.class);
     }
 }

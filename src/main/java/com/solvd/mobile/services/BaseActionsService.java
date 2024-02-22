@@ -25,13 +25,12 @@ public class BaseActionsService implements IAbstractTest, IMobileUtils {
             homePage = initPage(getDriver(), HomePageBase.class);
         }
 
-        homePage.clickAllowNotifications();
-        homePage.closeFeedbackModal();
+        closeModals(homePage);
         return homePage;
     }
 
     public void closeModals(HomePageBase homePage) {
-        homePage.clickAllowNotifications();
+        homePage.clickAllowNotificationsIfPresent(TimeoutConstants.LONG_TIMEOUT_SECONDS);
         homePage.closeFeedbackModal();
     }
 
@@ -42,7 +41,7 @@ public class BaseActionsService implements IAbstractTest, IMobileUtils {
 
         if (signInPage.isPresent(TimeoutConstants.LONG_TIMEOUT_SECONDS)) {
             return signInPage;
-        } else if (homePage.isPresent(TimeoutConstants.LONG_TIMEOUT_SECONDS)) {
+        } else if (homePage.isOpened(TimeoutConstants.LONG_TIMEOUT_SECONDS)) {
             closeModals(homePage);
             authService.logOut(homePage);
             authPage.clickSignInButton();
@@ -61,7 +60,7 @@ public class BaseActionsService implements IAbstractTest, IMobileUtils {
             closeModals(homePage);
             authService.logOut(homePage);
             authPage.clickSignInButton();
-        } else if (homePage.isPresent(TimeoutConstants.LONG_TIMEOUT_SECONDS)) {
+        } else if (homePage.isOpened(TimeoutConstants.LONG_TIMEOUT_SECONDS)) {
             closeModals(homePage);
             authService.logOut(homePage);
             authPage.clickSignInButton();

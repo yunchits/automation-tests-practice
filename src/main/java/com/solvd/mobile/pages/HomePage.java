@@ -32,18 +32,19 @@ public class HomePage extends HomePageBase {
     }
 
     @Override
-    public boolean isPresent(int timeout) {
-        return homeTitle.isElementPresent(timeout) || allowButton.isElementPresent(timeout);
+    public boolean isOpened(int timeout) {
+        clickAllowNotificationsIfPresent(timeout);
+        return homeTitle.isElementPresent(timeout);
     }
 
     @Override
-    public void clickAllowNotifications() {
-        allowButton.click();
+    public void clickAllowNotificationsIfPresent(int timeout) {
+        allowButton.clickIfPresent(timeout);
     }
 
     @Override
-    public void closeFeedbackModal() {
-        feedbackModal.clickRejectButton();
+    public HomePageBase closeFeedbackModal() {
+        return feedbackModal.clickRejectButton();
     }
 
     @Override
